@@ -2,7 +2,7 @@
 	"pack": {
 		"pack_format": 46,
 		"supported_formats": {"min_inclusive": 34, "max_inclusive": 46},
-		"description": "SkyOsirion By Lorenzo Giannini"
+		"description": "Skyblock Classic Edition By Lorenzo Giannini"
 	},
 	"language":{
 		"it_ch": {
