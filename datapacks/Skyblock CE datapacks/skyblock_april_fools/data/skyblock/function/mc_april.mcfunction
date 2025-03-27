@@ -25,14 +25,15 @@ execute in minecraft:overworld as @a[scores={SkyblockCE_april2025=1}] run gameru
 
 ##APRIL FOOL GENERATED FUNCTION
 execute in minecraft:overworld as @a[scores={SkyblockCE_april2025=100}] run fill 0 63 0 0 64 0 minecraft:air destroy
-execute in minecraft:overworld as @a[scores={SkyblockCE_april2025=100}] run fill 1 62 1 -1 62 -1 minecraft:glass replace
+execute in minecraft:overworld as @a[scores={SkyblockCE_april2025=105}] run place template skyblock:classic
 
 
 ##FINAL GENERATED FUNCTION
 execute as @a[scores={SkyblockCE_april2025=200}] run scoreboard players set @a SkyblockCE_tp_fools 1
-execute as @a[scores={SkyblockCE_april2025=250..}] run scoreboard objectives remove 1.21.4_PVN_FOOLS2025
-execute as @a[scores={SkyblockCE_april2025=255..}] run scoreboard objectives add SkyblockCE_structures_id_fools dummy
+execute as @a[scores={SkyblockCE_april2025=250..255}] run scoreboard objectives remove 1.21.4_PVN_FOOLS2025
+execute as @a[scores={SkyblockCE_april2025=255..255}] run scoreboard objectives add SkyblockCE_structures_id_fools dummy
 execute as @a[scores={SkyblockCE_april2025=400}] run spawnpoint @a 0 65 0
 execute as @a[scores={SkyblockCE_april2025=400}] run weather clear 1000s
 execute as @a[scores={SkyblockCE_april2025=400}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_april2025=400}] run scoreboard objectives setdisplay list kills
+execute as @a[scores={SkyblockCE_april2025=2400..2405}] run kill @e[type=minecraft:area_effect_cloud]

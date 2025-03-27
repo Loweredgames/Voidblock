@@ -1,5 +1,5 @@
 **To Do List April Fool:**
-- aggiustare un po il datapack
+- risolvere il tellraw sul pvn
 - aggiungere prossimo pesce d'aprile 2025
 - testare tutto
 - correzioni delle prestazioni e fix bug vari per April
