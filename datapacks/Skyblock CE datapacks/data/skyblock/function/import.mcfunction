@@ -49,10 +49,11 @@ execute as @a[scores={SkyblockCE_import=11..24}] run gamerule doDaylightCycle tr
 execute as @a[scores={SkyblockCE_import=11..24}] run gamerule doWeatherCycle true
 execute as @a[scores={SkyblockCE_import=11}] run time set 0
 execute as @a[scores={SkyblockCE_import=11}] run execute in minecraft:overworld run tp @p 0 65 0 0.0 0.0
-execute as @a[scores={SkyblockCE_import=15..24}] run gamemode survival @a
+execute as @a[scores={SkyblockCE_import=15..24}] run gamemode survival @p
 execute as @a[scores={SkyblockCE_import=15}] run spawnpoint @a 0 65 0
-execute as @a[scores={SkyblockCE_import=15}] run weather clear 1000s
+execute as @a[scores={SkyblockCE_import=15}] run setworldspawn 0 65 0
 execute as @a[scores={SkyblockCE_import=15}] run effect clear @a
+execute as @a[scores={SkyblockCE_import=15}] run fill 0 63 0 0 64 0 minecraft:air destroy
 execute as @a[scores={SkyblockCE_import=15..24}] run stopsound @a
 execute as @a[scores={SkyblockCE_import=15}] run scoreboard objectives add kills deathCount
 execute as @a[scores={SkyblockCE_import=15}] run scoreboard objectives setdisplay list kills

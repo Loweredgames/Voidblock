@@ -52,6 +52,4 @@ execute as @a[scores={SkyblockCE_debug=15}] run scoreboard objectives setdisplay
 
 ##DISPLAY DI DEBUG - MULTIPLAYER
 execute as @a[scores={SkyblockCE_debug=16}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer
-execute as @a[scores={SkyblockCE_debug=17}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_reset
-execute as @a[scores={SkyblockCE_debug=18}] run scoreboard objectives setdisplay sidebar SkyblockCE_multiplayer_tick
 execute as @a[scores={SkyblockCE_debug=19}] run scoreboard objectives setdisplay list SkyblockCE_multiplayer_join
