@@ -129,6 +129,7 @@ execute as @a[scores={PID_legacy_v2=10..1200}] run effect give @a blindness 11 0
 execute as @a[scores={PID_legacy_v2=10..1200}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v2=1..1201}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PID_legacy_v2=1240}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
+execute in minecraft:overworld as @a[scores={PID_legacy_v2=1240}] run tp @a 0 65 0 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=1245}] run gamemode survival @a
 #execute as @a[scores={PID_legacy_v3=1345}] run scoreboard objectives add 1.22_PID_0 dummy - aggiungere in futuro il Pid legacy v1 della 1.22? qui
 #execute as @a[scores={PID_legacy_v3=1346}] run scoreboard players set @a 1.22_PID_0 5 - aggiungere in futuro il Pid legacy v1 della 1.22? qui
