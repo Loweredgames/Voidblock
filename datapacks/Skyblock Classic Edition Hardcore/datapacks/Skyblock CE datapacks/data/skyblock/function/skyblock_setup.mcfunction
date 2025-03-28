@@ -6,13 +6,11 @@
 
 
 ##Function Setup Lock
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock_legacy_pid:legacy_pid
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/default
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/large
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run function skyblock:islands/small
-
-
-##Function Padlock Lock
+function skyblock_legacy_pid:legacy_pid
+function skyblock:islands/default
+function skyblock:islands/large
+function skyblock:islands/small
+function skyblock:islands/very_small
 function skyblock:import
 function skyblock:skyblock_mc_setup
 function skyblock:structures/custom_structures
@@ -37,7 +35,6 @@ scoreboard players add @a SkyblockCE_id 1
 scoreboard players add @a SkyblockCE_install 1
 scoreboard objectives add SkyblockCE_multiplayer dummy
 scoreboard players add @a SkyblockCE_multiplayer 1
-scoreboard objectives add SkyblockCE_multiplayer_reset dummy
 
 
 ##Scoreboard Reset Lock
@@ -101,6 +98,6 @@ execute as @a[scores={SkyblockCE_install=1}] run difficulty hard
 
 
 ##Quit Game Lock
-execute as @a[scores={SkyblockCE_multiplayer_reset=1}] run scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add SkyblockCE_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players set @a SkyblockCE_install 1
 execute as @a[scores={SkyblockCE_quit_game=1..}] run scoreboard players reset @a SkyblockCE_quit_game
