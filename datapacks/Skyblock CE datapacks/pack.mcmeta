@@ -5,7 +5,7 @@
 		"min_inclusive": 48,
 		"max_inclusive": 61
 	  },
-	  "description": "Skyblock Classic Edition By Lorenzo Giannini"
+	  "description": "Voidblock By Lorenzo Giannini"
 	},
 	"overlays": {
 	  "entries": [
@@ -14,56 +14,56 @@
 			"min_inclusive": 48,
 			"max_inclusive": 61
 		  },
-		  	"directory": "skyblock_setup_update"
+		  	"directory": "Voidblock_setup_update"
 		},
 		{
 			"formats": {
 			  "min_inclusive": 48,
 			  "max_inclusive": 48
 			},
-				"directory": "skyblock_mc121"
+				"directory": "Voidblock_mc121"
 		},
 		{
 			"formats": {
 			  "min_inclusive": 57,
 			  "max_inclusive": 57
 			},
-				"directory": "skyblock_mc1212"
+				"directory": "Voidblock_mc1212"
 		},
 		{
 			"formats": {
 			  "min_inclusive": 61,
 			  "max_inclusive": 61
 			},
-				"directory": "skyblock_mc1214"
+				"directory": "Voidblock_mc1214"
 		},
 		{
 		  "formats": {
 			"min_inclusive": 48,
 			"max_inclusive": 61
 		  },
-		  	"directory": "legacy_pid_skyblock"
+		  	"directory": "legacy_pid_Voidblock"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 48,
 			"max_inclusive": 61
 			},
-			"directory": "legacy_skyblock"
+			"directory": "legacy_Voidblock"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 58,
 			"max_inclusive": 61
 		  	},
-		  	"directory": "skyblock_custom_world"
+		  	"directory": "Voidblock_custom_world"
 		},
 		{
 		   "formats": {
 			"min_inclusive": 25,
 			"max_inclusive": 25
 			},
-		  	"directory": "skyblock_test"
+		  	"directory": "Voidblock_test"
 		}
 	  ]
 	}

@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "skyblock:worldgen/custom_islands/cherry_grove",
+        "location": "Voidblock:worldgen/custom_islands/cherry_grove",
         "processors": "minecraft:empty"
       }
     }

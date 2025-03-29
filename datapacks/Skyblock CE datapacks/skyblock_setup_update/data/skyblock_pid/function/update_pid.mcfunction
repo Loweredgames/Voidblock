@@ -13,7 +13,7 @@ scoreboard objectives add 1.21_PID_0 dummy
 scoreboard players add @a 1.21_PID_0 1
 
 
-##SKYBLOCK PID RESET LOOP
+##Voidblock PID RESET LOOP
 execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_PID_0 10000
 
 
@@ -22,8 +22,8 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 
 
 ##SUBPID 1.20.5_0_1 - 1.20.6 (LASCIARE COSI. PER LA FUNZIONE SUBPID 0_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-#function skyblock_pid:subpid/mc1.20.5_subpid0_1
-#function skyblock_pid:subpid/mc1.20.5_pid1_2
+#function Voidblock_pid:subpid/mc1.20.5_subpid0_1
+#function Voidblock_pid:subpid/mc1.20.5_pid1_2
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)
@@ -35,7 +35,7 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 
 
 ##SCOREBOARD START 1.21_PID_0 (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA, DISABILITARE TUTTO SE NON C'E NESSUN PID)
-#execute as @a[scores={SkyblockCE_final=351}] run scoreboard players set @a 1.21_PID_0 -250
+#execute as @a[scores={Voidblock_final=351}] run scoreboard players set @a 1.21_PID_0 -250
 #execute as @a[scores={1.21_PID_0=5..100}] run gamemode spectator @a
 #execute as @a[scores={1.21_PID_0=5}] run time set 0
 #execute as @a[scores={1.21_PID_0=5}] run gamerule doImmediateRespawn true
@@ -61,9 +61,9 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 ##FINAL GENERATED PID 1 FUNCTION (DISABILITARE TUTTO SE NON C'E NESSUN PID)
 #execute as @a[scores={1.21_PID_0=201}] run advancement revoke @a only minecraft:nether/root
 #execute as @a[scores={1.21_PID_0=201}] run advancement revoke @a only minecraft:end/root
-#execute as @a[scores={1.21_PID_0=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
-#execute as @a[scores={1.21_PID_0=206}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
-#execute as @a[scores={1.21_PID_0=207}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
+#execute as @a[scores={1.21_PID_0=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
+#execute as @a[scores={1.21_PID_0=206}] run tellraw @a {"translate":"Voidblock.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/Voidblock"}}
+#execute as @a[scores={1.21_PID_0=207}] run tellraw @a {"translate":"Voidblock.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
 #execute as @a[scores={1.21_PID_0=210}] run time set 0
 #execute as @a[scores={1.21_PID_0=211}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
 #execute in minecraft:overworld at @a[scores={1.21_PID_0=205}] run tp @a 0 66 0 90 0

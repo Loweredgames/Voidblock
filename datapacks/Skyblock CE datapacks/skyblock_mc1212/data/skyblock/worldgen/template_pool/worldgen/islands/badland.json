@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "skyblock:worldgen/custom_islands/badland",
+        "location": "Voidblock:worldgen/custom_islands/badland",
         "processors": "minecraft:empty"
       }
     }

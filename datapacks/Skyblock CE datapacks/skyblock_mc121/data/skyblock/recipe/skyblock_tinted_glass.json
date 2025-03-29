@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "skyblock",
+    "group": "Voidblock",
     "ingredients": [
       {
         "item": "minecraft:black_stained_glass"

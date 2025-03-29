@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "skyblock:worldgen/desert_well",
+        "location": "Voidblock:worldgen/desert_well",
         "processors": "minecraft:empty"
       }
     }

@@ -6,8 +6,8 @@
 
 
 ##Github Repository Main (Link)
-tellraw @a {"text":"\u27a1Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition"}}
+tellraw @a {"text":"\u27a1Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock"}}
 
 
 ##Github Repository (Portable Version) (Link)
-tellraw @a [{"text":"\u27a1Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Skyblock-Classic-Edition"}}]
+tellraw @a [{"text":"\u27a1Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock"}}]

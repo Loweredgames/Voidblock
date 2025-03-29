@@ -5,5 +5,5 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Skyblock Minecraft (1.21.2/1.21.3)
+##Voidblock Minecraft (1.21.2/1.21.3)
 #execute as @a[scores={mc1212=1}] run say 1.21.2 is available!

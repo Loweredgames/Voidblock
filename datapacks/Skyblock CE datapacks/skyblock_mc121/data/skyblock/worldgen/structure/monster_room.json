@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#skyblock:has_structure/monster_room",
+  "biomes": "#Voidblock:has_structure/monster_room",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "skyblock:worldgen/monster_room",
+  "start_pool": "Voidblock:worldgen/monster_room",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",

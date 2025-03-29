@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#skyblock:has_structure/dark_forest",
+  "biomes": "#Voidblock:has_structure/dark_forest",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "skyblock:worldgen/islands/dark_forest",
+  "start_pool": "Voidblock:worldgen/islands/dark_forest",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",

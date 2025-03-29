@@ -1,47 +1,47 @@
 {
   "structures": [
     {
-      "structure": "skyblock:badland",
+      "structure": "Voidblock:badland",
       "weight": 1
     },
     {
-      "structure": "skyblock:birch_forest",
+      "structure": "Voidblock:birch_forest",
       "weight": 1
     },
     {
-      "structure": "skyblock:cherry_grove",
+      "structure": "Voidblock:cherry_grove",
       "weight": 1
     },
     {
-      "structure": "skyblock:dark_forest",
+      "structure": "Voidblock:dark_forest",
       "weight": 1
     },
     {
-      "structure": "skyblock:desert_well",
+      "structure": "Voidblock:desert_well",
       "weight": 1
     },
     {
-      "structure": "skyblock:jungle",
+      "structure": "Voidblock:jungle",
       "weight": 1
     },
     {
-      "structure": "skyblock:mangrove_swamp",
+      "structure": "Voidblock:mangrove_swamp",
       "weight": 1
     },
     {
-      "structure": "skyblock:monster_room",
+      "structure": "Voidblock:monster_room",
       "weight": 1
     },
     {
-      "structure": "skyblock:savanna",
+      "structure": "Voidblock:savanna",
       "weight": 1
     },
     {
-      "structure": "skyblock:taiga",
+      "structure": "Voidblock:taiga",
       "weight": 1
     },
     {
-      "structure": "skyblock:pale_garden",
+      "structure": "Voidblock:pale_garden",
       "weight": 1
     }
   ],

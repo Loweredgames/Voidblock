@@ -1,14 +1,14 @@
 {
   "values": [
-    "skyblock:badland",
-    "skyblock:birch_forest",
-    "skyblock:cherry_grove",
-    "skyblock:dark_forest",
-    "skyblock:desert_well",
-    "skyblock:jungle",
-    "skyblock:mangrove_swamp",
-    "skyblock:monster_room",
-    "skyblock:savanna",
-    "skyblock:taiga"
+    "Voidblock:badland",
+    "Voidblock:birch_forest",
+    "Voidblock:cherry_grove",
+    "Voidblock:dark_forest",
+    "Voidblock:desert_well",
+    "Voidblock:jungle",
+    "Voidblock:mangrove_swamp",
+    "Voidblock:monster_room",
+    "Voidblock:savanna",
+    "Voidblock:taiga"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#skyblock:has_structure/pale_garden",
+  "biomes": "#Voidblock:has_structure/pale_garden",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "skyblock:worldgen/islands/pale_garden",
+  "start_pool": "Voidblock:worldgen/islands/pale_garden",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",

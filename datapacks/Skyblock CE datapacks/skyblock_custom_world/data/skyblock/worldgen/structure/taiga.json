@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#skyblock:has_structure/taiga",
+  "biomes": "#Voidblock:has_structure/taiga",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "skyblock:worldgen/islands/taiga",
+  "start_pool": "Voidblock:worldgen/islands/taiga",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",
