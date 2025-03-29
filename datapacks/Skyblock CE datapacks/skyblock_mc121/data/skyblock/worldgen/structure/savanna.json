@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#skyblock:has_structure/savanna",
+  "biomes": "#Voidblock:has_structure/savanna",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "skyblock:worldgen/islands/savanna",
+  "start_pool": "Voidblock:worldgen/islands/savanna",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",

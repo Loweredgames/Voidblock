@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#skyblock:has_structure/birch_forest",
+  "biomes": "#Voidblock:has_structure/birch_forest",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "skyblock:worldgen/islands/birch_forest",
+  "start_pool": "Voidblock:worldgen/islands/birch_forest",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",

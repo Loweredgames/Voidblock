@@ -17,10 +17,10 @@ scoreboard objectives remove NEW_PSN
 scoreboard objectives remove PSN_1
 scoreboard objectives remove PSN_0
 scoreboard objectives remove PSN_legacy
-scoreboard objectives remove skyblock_install
-scoreboard objectives remove skyblock_island
-scoreboard objectives remove skyblock_normal
-scoreboard objectives remove skyblock_quit_game
-scoreboard objectives remove structure_skyblock
-scoreboard objectives remove SkyblockCE_skip_structures
+scoreboard objectives remove Voidblock_install
+scoreboard objectives remove Voidblock_island
+scoreboard objectives remove Voidblock_normal
+scoreboard objectives remove Voidblock_quit_game
+scoreboard objectives remove structure_Voidblock
+scoreboard objectives remove Voidblock_skip_structures
 scoreboard objectives remove tp

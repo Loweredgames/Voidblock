@@ -6,16 +6,16 @@
 
 
 ##Remove Scoreboard Rebranding
-scoreboard objectives remove SkyblockCE_custom_structures
-scoreboard objectives remove SkyblockCE_debug
-scoreboard objectives remove SkyblockCE_id
-scoreboard objectives remove SkyblockCE_islands
-scoreboard objectives remove SkyblockCE_large
-scoreboard objectives remove SkyblockCE_default
-scoreboard objectives remove SkyblockCE_small
-scoreboard objectives remove SkyblockCE_very_small
-scoreboard objectives remove SkyblockCE_multiplayer
-scoreboard objectives remove SkyblockCE_multiplayer_reset
-scoreboard objectives remove SkyblockCE_quit_game
-scoreboard objectives remove SkyblockCE_structures_id
-scoreboard objectives remove SkyblockCE_tp
+scoreboard objectives remove Voidblock_custom_structures
+scoreboard objectives remove Voidblock_debug
+scoreboard objectives remove Voidblock_id
+scoreboard objectives remove Voidblock_islands
+scoreboard objectives remove Voidblock_large
+scoreboard objectives remove Voidblock_default
+scoreboard objectives remove Voidblock_small
+scoreboard objectives remove Voidblock_very_small
+scoreboard objectives remove Voidblock_multiplayer
+scoreboard objectives remove Voidblock_multiplayer_reset
+scoreboard objectives remove Voidblock_quit_game
+scoreboard objectives remove Voidblock_structures_id
+scoreboard objectives remove Voidblock_tp

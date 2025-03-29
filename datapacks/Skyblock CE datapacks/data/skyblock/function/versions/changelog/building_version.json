@@ -5,9 +5,9 @@
 
 "Release Versions": "6.1.0 [The Removal Update]",
 
-"Release Building": "JE-1.21>1.21.4-6.1.0-Voidblock:BUILDING:22.02.2025a",
+"Release Building": "JE-1.21>1.21.4-6.1.0-Voidblock:BUILDING:29.03.2025a",
 
-"Nightly Building": "JE-1.21>1.21.4-6.1.0-Voidblock:NIGHTLY_BUILDING_08.03.2025.31018a_[main]",
+"Nightly Building": "JE-1.21>1.21.4-6.1.0-Voidblock:NIGHTLY_BUILDING_29.03.2025.11136a_[rename-skyblock]",
 
 "Data_pack": "TRUE",
 
@@ -25,7 +25,7 @@
 
 "Github_Tag": "1.21.4_JE-0a",
 
-"Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
+"Github":"https://github.com/Loweredgames/Voidblock",
 
 "Website":"https://loweredgames.github.io./"
 }

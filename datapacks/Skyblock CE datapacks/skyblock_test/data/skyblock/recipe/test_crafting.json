@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "skyblock_test",
+  "group": "Voidblock_test",
   "ingredients": [
     [
       "minecraft:green_bed"

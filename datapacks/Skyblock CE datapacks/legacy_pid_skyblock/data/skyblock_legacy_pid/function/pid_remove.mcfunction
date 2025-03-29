@@ -21,7 +21,7 @@ scoreboard objectives remove ID_2
 scoreboard objectives remove ID_1
 scoreboard objectives remove ID_0
 scoreboard objectives remove PID_Fix_LTS
-scoreboard objectives remove skyblock_ID
+scoreboard objectives remove Voidblock_ID
 scoreboard objectives remove PID_OLD
 scoreboard objectives remove PSN_OLD
 scoreboard objectives remove PSN_legacy
