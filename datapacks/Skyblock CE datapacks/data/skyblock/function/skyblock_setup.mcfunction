@@ -6,14 +6,11 @@
 
 
 ##Function Setup
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function voidblock_legacy_pid:legacy_pid
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function voidblock:islands/default
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function voidblock:islands/large
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function voidblock:islands/small
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function voidblock:islands/very_small
-
-
-##Function Padlock
+function voidblock_legacy_pid:legacy_pid
+function voidblock:islands/default
+function voidblock:islands/large
+function voidblock:islands/small
+function voidblock:islands/very_small
 function voidblock:import
 function voidblock:voidblock_mc_setup
 function voidblock:structures/custom_structures
@@ -38,7 +35,6 @@ scoreboard players add @a Voidblock_id 1
 scoreboard players add @a Voidblock_install 1
 scoreboard objectives add Voidblock_multiplayer dummy
 scoreboard players add @a Voidblock_multiplayer 1
-scoreboard objectives add Voidblock_multiplayer_reset dummy
 
 
 ##Scoreboard Reset
@@ -103,7 +99,7 @@ execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"text":"If the r
 
 
 ##Quit Game
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run scoreboard objectives add Voidblock_quit_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add Voidblock_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players set @a Voidblock_install 1
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard objectives remove Voidblock_quit_game
 

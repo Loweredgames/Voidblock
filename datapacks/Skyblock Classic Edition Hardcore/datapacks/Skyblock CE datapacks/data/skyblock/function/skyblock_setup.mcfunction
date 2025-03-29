@@ -6,23 +6,21 @@
 
 
 ##Function Setup Lock
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function Voidblock_legacy_pid:legacy_pid
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function Voidblock:islands/default
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function Voidblock:islands/large
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run function Voidblock:islands/small
-
-
-##Function Padlock Lock
-function Voidblock:import
-function Voidblock:Voidblock_mc_setup
-function Voidblock:structures/custom_structures
-function Voidblock:structures/generated_biome
-function Voidblock_legacy:Voidblock_legacy_setup
-function Voidblock:Voidblock_test_setup
-function Voidblock:versions/changelog/building
-function Voidblock:versions/version_pvn
-function Voidblock:versions/debug
-function Voidblock:multiplayer_setup
+function voidblock_legacy_pid:legacy_pid
+function voidblock:islands/default
+function voidblock:islands/large
+function voidblock:islands/small
+function voidblock:islands/very_small
+function voidblock:import
+function voidblock:voidblock_mc_setup
+function voidblock:structures/custom_structures
+function voidblock:structures/generated_biome
+function voidblock_legacy:voidblock_legacy_setup
+function voidblock:voidblock_test_setup
+function voidblock:versions/changelog/building
+function voidblock:versions/version_pvn
+function voidblock:versions/debug
+function voidblock:multiplayer_setup
 
 
 ##Setup Lock
@@ -37,7 +35,6 @@ scoreboard players add @a Voidblock_id 1
 scoreboard players add @a Voidblock_install 1
 scoreboard objectives add Voidblock_multiplayer dummy
 scoreboard players add @a Voidblock_multiplayer 1
-scoreboard objectives add Voidblock_multiplayer_reset dummy
 
 
 ##Scoreboard Reset Lock
@@ -101,6 +98,6 @@ execute as @a[scores={Voidblock_install=1}] run difficulty hard
 
 
 ##Quit Game Lock
-execute as @a[scores={Voidblock_multiplayer_reset=1}] run scoreboard objectives add Voidblock_quit_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add Voidblock_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players set @a Voidblock_install 1
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players reset @a Voidblock_quit_game

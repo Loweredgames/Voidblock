@@ -9,3 +9,4 @@
 execute as @a[scores={Voidblock_multiplayer=1..}] run scoreboard objectives remove multiplayer
 scoreboard objectives remove multiplayer_popup
 scoreboard objectives remove Voidblock_multiplayer_tick
+scoreboard objectives remove Voidblock_multiplayer_reset

@@ -52,6 +52,4 @@ execute as @a[scores={Voidblock_debug=15}] run scoreboard objectives setdisplay 
 
 ##DISPLAY DI DEBUG - MULTIPLAYER
 execute as @a[scores={Voidblock_debug=16}] run scoreboard objectives setdisplay list Voidblock_multiplayer
-execute as @a[scores={Voidblock_debug=17}] run scoreboard objectives setdisplay sidebar Voidblock_multiplayer_reset
-execute as @a[scores={Voidblock_debug=18}] run scoreboard objectives setdisplay sidebar Voidblock_multiplayer_tick
 execute as @a[scores={Voidblock_debug=19}] run scoreboard objectives setdisplay list Voidblock_multiplayer_join
