@@ -49,7 +49,7 @@
     "skyblock_classic_edition.install.hardcore.lock.replace_datapack": " a čakaj na aktualizáciu sveta a potom nahraď dátový balík.\n\nĎakujem",
     "skyblock_classic_edition.warning_level.dat.issues": "Kvôli niektorým technickým problémom, ktoré sa môžu vyskytnúť v rôznych verziách, môže svet trpieť vážnou chybou, ak je svet v rozmeroch a nevytvárajú sa prírodné vanilla štruktúry. Ak chcete vyriešiť tento technický problém, musíte postupovať podľa týchto jednoduchých krokov: najprv musíte všetky veci vo svojom inventári, dokonca aj brnenie, vložiť do truhlice, potom odísť zo sveta a ",
     "skyblock_classic_edition.warning_level.dat.download": "stiahni nový (level.dat a level.dat_old) tu,",
-    "skyblock_classic_edition.warning_level.dat.copy_paste": " skopíruj ho a prilep ho nahradením starého, znova otvor svet a potom otvor chat s T ako predvolené skopíruj tento príkaz: ",
+    "skyblock_classic_edition.warning_level.dat.copy_paste": " skopíruj ho a prilep ho nahradením starého, znova otvor svet a potom otvor chat s T ako predvolené a skopíruj tento príkaz: ",
     "skyblock_classic_edition.warning_level.dat.end": ", mal by si vidieť štruktúry v nových kúskoch, v prípade znova zopakuj kroky.",
     "skyblock_classic_edition.link.discord": "Discord Server",
     "skyblock_classic_edition.link.crowdin": "Crowdin Projekt Prekladov",
