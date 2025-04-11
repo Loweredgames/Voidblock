@@ -3,9 +3,9 @@
 
 "Edition": "JAVA EDITION",
 
-"Release Versions": "6.0.0 [The Removal Update]",
+"Release Versions": "6.1.0 [The Removal Update]",
 
-"Release Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:6.0.0",
+"Release Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:PRE-RELEASE 1",
 
 "Nightly Building": "JE-1.21/1.21.1-6.0.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_20.01.2025.31900a_[6.0.0-1.21.X]",
 
@@ -13,17 +13,19 @@
 
 "Resource_pack": "TRUE",
 
-"Custom Structures World": "4.0.0",
+"Translations_Version": "Ultimo Aggiornamento delle Traduzioni: 29.03.2025 alle 14:27",
 
-"Protocol Version": "1.21_PVN_0",
+"Custom Structures World": "4.1.0",
+
+"Protocol Version": "1.21.4_PVN_0b",
 
 "Protocol Identifier Data": "1.21_PID_0",
 
 "Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
 
-"Github_Tag": "1.21_JE-4a",
+"Github_Tag": "1.21.4_JE-0b",
 
 "Github":"https://github.com/Loweredgames/Skyblock-Classic-Edition",
 
-"Website":"https://minecraft-map-building-versions.blogspot.com/"
+"Website":"https://loweredgames.github.io./"
 }

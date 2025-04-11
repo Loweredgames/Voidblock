@@ -34,28 +34,27 @@ scoreboard objectives add PID_legacy_v2 dummy
 
 
 ##The Nether
-execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a SkyblockCE_islands 4
+execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a SkyblockCE_islands 5
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=300}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=350}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=400}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=500}] run scoreboard players set @a SkyblockCE_tp 1
 execute as @a[scores={PID_legacy_v1=550}] run scoreboard players set @a SkyblockCE_tp 0
-execute as @a[scores={PID_legacy_v1=600..700}] run gamemode spectator @a
-execute as @a[scores={PID_legacy_v1=700}] in minecraft:overworld run tp @a 0 66 0
-execute in minecraft:overworld as @a[scores={PID_legacy_v1=750}] run setblock 0 62 0 minecraft:black_concrete keep
-execute as @a[scores={PID_legacy_v1=830}] run advancement revoke @a only minecraft:end/root
-execute as @a[scores={PID_legacy_v1=830}] run advancement revoke @a only minecraft:nether/root
+execute as @a[scores={PID_legacy_v1=620}] in minecraft:overworld run tp @a 0 66 0
+execute in minecraft:overworld as @a[scores={PID_legacy_v1=640}] run setblock 0 62 0 minecraft:black_concrete keep
+execute as @a[scores={PID_legacy_v1=645}] run advancement revoke @a only minecraft:end/root
+execute as @a[scores={PID_legacy_v1=645}] run advancement revoke @a only minecraft:nether/root
 
 
 ##PID LEGACY SETUP - v1 (Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria).
-execute as @a[scores={PID_legacy_v1=1..830}] run gamemode spectator @a
-execute as @a[scores={PID_legacy_v1=10..700}] run effect give @a blindness 11 0 true
-execute as @a[scores={PID_legacy_v1=10..700}] run effect give @a night_vision 11 0 true
-execute as @a[scores={PID_legacy_v1=1..845}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={PID_legacy_v1=840}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
-execute in minecraft:overworld as @a[scores={PID_legacy_v1=845}] run gamemode survival @a
-execute as @a[scores={PID_legacy_v1=845}] run scoreboard objectives add PID_1 dummy
-execute as @a[scores={PID_legacy_v1=846}] run scoreboard players set @a PID_1 5
+execute as @a[scores={PID_legacy_v1=1..700}] run gamemode spectator @a
+execute as @a[scores={PID_legacy_v1=100..800}] run effect give @a blindness 11 0 true
+execute as @a[scores={PID_legacy_v1=100..800}] run effect give @a night_vision 11 0 true
+execute as @a[scores={PID_legacy_v1=1..645}] run summon minecraft:area_effect_cloud ~ ~1 ~
+execute as @a[scores={PID_legacy_v1=640}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
+execute in minecraft:overworld as @a[scores={PID_legacy_v1=645}] run gamemode survival @a
+execute as @a[scores={PID_legacy_v1=645}] run scoreboard objectives add PID_1 dummy
+execute as @a[scores={PID_legacy_v1=646}] run scoreboard players set @a PID_1 5
 
 
 ##PID_1 - 1.21/1.21.1 (LTS ABBILITARE IN 1.21.x, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
@@ -69,7 +68,6 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v2=205}] run setblock 72
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=210}] run setblock 722 49 708 chest[facing=south,type=single,waterlogged=false]{Items:[{Slot:3b,id:"minecraft:chorus_fruit",count:1},{Slot:4b,id:"minecraft:chorus_fruit",count:1},{Slot:5b,id:"minecraft:chorus_fruit",count:1},{Slot:10b,id:"minecraft:shulker_shell",count:1},{Slot:11b,id:"minecraft:chorus_fruit",count:1},{Slot:12b,id:"minecraft:eye_armor_trim_smithing_template",count:1},{Slot:13b,id:"minecraft:elytra",count:1,components:{"minecraft:damage":0}},{Slot:14b,id:"minecraft:spire_armor_trim_smithing_template",count:1},{Slot:15b,id:"minecraft:chorus_fruit",count:1},{Slot:16b,id:"minecraft:shulker_shell",count:1},{Slot:21b,id:"minecraft:chorus_fruit",count:1},{Slot:22b,id:"minecraft:chorus_fruit",count:1},{Slot:23b,id:"minecraft:chorus_fruit",count:1},{Slot:26b,id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"Lost Memories",author:"for you",generation:3,resolved:true,pages:['{"text":"10411611611211558474797114991041051181014611111410347100101116971051081154710811111511645109101109111114105101115955048494949494956","italic":true}']}}}]} replace
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=220}] run setblock 722 49 709 minecraft:oak_wall_sign[facing=south,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"I\'m sorry but"}','{"text":"The End City"}','{"text":"is broken :("}','{"text":""}']},is_waxed:0b} destroy
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=255}] run fill 723 48 704 721 48 706 minecraft:infested_cobblestone keep
-execute in minecraft:overworld as @a[scores={PID_legacy_v2=255}] run setblock 722 48 703 minecraft:obsidian replace
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=252}] run setblock 722 49 705 oak_sign[rotation=0,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry,"}','{"text":"in this version..."}','{"text":";("}']}} destroy
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=300}] run tp @a 508 46 71 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=350}] run setblock 507 46 71 minecraft:barrel[facing=east,open=false]{Items:[{count:1b,Slot:13b,id:"minecraft:sentry_armor_trim_smithing_template"}]} keep
@@ -129,7 +127,9 @@ execute as @a[scores={PID_legacy_v2=10..1200}] run effect give @a blindness 11 0
 execute as @a[scores={PID_legacy_v2=10..1200}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v2=1..1201}] run summon minecraft:area_effect_cloud ~ ~1 ~
 execute as @a[scores={PID_legacy_v2=1240}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
+execute in minecraft:overworld as @a[scores={PID_legacy_v2=1240}] run tp @a 0 65 0 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=1245}] run gamemode survival @a
+execute in minecraft:overworld as @a[scores={PID_legacy_v2=1245}] run recipe give @a *
 #execute as @a[scores={PID_legacy_v3=1345}] run scoreboard objectives add 1.22_PID_0 dummy - aggiungere in futuro il Pid legacy v1 della 1.22? qui
 #execute as @a[scores={PID_legacy_v3=1346}] run scoreboard players set @a 1.22_PID_0 5 - aggiungere in futuro il Pid legacy v1 della 1.22? qui
 
