@@ -38,8 +38,8 @@ execute as @a[scores={PID_legacy_v1=100..500}] run scoreboard players set @a Voi
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=300}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=350}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v1=400}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
-execute in minecraft:the_nether as @a[scores={PID_legacy_v1=500}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={PID_legacy_v1=550}] run scoreboard players set @a SkyblockCE_tp 0
+execute in minecraft:the_nether as @a[scores={PID_legacy_v1=500}] run scoreboard players set @a Voidblock_tp 1
+execute as @a[scores={PID_legacy_v1=550}] run scoreboard players set @a Voidblock_tp 0
 execute as @a[scores={PID_legacy_v1=620}] in minecraft:overworld run tp @a 0 66 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v1=640}] run setblock 0 62 0 minecraft:black_concrete keep
 execute as @a[scores={PID_legacy_v1=645}] run advancement revoke @a only minecraft:end/root
