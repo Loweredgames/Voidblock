@@ -5,9 +5,9 @@
 
 "Release Versions": "6.1.0 [The Removal Update]",
 
-"Release Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:PRE-RELEASE 1",
+"Release Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:RELEASE-CANDIDATE 1",
 
-"Nightly Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_28.03.2025.41907a_[main]",
+"Nightly Building": "JE-1.21>1.21.4-6.1.0-Skyblock_Classic_Edition:NIGHTLY_BUILDING_12.04.2025.11060a_[main]",
 
 "Data_pack": "TRUE",
 
