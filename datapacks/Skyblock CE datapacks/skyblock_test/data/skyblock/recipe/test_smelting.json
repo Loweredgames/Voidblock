@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "group": "Voidblock_test",
+  "group": "voidblock_test",
   "ingredient": [
     "minecraft:structure_block"
   ],
