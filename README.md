@@ -1,6 +1,6 @@
 ### Voidblock
 
-[![Crowdin](https://badges.crowdin.net/voidblock/localized.svg)](https://crowdin.com/project/Voidblock)
+[![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
 ![Logo](https://github.com/user-attachments/assets/8eed1eb4-1904-4226-baee-3865ec1e36e2)
 
@@ -21,7 +21,7 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 - The map includes a part of the unofficial Slamacow trailer (a mini storyline).
 - It also contains a hardcore mode. inside the "datapack" folder in the "Voidblock Hardcore" folder. (first start the world, generate the map and then replace the files).
 - Compatible with multiplayer.
-- Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/Voidblock
+- Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition/
 
 # [FAQ - Troubleshooting and Help Requests](https://discord.com/channels/960603544480780308/1255129836494655488)
 
