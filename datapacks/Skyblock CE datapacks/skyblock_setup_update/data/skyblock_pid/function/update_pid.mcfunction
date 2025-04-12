@@ -62,7 +62,7 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 #execute as @a[scores={1.21_PID_0=201}] run advancement revoke @a only minecraft:nether/root
 #execute as @a[scores={1.21_PID_0=201}] run advancement revoke @a only minecraft:end/root
 #execute as @a[scores={1.21_PID_0=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
-#execute as @a[scores={1.21_PID_0=206}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/Voidblock"}}
+#execute as @a[scores={1.21_PID_0=206}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
 #execute as @a[scores={1.21_PID_0=207}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
 #execute as @a[scores={1.21_PID_0=210}] run time set 0
 #execute as @a[scores={1.21_PID_0=211}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
