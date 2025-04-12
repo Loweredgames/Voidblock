@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "Voidblock:worldgen/custom_islands/birch_forest",
+        "location": "voidblock:worldgen/custom_islands/birch_forest",
         "processors": "minecraft:empty"
       }
     }

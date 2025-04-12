@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#Voidblock:has_structure/mangrove_swamp",
+  "biomes": "#voidblock:has_structure/mangrove_swamp",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "Voidblock:worldgen/islands/mangrove_swamp",
+  "start_pool": "voidblock:worldgen/islands/mangrove_swamp",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",
