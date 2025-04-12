@@ -1,9 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#Voidblock:has_structure/cherry_grove",
+  "biomes": "#voidblock:has_structure/cherry_grove",
   "step": "top_layer_modification",
   "spawn_overrides": {},
-  "start_pool": "Voidblock:worldgen/islands/cherry_grove",
+  "start_pool": "voidblock:worldgen/islands/cherry_grove",
   "size": 1,
   "start_height": {
     "type": "minecraft:uniform",

@@ -6,8 +6,8 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "Voidblock:worldgen/monster_room",
-        "processors": "Voidblock:monster_room"
+        "location": "voidblock:worldgen/monster_room",
+        "processors": "voidblock:monster_room"
       }
     }
   ]

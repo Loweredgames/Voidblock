@@ -1,14 +1,14 @@
 {
   "values": [
-    "Voidblock:badland",
-    "Voidblock:birch_forest",
-    "Voidblock:cherry_grove",
-    "Voidblock:dark_forest",
-    "Voidblock:desert_well",
-    "Voidblock:jungle",
-    "Voidblock:mangrove_swamp",
-    "Voidblock:monster_room",
-    "Voidblock:savanna",
-    "Voidblock:taiga"
+    "voidblock:badland",
+    "voidblock:birch_forest",
+    "voidblock:cherry_grove",
+    "voidblock:dark_forest",
+    "voidblock:desert_well",
+    "voidblock:jungle",
+    "voidblock:mangrove_swamp",
+    "voidblock:monster_room",
+    "voidblock:savanna",
+    "voidblock:taiga"
   ]
 }
