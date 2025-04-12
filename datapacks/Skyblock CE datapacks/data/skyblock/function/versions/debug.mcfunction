@@ -11,7 +11,7 @@ execute as @a[scores={Voidblock_debug=0}] run scoreboard objectives setdisplay s
 
 
 ##TRANSLATE TEST DEBUG
-execute as @a[scores={Voidblock_debug=-0}] run tellraw @a [{"translate":"Voidblock.folder.test"}]
+execute as @a[scores={Voidblock_debug=-0}] run tellraw @a [{"translate":"skyblock_classic_edition.folder.test"}]
 
 
 ##DISPLAY DI DEBUG - SETUP Voidblock

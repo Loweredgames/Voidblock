@@ -83,12 +83,12 @@ execute as @a[scores={Voidblock_test_structures=1..1300}] run gamerule doImmedia
 execute as @a[scores={Voidblock_test_structures=1400..1505}] run gamerule doImmediateRespawn false
 execute as @a[scores={Voidblock_test_structures=1400}] run tp @s 0 66 0 90 0
 execute as @a[scores={Voidblock_test_structures=1405..1505}] run place template voidblock:air 0 0 0
-execute as @a[scores={Voidblock_test_structures=1410}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"Voidblock.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"Voidblock.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
+execute as @a[scores={Voidblock_test_structures=1410}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
 execute as @a[scores={Voidblock_test_structures=1415}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
 execute as @a[scores={Voidblock_test_structures=1420}] run setblock 0 1 0 minecraft:redstone_block destroy
 execute as @a[scores={Voidblock_test_structures=1425}] run fill 0 0 0 0 1 0 minecraft:air destroy
-execute as @a[scores={Voidblock_test_structures=1426}] run title @a title {"translate":"Voidblock.generated_structures.loading.title","italic":true}
-execute as @a[scores={Voidblock_test_structures=1426}] run title @a subtitle {"translate":"Voidblock.generated_structures.loading.subtitle","italic":true}
+execute as @a[scores={Voidblock_test_structures=1426}] run title @a title {"translate":"skyblock_classic_edition.generated_structures.loading.title","italic":true}
+execute as @a[scores={Voidblock_test_structures=1426}] run title @a subtitle {"translate":"skyblock_classic_edition.generated_structures.loading.subtitle","italic":true}
 execute as @a[scores={Voidblock_test_structures=1440}] run effect clear @a minecraft:blindness
 execute as @a[scores={Voidblock_test_structures=1440}] run effect clear @a minecraft:night_vision
 

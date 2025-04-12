@@ -7,7 +7,7 @@
 
 ##Voidblock Import
 execute as @a[scores={Voidblock_islands=5}] run scoreboard objectives add Voidblock_import minecraft.custom:minecraft.play_time
-execute as @a[scores={Voidblock_islands=5}] run tellraw @a {"translate":"Voidblock.loading.chat"}
+execute as @a[scores={Voidblock_islands=5}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
 execute as @a[scores={Voidblock_import=1..}] run clear @a written_book[custom_data={tag:generated_book}]
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_install -2
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_install_test -2
@@ -26,8 +26,8 @@ execute as @a[scores={Voidblock_import=1..100}] run summon minecraft:area_effect
 
 ##START GENERATED FUNCTION
 execute as @a[scores={Voidblock_import=2}] run gamerule commandBlockOutput false
-execute as @a[scores={Voidblock_import=2}] run title @a title {"translate":"Voidblock.loading.title.chat"}
-execute as @a[scores={Voidblock_import=2}] run title @a subtitle {"translate":"Voidblock.loading.subtitle.chat"}
+execute as @a[scores={Voidblock_import=2}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
+execute as @a[scores={Voidblock_import=2}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
 execute as @a[scores={Voidblock_import=2}] run title @a times 30 200 20
 
 

@@ -9,7 +9,7 @@
 
 
 execute as @a[scores={Voidblock_islands=1}] run scoreboard objectives add Voidblock_large minecraft.custom:minecraft.play_time
-execute as @a[scores={Voidblock_islands=1}] run tellraw @a {"translate":"Voidblock.loading.chat"}
+execute as @a[scores={Voidblock_islands=1}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
 execute as @a[scores={Voidblock_large=1..}] run scoreboard players set @a Voidblock_install -2
 execute as @a[scores={Voidblock_large=1..}] run scoreboard players set @a Voidblock_install_test -2
 execute as @a[scores={Voidblock_large=1..}] run scoreboard players set @a Voidblock_islands -2
@@ -21,8 +21,8 @@ execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run kill @e[typ
 execute in minecraft:overworld as @a[scores={Voidblock_large=1..5}] run difficulty easy
 execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run gamerule commandBlockOutput false
 execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run gamerule doImmediateRespawn true
-execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run title @a title {"translate":"Voidblock.loading.title.chat"}
-execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run title @a subtitle {"translate":"Voidblock.loading.subtitle.chat"}
+execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
+execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
 execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run title @a times 30 200 20
 execute in minecraft:overworld as @a[scores={Voidblock_large=1}] run gamerule announceAdvancements false
 

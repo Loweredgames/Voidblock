@@ -19,7 +19,7 @@ execute as @a[scores={1.20.5_SUBPID_0_1=5..200}] run summon minecraft:area_effec
 
 
 ##Voidblock SUBPID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
-execute as @a[scores={1.20.5_SUBPID_0_1=5}] run tellraw @s [{"translate":"Voidblock.versions_id.warning_update.on","color":"#d5d5d5","italic":true},{"text":" - "},{"text":"1.20.5_SUBPID_0_1"}]
+execute as @a[scores={1.20.5_SUBPID_0_1=5}] run tellraw @s [{"translate":"skyblock_classic_edition.versions_id.warning_update.on","color":"#d5d5d5","italic":true},{"text":" - "},{"text":"1.20.5_SUBPID_0_1"}]
 
 
 ###SUBPID_0_1 - 1.20.5 - 5.3.0 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
