@@ -10,4 +10,4 @@
 
 
 ##Modrinth (Portable Version) Download (Link)
-tellraw @a [{"text":"\u27a1Modrinth","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/Voidblock-portable"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/Voidblock-portable"}}]
+tellraw @a [{"text":"\u27a1Modrinth","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/voidblock-portable"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/voidblock-portable"}}]

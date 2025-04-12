@@ -6,4 +6,4 @@
 
 
 ##Smithed (Portable Version) Download (Link)
-tellraw @a [{"text":"\u27a1Smithed","color":"blue","clickEvent":{"action":"open_url","value":"https://smithed.net/packs/Voidblock"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://smithed.net/packs/Voidblock"}}]
+tellraw @a [{"text":"\u27a1Smithed","color":"blue","clickEvent":{"action":"open_url","value":"https://smithed.net/packs/voidblock"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://smithed.net/packs/voidblock"}}]

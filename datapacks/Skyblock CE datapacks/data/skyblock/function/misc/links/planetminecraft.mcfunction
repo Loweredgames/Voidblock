@@ -6,8 +6,8 @@
 
 
 ##PlanetMinecraft Download (Link)
-tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/Voidblock/"}},{"text":"Minecraft","color":"#00C3B6","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/Voidblock/"}}]
+tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/voidblock/"}},{"text":"Minecraft","color":"#00C3B6","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/voidblock/"}}]
 
 
 ##PlanetMinecraft (Portable Version) Download (Link)
-tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/Voidblock-portable-version/"}},{"text":"Minecraft","color":"#00C3B6","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/Voidblock-portable-version/"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/Voidblock-portable-version/"}}]
+tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/voidblock-portable-version/"}},{"text":"Minecraft","color":"#00C3B6","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/voidblock-portable-version/"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/voidblock-portable-version/"}}]
