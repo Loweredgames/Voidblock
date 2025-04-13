@@ -40,7 +40,7 @@ execute as @a[scores={SkyblockCE_very_small=140..}] run scoreboard objectives ad
 execute as @a[scores={SkyblockCE_very_small=140..}] run effect give @a minecraft:levitation 180 0 false
 execute as @a[scores={Voidblock_import=100..}] run scoreboard objectives remove SkyblockCE_very_small
 
-
+# Da Testare e vedere. forse è install?
 execute as @a[scores={SkyblockCE_default=140..}] run scoreboard players set @a Voidblock_islands 5
 
 ##Skyblock Classic Edition Legacy PID REMOVE (dalla 1.x.x alla 6.x.x)
