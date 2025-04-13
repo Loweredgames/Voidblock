@@ -7,6 +7,7 @@
 
 ##WORLD UPDATE AND CONVERSION FUNCTIONS
 function voidblock_pid:update_pid
+function voidblock:versions/pid_remove
 
 
 ##PID LEGACY REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
