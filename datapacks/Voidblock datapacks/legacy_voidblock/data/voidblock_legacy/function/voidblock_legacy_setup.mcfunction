@@ -7,7 +7,7 @@
 
 ##Function Setup Test
 function voidblock_legacy:legacy_remove/legacy_structures_system
-function voidblock_legacy_pid:legacy_converter
+function voidblock_legacy:legacy_converter
 
 
 ##Function Remove Test (DA RIMUOVERE IN FUTURO)
