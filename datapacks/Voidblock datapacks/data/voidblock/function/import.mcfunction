@@ -41,8 +41,7 @@ execute as @a[scores={Voidblock_import=3}] run fill 1 62 1 -1 62 -1 minecraft:gl
 ##FINAL GENERATED FUNCTION
 execute as @a[scores={Voidblock_import=10..}] run scoreboard players set @a Voidblock_tp 0
 execute as @a[scores={Voidblock_import=1..24}] run gamerule doImmediateRespawn true
-execute as @a[scores={Voidblock_import=11}] run title @a title ["",{"text":"Sky","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
-execute as @a[scores={Voidblock_import=11}] run title @a subtitle {"text":"Classic Edition","bold":true,"color":"dark_blue"}
+execute as @a[scores={Voidblock_import=11}] run title @a title ["",{"text":"Void","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={Voidblock_import=11}] run title @a times 30 100 30
 execute as @a[scores={Voidblock_import=11..24}] run gamerule announceAdvancements true
 execute as @a[scores={Voidblock_import=11..24}] run gamerule doDaylightCycle true
