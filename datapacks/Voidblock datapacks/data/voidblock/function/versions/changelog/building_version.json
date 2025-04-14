@@ -5,9 +5,9 @@
 
 "Release Versions": "6.1.0 [The Removal Update]",
 
-"Release Building": "JE-1.21>1.21.4-6.1.0-Voidblock:BUILDING:29.03.2025a",
+"Release Building": "JE-1.21>1.21.5-7.0.0-Voidblock:BUILDING:????a",
 
-"Nightly Building": "JE-1.21>1.21.4-6.1.0-Voidblock:NIGHTLY_BUILDING_29.03.2025.61136a_[rename-skyblock]",
+"Nightly Building": "JE-1.21>1.21.5-7.0.0-Voidblock:NIGHTLY_BUILDING_29.03.2025.71136a_[rename-skyblock]",
 
 "Data_pack": "TRUE",
 
@@ -17,7 +17,7 @@
 
 "Custom Structures World": "4.1.0",
 
-"Protocol Version": "1.21.4_PVN_0a",
+"Protocol Version": "1.21.4_PVN_0b",
 
 "Protocol Identifier Data": "1.21_PID_0",
 

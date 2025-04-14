@@ -6,7 +6,6 @@
 
 
 ##Function Setup Test
-function voidblock_legacy:legacy_remove/legacy_structures_system
 function voidblock_legacy:legacy_converter
 
 
@@ -18,7 +17,6 @@ function voidblock_legacy:legacy_remove/multiplayer_legacy
 
 ##Scoreboard Setup Test
 scoreboard players add @a refactoring_scoreboard 1
-scoreboard players add @a Voidblock_legacy_version 1
 
 
 ##Scoreboard Reset

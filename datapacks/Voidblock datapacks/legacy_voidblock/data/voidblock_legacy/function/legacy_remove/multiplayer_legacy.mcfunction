@@ -5,8 +5,5 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Multiplayer Legacy (Aggiornato all'ultima versione: 2.0.0 - 6.0.0 Minecraft: 1.21.1) - (da rimuovere completamente nella 1.22)
-execute as @a[scores={Voidblock_multiplayer=1..}] run scoreboard objectives remove multiplayer
-scoreboard objectives remove multiplayer_popup
-scoreboard objectives remove Voidblock_multiplayer_tick
-scoreboard objectives remove Voidblock_multiplayer_reset
+##Multiplayer Legacy (Aggiornato all'ultima versione: 2.0.0 - 6.0.0 Minecraft: 1.21.1) - (da rimuovere completamente nella 1.21.6)
+execute as @a[scores={SkyblockCE_multiplayer=1..}] run scoreboard objectives remove multiplayer
