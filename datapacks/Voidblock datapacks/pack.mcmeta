@@ -52,13 +52,6 @@
 		  	"directory": "voidblock_test"
 		},
 		{
-			"formats": {
-			  "min_inclusive": 48,
-			  "max_inclusive": 61
-			},
-			"directory": "legacy_pid_converter"
-		},
-		{
 			 "formats": {
 			  "min_inclusive": 48,
 			  "max_inclusive": 61
