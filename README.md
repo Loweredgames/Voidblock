@@ -2,7 +2,7 @@
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
-![Logo](https://github.com/user-attachments/assets/8eed1eb4-1904-4226-baee-3865ec1e36e2)
+![Logo](https://github.com/user-attachments/assets/e9622075-a83e-44e8-9683-da2e90a1b7c9)
 
 _Voidblock is one of the most famous maps in Minecraft. the original has been updated and now supports all future versions of Minecraft._
 
@@ -35,5 +35,5 @@ _Thanks to the original Skyblock team for creating the most popular Minecraft ma
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Voidblock/blob/main/LICENSE
 
-NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO READING THE COPYRIGHT (C): 
+NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO READING THE COPYRIGHT (C):
 https://www.minecraft.net/en-us/terms
