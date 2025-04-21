@@ -22,8 +22,8 @@ execute as @a[scores={1.21_PID_0=2000000..}] run scoreboard players set @a 1.21_
 
 
 ##SUBPID 1.20.5_0_1 - 1.20.6 (LASCIARE COSI. PER LA FUNZIONE SUBPID 0_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-#function Voidblock_pid:subpid/mc1.20.5_subpid0_1
-#function Voidblock_pid:subpid/mc1.20.5_pid1_2
+#function voidblock_pid:subpid/mc1.20.5_subpid0_1
+#function voidblock_pid:subpid/mc1.20.5_pid1_2
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)

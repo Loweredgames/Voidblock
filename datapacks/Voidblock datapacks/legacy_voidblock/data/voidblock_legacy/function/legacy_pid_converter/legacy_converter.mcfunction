@@ -45,6 +45,7 @@ execute as @a[scores={Voidblock_import=100..}] run scoreboard objectives remove 
 scoreboard objectives remove tp
 scoreboard objectives remove skyblock_install
 scoreboard objectives remove skyblock_island
+scoreboard objectives remove ID_0
 scoreboard objectives remove ID_1
 scoreboard objectives remove fix_end
 scoreboard objectives remove ID_2
