@@ -6,8 +6,8 @@
 
 
 ##Curseforge Download (Link)
-tellraw @a [{"text":"\u27a1Curse","color":"#D51314","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/voidblock-skyblock/files"}},{"text":"Forge","color":"#666666","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/voidblock-skyblock/files"}}]
+tellraw @a [{"text":"\u27a1Curse","color":"#D51314","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/voidblock-skyblock-reinterpretation/files/"}},{"text":"Forge","color":"#666666","clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/worlds/voidblock-skyblock-reinterpretation/files"}}]
 
 
 ##Curseforge (Portable Version) Download (Link)
-tellraw @a [{"text":"\u27a1Curse","color":"#D51314","clickEvent":{"action":"open_url","value":"https://curseforge.com/minecraft/data-packs/voidblock-portable-version/files"}},{"text":"Forge","color":"#666666","clickEvent":{"action":"open_url","value":"https://curseforge.com/minecraft/data-packs/voidblock-portable-version/files"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://curseforge.com/minecraft/data-packs/voidblock-portable-version/files"}}]
+tellraw @a [{"text":"\u27a1Curse","color":"#D51314","clickEvent":{"action":"open_url","value":"https://curseforge.com/minecraft/data-packs/voidblock-portable-version/files/"}},{"text":"Forge","color":"#666666","clickEvent":{"action":"open_url","value":"https://curseforge.com/minecraft/data-packs/voidblock-portable-version/files/"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://curseforge.com/minecraft/data-packs/voidblock-portable-version/files/"}}]
