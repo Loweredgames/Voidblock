@@ -4,7 +4,7 @@
 
 ![Logo](https://github.com/user-attachments/assets/e9622075-a83e-44e8-9683-da2e90a1b7c9)
 
-_Voidblock is one of the most famous maps in Minecraft. the original has been updated and now supports all future versions of Minecraft._
+_Skyblock is one of the most famous maps in Minecraft. the original has been updated and now supports all future versions of Minecraft._
 
 # Story:
 
