@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "voidblock",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": [
+      "minecraft:andesite"
+    ]
+  },
+  "result": {
+    "id": "minecraft:tuff",
+    "count": 1
+  }
+}
