@@ -1,4 +1,4 @@
-### Skyblock Classic Edition
+### Voidblock
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
@@ -13,19 +13,19 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 # Feature:
 
 - The classic islands have been updated and are now more modern.
-- Added new islands (Small, Normal, Large).
+- Added new islands (Very Small, Small, Normal, Large).
 - Added recipes to renewable resources (check the recipes book).
 - Added the datapack, so that the map can be updated.
 - The world is endless (including The Nether and ~~The End~~).
 - ~~Now you can visit the end and finish the game~~.
 - The map includes a part of the unofficial Slamacow trailer (a mini storyline).
-- It also contains a hardcore mode. inside the "datapack" folder in the "Skyblock Classic Edition Hardcore" folder. (first start the world, generate the map and then replace the files).
+- It also contains a hardcore mode version. first start the world, generate the map and then replace the files.
 - Compatible with multiplayer.
-- Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition
+- Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition/
 
 # [FAQ - Troubleshooting and Help Requests](https://discord.com/channels/960603544480780308/1255129836494655488)
 
-# Credits:
+# Credit:
 
 DrTrog (Custom World Gen):
 https://www.planetminecraft.com/member/drtrog/
@@ -33,7 +33,7 @@ https://www.planetminecraft.com/member/drtrog/
 _Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
-https://github.com/Loweredgames/Skyblock-Classic-Edition/blob/main/LICENSE
+https://github.com/Loweredgames/Voidblock/blob/main/LICENSE
 
-NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO READING THE COPYRIGHT (C): 
+NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO READING THE COPYRIGHT (C):
 https://www.minecraft.net/en-us/terms
