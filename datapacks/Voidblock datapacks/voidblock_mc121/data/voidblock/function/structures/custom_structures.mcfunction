@@ -20,6 +20,7 @@ execute as @a[scores={Voidblock_custom_structures=5..11}] run gamemode spectator
 ##CUSTOM FINAL FUNCTION STRUCTURES GENERATED
 execute as @a[scores={Voidblock_custom_structures=1..45}] run gamerule doImmediateRespawn true
 execute as @a[scores={Voidblock_custom_structures=5}] run scoreboard players set @a Voidblock_tp 0
+execute as @a[scores={Voidblock_custom_structures=5}] run title @a reset
 execute as @a[scores={Voidblock_custom_structures=6}] run title @a title ["",{"text":"Void","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={Voidblock_custom_structures=6}] run title @a times 30 100 30
 execute as @a[scores={Voidblock_custom_structures=7..40}] run gamerule announceAdvancements true
