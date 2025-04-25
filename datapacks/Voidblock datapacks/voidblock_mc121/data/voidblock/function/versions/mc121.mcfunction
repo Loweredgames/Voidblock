@@ -6,4 +6,4 @@
 
 
 ##Voidblock Minecraft (1.21/1.21.1)
-#execute as @a[scores={mc121=1}] run say 1.21 is available!
+execute as @a[scores={Voidblock_mc121=1}] run say Hello 1.21/1.21.1!

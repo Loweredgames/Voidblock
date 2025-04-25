@@ -5,5 +5,5 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Voidblock Minecraft (1.21.4)
-#execute as @a[scores={mc1214=1}] run say 1.21.4 is available!
+##Voidblock Minecraft (1.21.2/1.21.3)
+execute as @a[scores={Voidblock_mc1212=1}] run say Hello 1.21.2/1.21.3!

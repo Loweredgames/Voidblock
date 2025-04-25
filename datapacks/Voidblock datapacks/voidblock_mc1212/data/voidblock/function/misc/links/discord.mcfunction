@@ -5,5 +5,5 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Voidblock Minecraft (1.21.5)
-#execute as @a[scores={mc1215=1}] run say 1.21.5 is available!
+##Discord Server (Link)
+tellraw @a {"translate":"skyblock_classic_edition.link.discord","italic":true,"underlined":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
