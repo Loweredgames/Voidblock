@@ -47,14 +47,14 @@
 		{
 		   "formats": {
 			"min_inclusive": 58,
-			"max_inclusive": 61
+			"max_inclusive": 71
 		  	},
 		  	"directory": "voidblock_custom_world"
 		},
 		{
 		   "formats": {
-			"min_inclusive": 71,
-			"max_inclusive": 71
+			"min_inclusive": 25,
+			"max_inclusive": 25
 			},
 		  	"directory": "voidblock_test"
 		},
