@@ -39,10 +39,6 @@
     {
       "structure": "voidblock:taiga",
       "weight": 1
-    },
-    {
-      "structure": "voidblock:pale_garden",
-      "weight": 1
     }
   ],
   "placement": {
