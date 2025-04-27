@@ -13,7 +13,6 @@ execute as @a[scores={Voidblock_islands=3}] run tellraw @a {"translate":"skybloc
 execute as @a[scores={Voidblock_small=1..}] run scoreboard players set @a Voidblock_install -2
 execute as @a[scores={Voidblock_small=1..}] run scoreboard players set @a Voidblock_install_test -2
 execute as @a[scores={Voidblock_small=1..}] run scoreboard players set @a Voidblock_islands -2
-execute as @a[scores={Voidblock_small=1..2400}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ##START GENERATED FUNCTION

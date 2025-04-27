@@ -21,7 +21,6 @@ execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidb
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_default 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_small 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_very_small 24000
-execute as @a[scores={Voidblock_import=1..100}] run summon minecraft:area_effect_cloud ~ ~1 ~
 
 
 ##START GENERATED FUNCTION
