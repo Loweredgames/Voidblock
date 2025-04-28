@@ -29,4 +29,4 @@ title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"d
 
 
 ##BUILDING VERSION (BOSSBAR VISIBILE: True SOLO VERSIONI DI SVILUPPO o False VERSIONI STABILI, TENERE ACCESO PER LE NIGHT BUILDING)
-bossbar set minecraft:building visible false
+bossbar set minecraft:building visible true
