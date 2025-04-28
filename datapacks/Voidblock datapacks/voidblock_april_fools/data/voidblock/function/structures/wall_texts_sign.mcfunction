@@ -9,4 +9,4 @@
 
 
 ##Wall Texts Version Sign - April Fools
-execute in minecraft:overworld as @a[scores={Voidblock_large=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:["This","is","a","secret!!!"]},front_text:{color:"white",has_glowing_text:1b,messages:["Voidblock","---------------","1.21.5","Fools"]}} replace
+execute in minecraft:overworld as @a[scores={Voidblock_fools=33}] run setblock 1 66 -3 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:["This","is","a","secret!!!"]},front_text:{color:"white",has_glowing_text:1b,messages:["Voidblock","---------------","1.21.5","Fools"]}} replace

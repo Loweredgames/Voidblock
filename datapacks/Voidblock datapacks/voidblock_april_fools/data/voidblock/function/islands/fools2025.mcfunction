@@ -36,7 +36,7 @@ execute in minecraft:overworld as @a[scores={Voidblock_fools=35}] run setblock 1
 
 
 #Mushroom House
-execute in minecraft:overworld as @a[scores={Voidblock_fools=60}] run tp @a -2 110 1000
+execute in minecraft:overworld as @a[scores={Voidblock_fools=60}] run scoreboard players set @a Voidblock_tp_fools 2
 execute in minecraft:overworld as @a[scores={Voidblock_fools=100}] run fill -2 110 1000 27 -7 1024 minecraft:air
 execute in minecraft:overworld as @a[scores={Voidblock_fools=105}] run place template voidblock:mushroom_house 0 61 1000
 
@@ -46,5 +46,6 @@ execute as @a[scores={Voidblock_fools=400}] run scoreboard players set @a Voidbl
 execute as @a[scores={Voidblock_fools=450..}] run scoreboard objectives add Voidblock_structures_id_fools dummy
 execute as @a[scores={Voidblock_fools=500}] run spawnpoint @a 0 65 0
 execute as @a[scores={Voidblock_fools=500}] run weather clear 1000s
+execute as @a[scores={Voidblock_fools=500}] run scoreboard objectives remove 1.21.4_PVN_FOOLS2025
 execute as @a[scores={Voidblock_fools=500}] run scoreboard objectives add kills deathCount
 execute as @a[scores={Voidblock_fools=500}] run scoreboard objectives setdisplay list kills
