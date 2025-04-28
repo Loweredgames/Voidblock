@@ -1,5 +1,4 @@
 **To Do List April Fool:**
-- risolvere il tellraw sul pvn
-- fare conversione totale
-- testare tutto
-- aggiungere prossimo pesce d'aprile 2026
+1. testare tutto
+2. aggiungere prossimo pesce d'aprile 2026
+3. testare tutto
