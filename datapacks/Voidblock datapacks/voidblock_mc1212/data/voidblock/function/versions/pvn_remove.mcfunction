@@ -13,7 +13,8 @@
 
 
 ##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5 - FUTURA (PROSSIMA VERSIONE)
-#scoreboard objectives remove 1.21.5_PVN_0a
+#scoreboard objectives remove 1.21.5_PVN_0b
+scoreboard objectives remove 1.21.5_PVN_0a
 
 
 ##1.21/1.21.1/1.21.2/1.21.3/1.21.4 - STABILE
