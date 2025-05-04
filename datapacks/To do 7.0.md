@@ -1,3 +1,0 @@
-- decidere se fare una conversione totale o tenere cosi ma cambiando ad voidblock, conversione parziale
-- - conversione totale (meno tempo, correzzione dei bug. pero c'è da fare piu test e devo convertire tutto in LTS)
-- - conversione parziale (piu tempo, devo poi correggere i bug, devo fare meno test, potrei avvere dei problemi con le funzioni?)
