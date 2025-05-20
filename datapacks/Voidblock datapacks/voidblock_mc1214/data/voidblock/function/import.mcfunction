@@ -52,7 +52,6 @@ execute as @a[scores={Voidblock_import=15..24}] run gamemode survival @p
 execute as @a[scores={Voidblock_import=15}] run spawnpoint @a 0 65 0
 execute as @a[scores={Voidblock_import=15}] run setworldspawn 0 65 0
 execute as @a[scores={Voidblock_import=15}] run effect clear @a
-execute as @a[scores={Voidblock_import=15}] run fill 0 63 0 0 64 0 minecraft:air destroy
 execute as @a[scores={Voidblock_import=15..24}] run stopsound @a
 execute as @a[scores={Voidblock_import=15}] run scoreboard objectives add kills deathCount
 execute as @a[scores={Voidblock_import=15}] run scoreboard objectives setdisplay list kills
