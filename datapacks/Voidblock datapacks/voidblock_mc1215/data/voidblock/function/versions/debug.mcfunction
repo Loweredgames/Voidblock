@@ -23,7 +23,7 @@ execute as @a[scores={Voidblock_debug=5}] run scoreboard objectives setdisplay s
 
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
-execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay sidebar 1.21.5_PVN_0b
+execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay sidebar 1.21.5_PVN_0c
 
 
 ##DISPLAY DI DEBUG - PID
