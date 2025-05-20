@@ -39,7 +39,7 @@
     "skyblock_classic_edition.versions_id.warning_update.on": "Aggiornamento del mondo e conversione per la nuova versione...",
     "skyblock_classic_edition.setup_version.warning": "⚠Attenzione: questa versione non è più supportata!⚠",
     "skyblock_classic_edition.setup_version.warning.download": "\n\nScarica qui l'ultima versione della mappa personalizzata.",
-    "skyblock_classic_edition.setup_version.lts_warning": "Il rilascio di manutenzione (LTS) sta raggiungendo la fine della sua vita e non sarà più mantenuto. I problemi rimanenti saranno spostati al prossimo rilascio di manutenzione (LTS) o chiusi alla fine di questo rilascio. Questo è il tempo minimo previsto che il prossimo rilascio lo sostituirà, questo tempo può cambiare e non è accurato al 100%, quindi può essere aggiornato in ogni rilascio di manutenzione. Ecco quanto tempo la prossima versione diventera obsoleta:",
+    "skyblock_classic_edition.setup_version.lts_warning": "Il rilascio di manutenzione (LTS) sta raggiungendo la fine della sua vita e non sarà più mantenuto. I problemi rimanenti saranno spostati al prossimo rilascio di manutenzione (LTS) o chiusi alla fine di questo rilascio. Questo è il tempo minimo previsto che il prossimo rilascio lo sostituirà, questo tempo può cambiare e non è accurato al 100%%, quindi può essere aggiornato in ogni rilascio di manutenzione. Ecco quanto tempo la prossima versione diventera obsoleta:",
     "skyblock_classic_edition.setup_version.lts_warning.month": "mese/i",
     "skyblock_classic_edition.generated_structures.loading.title": "Le Strutture:",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "Sono state generate...",
