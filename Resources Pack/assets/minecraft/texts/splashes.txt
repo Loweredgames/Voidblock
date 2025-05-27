@@ -35,15 +35,16 @@
 Ciao mondo!!
 Ciao italia!!
 Solo splash Italiani e cit!!!
-Skyblock Classic Edition
+Voidblock
 Solo Mondo Custom!
-Prova Skyblock Classic Edition - Dimensions Version
-CurseForge:https://www.curseforge.com/minecraft/worlds/skyblock-classic-edition/files
-PlanetMinecraft:https://www.planetminecraft.com/project/skyblock-classic-edition/
+Prova Voidblock - Dimensions Version
+CurseForge:https://www.curseforge.com/minecraft/worlds/Voidblock/files
+PlanetMinecraft:https://www.planetminecraft.com/project/Voidblock/
 Old Changelog:https://minecraft-map-building-versions.blogspot.com/
 Changelog:https://loweredgames.github.io./
 Crowdin:https://crowdin.com/project/skyblock-classic-edition
 Discord:https://discord.gg/T6PHxhznJ6
+Non piu Sky.....ma Void!!
 Fatto da Lorenzo Giannini (Loweredgames)
 Map Maker
 SOLO JAVA!!!

@@ -1,8 +1,8 @@
 {
 	"pack": {
-		"pack_format": 46,
-		"supported_formats": {"min_inclusive": 34, "max_inclusive": 46},
-		"description": "Skyblock Classic Edition By Lorenzo Giannini"
+		"pack_format": 55,
+		"supported_formats": {"min_inclusive": 34, "max_inclusive": 55},
+		"description": "Voidblock By Lorenzo Giannini"
 	},
 	"language":{
 		"it_ch": {
