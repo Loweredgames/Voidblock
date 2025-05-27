@@ -40,7 +40,7 @@
     "skyblock_classic_edition.setup_version.warning": "⚠คําเตือน: ไม่รองรับเวอร์ชันนี้อีกต่อไป!⚠",
     "skyblock_classic_edition.setup_version.warning.download": "\n\nโปรดดาวน์โหลดแผนที่แบบกําหนดเองเวอร์ชันล่าสุดที่นี่",
     "skyblock_classic_edition.setup_version.lts_warning": "The maintenance release (LTS) is reaching the end of its life and will no longer be maintained. Remaining issues will be moved to the next maintenance release (LTS) or closed at the end of this release. This is the minimum expected time that the next release will replace it, this time may change and is not 100%% accurate, so it may be updated in each maintenance release. Here is how long the next version becomes obsolete:",
-    "skyblock_classic_edition.setup_version.lts_warning.month": "month's",
+    "skyblock_classic_edition.setup_version.lts_warning.month": "เดือน",
     "skyblock_classic_edition.generated_structures.loading.title": "โครงสร้าง",
     "skyblock_classic_edition.generated_structures.loading.subtitle": "พวกนั้นได้ถูกสร้างขึ้น...",
     "skyblock_classic_edition.generated_structures.generated.command_block.info": "⚠ฉันเห็นว่าไม่มีโฟลเดอร์ (generated) ในโลกของคุณ ",
