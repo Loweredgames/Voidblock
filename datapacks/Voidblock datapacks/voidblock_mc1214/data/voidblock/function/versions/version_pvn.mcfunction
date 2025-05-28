@@ -32,6 +32,7 @@ execute as @a[scores={1.21.5_PVN_0d=1}] run tellraw @s ["",{"translate":"skybloc
 
 ##PVN WARNING (NON TOCCARE, SOLO VERSIONI DI SVILUPPO)
 execute as @a[scores={1.21.5_PVN_0d=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues"}},{"text":".\u26a0","color":"red"}]
+#execute as @a[scores={1.21.5_PVN_0d=6}] run tellraw @s ["",{"color":"red","text":"⚠WARNING: You are using a version of Minecraft that is still in development or untested, bugs may occur and the world may become corrupted and damaged. always make backups. Wait for it to be fully released.⚠"}]
 
 
 ##PVN VERSION PROTOCOL LOOP (NON TOCCARE MAI)
