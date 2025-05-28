@@ -5,9 +5,9 @@
 
 "Release Versions": "7.0.0 [Rebranding Update]",
 
-"Release Building": "JE-1.21>1.21.5-7.0.0-Voidblock:RELEASE_CANDIDATE 1",
+"Release Building": "JE-1.21>1.21.5-7.0.0-Voidblock:RELEASE_CANDIDATE 2",
 
-"Nightly Building": "JE-1.21>1.21.5-7.0.0-Voidblock:NIGHTLY_BUILDING_20.05.2025.41738a_[1.21.X]",
+"Nightly Building": "JE-1.21>1.21.5-7.0.0-Voidblock:NIGHTLY_BUILDING_28.05.2025.11623a_[1.21.X]",
 
 "Data_pack": "TRUE",
 
@@ -17,7 +17,7 @@
 
 "Custom Structures World": "4.1.0",
 
-"Protocol Version": "1.21.5_PVN_0d",
+"Protocol Version": "1.21.5_PVN_0e",
 
 "Protocol Identifier Data": "1.21_PID_0",
 
