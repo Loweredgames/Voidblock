@@ -1,9 +1,9 @@
 {
 	"pack": {
-	  "pack_format": 79,
+	  "pack_format": 41,
 	  "supported_formats": {
-		"min_inclusive": 48,
-		"max_inclusive": 79
+		"min_inclusive": 41,
+		"max_inclusive": 41
 	  },
 	  "description": "Voidblock By Lorenzo Giannini"
 	},
@@ -11,54 +11,26 @@
 	  "entries": [
 		{
 		  "formats": {
-			"min_inclusive": 48,
-			"max_inclusive": 79
+			"min_inclusive": 41,
+			"max_inclusive": 41
 		  	},
 		  	"directory": "voidblock_setup_update"
 		},
 		{
 			"formats": {
-			  "min_inclusive": 42,
-			  "max_inclusive": 48
+			  "min_inclusive": 41,
+			  "max_inclusive": 41
 			},
-			"directory": "voidblock_mc121"
-		},
-		{
-			"formats": {
-			  "min_inclusive": 49,
-			  "max_inclusive": 57
-			},
-			"directory": "voidblock_mc1212"
-		},
-		{
-			"formats": {
-			  "min_inclusive": 58,
-			  "max_inclusive": 61
-			},
-			"directory": "voidblock_mc1214"
-		},
-		{
-			"formats": {
-			  "min_inclusive": 62,
-			  "max_inclusive": 71
-			},
-			"directory": "voidblock_mc1215"
-		},
-				{
-			"formats": {
-			  "min_inclusive": 72,
-			  "max_inclusive": 79
-			},
-			"directory": "voidblock_mc1216"
-		},
+			"directory": "voidblock_mc1206"
+		}
 		{
 		   "formats": {
-			"min_inclusive": 72,
-			"max_inclusive": 79
+			"min_inclusive": 41,
+			"max_inclusive": 41
 		  	},
 		  	"directory": "voidblock_custom_world"
 		},
-		{
+				{
 		   "formats": {
 			"min_inclusive": 25,
 			"max_inclusive": 25
@@ -67,8 +39,8 @@
 		},
 		{
 			 "formats": {
-			  "min_inclusive": 48,
-			  "max_inclusive": 79
+			  "min_inclusive": 41,
+			  "max_inclusive": 41
 			},
 			"directory": "legacy_voidblock"
 		}
