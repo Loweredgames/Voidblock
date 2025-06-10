@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "group": "voidblock_test",
-  "ingredient": [
-    "minecraft:structure_block"
-  ],
+  "ingredient": {
+    "item": "minecraft:debug_stick"
+  },
   "result": {
     "id": "minecraft:red_dye"
   },
