@@ -7,11 +7,11 @@
     ],
     "key": {
       "#": {
-        "item": "minecraft:cobblestone"
+        "item": "minecraft:diorite"
       }
     },
     "result": {
-      "id": "minecraft:cobbled_deepslate",
-      "count": 4
+      "id": "minecraft:calcite",
+      "count": 1
     }
 }

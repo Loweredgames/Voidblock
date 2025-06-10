@@ -7,12 +7,12 @@
     "###"
   ],
   "key": {
-    "#": [
-      "minecraft:glow_ink_sac"
-    ],
-    "T": [
-      "minecraft:torchflower"
-    ]
+    "#": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "T": {
+      "item": "minecraft:torchflower"
+    }
   },
   "result": {
     "id": "minecraft:glow_berries",

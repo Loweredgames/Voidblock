@@ -5,15 +5,15 @@
     "M#P"
   ],
   "key": {
-    "#": [
-      "minecraft:oak_sapling"
-    ],
-    "M": [
-      "minecraft:moss_block"
-    ],
-    "P": [
-      "minecraft:pink_petals"
-    ]
+    "#": {
+      "item": "minecraft:oak_sapling"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    },
+    "P": {
+      "item": "minecraft:pink_petals"
+    }
   },
   "result": {
     "id": "minecraft:flowering_azalea",

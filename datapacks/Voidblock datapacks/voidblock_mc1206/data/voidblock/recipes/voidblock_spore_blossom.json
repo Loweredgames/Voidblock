@@ -6,12 +6,12 @@
     " #"
   ],
   "key": {
-    "#": [
-      "minecraft:pink_petals"
-    ],
-    "M": [
-      "minecraft:moss_block"
-    ]
+    "#": {
+      "item": "minecraft:pink_petals"
+    },
+    "M": {
+      "item": "minecraft:moss_block"
+    }
   },
   "result": {
     "id": "minecraft:spore_blossom",
