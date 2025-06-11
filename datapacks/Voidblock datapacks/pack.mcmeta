@@ -31,6 +31,13 @@
 		  	"directory": "voidblock_test"
 		},
 		{
+		  "formats": {
+			"min_inclusive": 41,
+			"max_inclusive": 41
+		  	},
+		  	"directory": "legacy_pid_voidblock"
+		},
+		{
 			 "formats": {
 			  "min_inclusive": 41,
 			  "max_inclusive": 41
