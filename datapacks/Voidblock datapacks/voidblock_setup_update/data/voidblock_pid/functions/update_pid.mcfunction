@@ -18,16 +18,17 @@ execute as @a[scores={1.20.6_PID_0=2000000..}] run scoreboard players set @a 1.2
 
 
 ##SETUP UPDATE SUBPID (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
-#scoreboard players add @a 1.21_SUBPID_0_1 1
+#scoreboard players add @a 1.20.6_SUBPID_0_1 1
+#scoreboard players add @a 1.20.6_PID_0_2 1
 
 
 ##SUBPID 1.20.5_0_1 - 1.20.6 (LASCIARE COSI. PER LA FUNZIONE SUBPID 0_1, VERSIONE MINORE DA SPOSTARE IN LEGACY QUANDO IL PID DIVENTA INCOMPATIBILE)
-#function voidblock_pid:subpid/mc1.20.5_subpid0_1
-#function voidblock_pid:subpid/mc1.20.5_pid1_2
+#function voidblock_pid:subpid/mc1.20.6_subpid0_1
+#function voidblock_pid:subpid/mc1.20.6_pid1_2
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)
-#execute as @a[scores={1.20.6_PID_0=250..}] run scoreboard objectives add 1.21_SUBPID_0_1 dummy
+#execute as @a[scores={1.20.6_PID_0=250..}] run scoreboard objectives add 1.20.6_SUBPID_0_1 dummy
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE)
@@ -45,7 +46,7 @@ execute as @a[scores={1.20.6_PID_0=2000000..}] run scoreboard players set @a 1.2
 #execute as @a[scores={1.20.6_PID_0=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 2
 
 
-###1.20.5_PID 0 - 1.20.6 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###1.20.6_PID 0 - 1.20.6 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
@@ -57,7 +58,7 @@ execute as @a[scores={1.20.6_PID_0=2000000..}] run scoreboard players set @a 1.2
 ##The End (???)
 
 
-##FINAL GENERATED PID 1 FUNCTION (DISABILITARE TUTTO SE NON C'E NESSUN PID)
+##FINAL GENERATED 1.20.6_PID 0 FUNCTION (DISABILITARE TUTTO SE NON C'E NESSUN PID)
 #execute as @a[scores={1.20.6_PID_0=201}] run advancement revoke @a only minecraft:nether/root
 #execute as @a[scores={1.20.6_PID_0=201}] run advancement revoke @a only minecraft:end/root
 #execute as @a[scores={1.20.6_PID_0=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
