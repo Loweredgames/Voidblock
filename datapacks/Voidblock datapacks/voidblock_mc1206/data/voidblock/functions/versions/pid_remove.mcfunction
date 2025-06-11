@@ -12,7 +12,7 @@
 #scoreboard objectives remove 1.20.5_PID_0 (da abbilitare nella 1.22 LTS)
 
 
-##PID VECCHISSIMI E NON PIU USATI (da rimuovere nella 1.23)
+##PID VECCHISSIMI E NON PIU USATI
 scoreboard objectives remove PID_Fix_LTS
 scoreboard objectives remove PID_OLD
 scoreboard objectives remove PSN_OLD
