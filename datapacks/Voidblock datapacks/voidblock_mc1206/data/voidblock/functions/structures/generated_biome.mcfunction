@@ -29,6 +29,3 @@ execute as @a in minecraft:the_nether run fillbiome 3 0 -42 -6 255 -54 minecraft
 
 #Warped Forest
 execute as @a in minecraft:the_nether run fillbiome 4 0 -42 12 255 -53 minecraft:warped_forest
-
-
-##The End Biome
