@@ -23,11 +23,11 @@ execute as @a[scores={Voidblock_debug=5}] run scoreboard objectives setdisplay s
 
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
-execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay sidebar 1.21.5_PVN_0e
+execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay sidebar 1.20.6_PVN_0
 
 
 ##DISPLAY DI DEBUG - PID
-execute as @a[scores={Voidblock_debug=7}] run scoreboard objectives setdisplay sidebar 1.21_PID_0
+execute as @a[scores={Voidblock_debug=7}] run scoreboard objectives setdisplay sidebar 1.20.6_PID_0
 execute as @a[scores={Voidblock_debug=-71}] run scoreboard objectives setdisplay sidebar PID_0
 execute as @a[scores={Voidblock_debug=-72}] run scoreboard objectives setdisplay sidebar PID_1
 execute as @a[scores={Voidblock_debug=8}] run scoreboard objectives setdisplay list PID_warning
@@ -53,3 +53,9 @@ execute as @a[scores={Voidblock_debug=15}] run scoreboard objectives setdisplay 
 ##DISPLAY DI DEBUG - MULTIPLAYER
 execute as @a[scores={Voidblock_debug=16}] run scoreboard objectives setdisplay list Voidblock_multiplayer
 execute as @a[scores={Voidblock_debug=19}] run scoreboard objectives setdisplay list Voidblock_multiplayer_join
+
+
+##DISPLAY DI DEBUG - TEST
+execute as @a[scores={Voidblock_debug=1000}] run scoreboard objectives setdisplay sidebar refactoring_scoreboard
+execute as @a[scores={Voidblock_debug=2000}] run scoreboard objectives setdisplay sidebar Voidblock_legacy_version
+execute as @a[scores={Voidblock_debug=2000}] run scoreboard objectives setdisplay sidebar Voidblock_test_structures

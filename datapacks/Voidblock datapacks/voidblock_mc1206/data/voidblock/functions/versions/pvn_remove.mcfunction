@@ -8,33 +8,7 @@
 ###PVN REMOVE BUILDING (AGGIUNGERE I PVN SOLO PER LE VERSIONI DI SVILUPPO DA RIMUOVERE, LE VERSIONI PIU VECCHIE DEVONO ESSERE RIMOSSE PER LO SPAZIO)
 
 
-##1.22 - FUTURA (PROSSIMA VERSIONE)
-#coming...
-
-
-##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5 - FUTURA (PROSSIMA VERSIONE)
-#scoreboard objectives remove 1.21.5_PVN_0e
-scoreboard objectives remove 1.21.5_PVN_0d
-scoreboard objectives remove 1.21.5_PVN_0e
-scoreboard objectives remove 1.21.5_PVN_0b
-scoreboard objectives remove 1.21.5_PVN_0a
-
-
-##1.21/1.21.1/1.21.2/1.21.3/1.21.4 - STABILE
-scoreboard objectives remove 1.21.4_PVN_0
-scoreboard objectives remove 1.21.4_PVN_0b
-scoreboard objectives remove 1.21.4_PVN_0a
-
-
-##1.21/1.21.1 - STABILE
-scoreboard objectives remove 1.21_PVN_0
-scoreboard objectives remove 1.21_PVN_0d
-scoreboard objectives remove 1.21_PVN_0c
-scoreboard objectives remove 1.21_PVN_0b
-scoreboard objectives remove 1.21_PVN_0a
-
-
-##1.20.6 - LTS STABILE
+##1.20.6 - LTS STABILE <-- QUI
 #scoreboard objectives remove 1.20.6_PVN_0 (da aggiungere nella 1.22)
 scoreboard objectives remove 1.20.6_PVN_0d
 scoreboard objectives remove 1.20.6_PVN_0c
@@ -99,3 +73,20 @@ scoreboard objectives remove PVN_3
 scoreboard objectives remove PVN_2
 scoreboard objectives remove PVN_1
 scoreboard objectives remove PVN_0
+
+
+#PVN VECCHISSIMI E NON PIU USATI
+scoreboard objectives remove PVN_X0a
+scoreboard objectives remove 1.20.3_PVN_0ZA
+scoreboard objectives remove 1.20.3_PVN_0a-
+scoreboard objectives remove 1.20.4_PVN_0
+scoreboard objectives remove 1.20.4_PVN_1
+scoreboard objectives remove PVN_11
+scoreboard objectives remove PVN_11a
+scoreboard objectives remove PVN_11b
+scoreboard objectives remove PVN_11c
+scoreboard objectives remove PVN_11d
+scoreboard objectives remove PVN_11e
+scoreboard objectives remove PVN_11f
+scoreboard objectives remove PVN_11g
+scoreboard objectives remove PVN_11h
