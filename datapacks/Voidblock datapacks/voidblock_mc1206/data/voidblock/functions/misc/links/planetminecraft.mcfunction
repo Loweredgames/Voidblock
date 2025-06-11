@@ -6,8 +6,8 @@
 
 
 ##PlanetMinecraft Download (Link)
-tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/project/skyblock-classic-edition/"}},{"text":"Minecraft","color":"#00C3B6","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/project/skyblock-classic-edition/"}}]
+tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/skyblock-classic-edition/"}},{"text":"Minecraft","color":"#00C3B6","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/skyblock-classic-edition/"}}]
 
 
 ##PlanetMinecraft (Portable Version) Download (Link)
-tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/data-pack/skyblock-classic-edition-portable-version/"}},{"text":"Minecraft","color":"#00C3B6","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/data-pack/skyblock-classic-edition-portable-version/"}},{"text":" (Portable Version)","color":"white","click_event":{"action":"open_url","url":"https://www.planetminecraft.com/data-pack/skyblock-classic-edition-portable-version/"}}]
+tellraw @a [{"text":"\u27a1Planet","color":"#16BF00","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/skyblock-classic-edition-portable-version/"}},{"text":"Minecraft","color":"#00C3B6","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/skyblock-classic-edition-portable-version/"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/skyblock-classic-edition-portable-version/"}}]

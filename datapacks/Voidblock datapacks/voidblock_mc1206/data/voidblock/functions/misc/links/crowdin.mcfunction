@@ -6,4 +6,4 @@
 
 
 ##Crowdin Translates (Link)
-tellraw @a {"translate":"skyblock_classic_edition.link.crowdin","italic":true,"underlined":true,"color":"yellow","click_event":{"action":"open_url","url":"https://crowdin.com/project/skyblock-classic-edition"}}
+tellraw @a {"translate":"skyblock_classic_edition.link.crowdin","italic":true,"underlined":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}

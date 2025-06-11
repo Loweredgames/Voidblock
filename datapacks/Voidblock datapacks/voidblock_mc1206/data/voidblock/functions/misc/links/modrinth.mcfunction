@@ -5,10 +5,5 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Modrinth Download (Link)
-tellraw @a {"text":"\u27a1Modrinth","color":"green","click_event":{"action":"open_url","url":"https://modrinth.com/world/coming_soon"}} 
-##DA AGGIUNGERE QUANDO CI SARA LA MAPPA ANCHE SU Modrinth
-
-
 ##Modrinth (Portable Version) Download (Link)
-tellraw @a [{"text":"\u27a1Modrinth","color":"green","click_event":{"action":"open_url","url":"https://modrinth.com/datapack/voidblock-portable"}},{"text":" (Portable Version)","color":"white","click_event":{"action":"open_url","url":"https://modrinth.com/datapack/voidblock-portable"}}]
+tellraw @a [{"text":"\u27a1Modrinth","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/voidblock-portable"}},{"text":" (Portable Version)","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/voidblock-portable"}}]

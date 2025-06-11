@@ -6,4 +6,4 @@
 
 
 ##Github Repository Main (Link)
-tellraw @a {"text":"\u27a1Github","color":"gray","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock"}}
+tellraw @a {"text":"\u27a1Github","color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock"}}
