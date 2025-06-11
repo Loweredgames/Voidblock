@@ -21,4 +21,4 @@ execute in minecraft:overworld as @a[scores={Voidblock_small=10}] run setblock 1
 
 
 ##Wall Texts Version Sign - Very Small (Extreme) 1.20.6
-execute in minecraft:overworld as @a[scores={Voidblock_very_small=10}] run setblock -1 65 0 birch_wall_sign[facing=south,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Voidblock"}','{"text":"---------------"}','{"text":"1.20.6 LTS"}','{"text":"---------------"}']}} replace
+execute in minecraft:overworld as @a[scores={Voidblock_very_small=10}] run setblock -1 65 0 birch_wall_sign[facing=west,waterlogged=false]{back_text:{messages:['{"text":"This"}','{"text":"is"}','{"text":"a"}','{"text":"secret!!!"}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"Voidblock"}','{"text":"---------------"}','{"text":"1.20.6 LTS"}','{"text":"---------------"}']}} replace
