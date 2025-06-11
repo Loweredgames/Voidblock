@@ -10,7 +10,7 @@ function voidblock:versions/mc1206
 
 
 ##Setup Debug Minecraft (DISABILITARE SE NON SI STA FACENDO IL DEBUG)
-scoreboard players add @a Voidblock_mc1206 1
+#scoreboard players add @a Voidblock_mc1206 1
 
 
 ##Setup Wall Texts Sign Versions
