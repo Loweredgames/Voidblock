@@ -17,7 +17,3 @@ function voidblock_legacy:legacy_remove/multiplayer_legacy
 
 ##Scoreboard Setup Legacy
 scoreboard players add @a refactoring_scoreboard 1
-
-
-##Scoreboard Reset
-##AGGIUNGERE SCOREBOARD nella 1.21.1
