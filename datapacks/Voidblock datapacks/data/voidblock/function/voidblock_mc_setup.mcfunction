@@ -37,8 +37,8 @@ scoreboard objectives add Voidblock_mc1216 dummy
 
 
 ##Scoreboard Debug Loop Minecraft Versions (AGGIUNGERE IL LOOP)
-execute as @a[scores={Voidblock_mc121=2000000..}] run scoreboard players set @a Voidblock_121 10000
-execute as @a[scores={Voidblock_mc1212=2000000..}] run scoreboard players set @a Voidblock_1212 10000
-execute as @a[scores={Voidblock_mc1214=2000000..}] run scoreboard players set @a Voidblock_1214 10000
-execute as @a[scores={Voidblock_mc1215=2000000..}] run scoreboard players set @a Voidblock_1215 10000
-execute as @a[scores={Voidblock_mc1216=2000000..}] run scoreboard players set @a Voidblock_1216 10000
+execute as @a[scores={Voidblock_mc121=2000000..}] run scoreboard players set @a Voidblock_mc121 10000
+execute as @a[scores={Voidblock_mc1212=2000000..}] run scoreboard players set @a Voidblock_mc1212 10000
+execute as @a[scores={Voidblock_mc1214=2000000..}] run scoreboard players set @a Voidblock_mc1214 10000
+execute as @a[scores={Voidblock_mc1215=2000000..}] run scoreboard players set @a Voidblock_mc1215 10000
+execute as @a[scores={Voidblock_mc1216=2000000..}] run scoreboard players set @a Voidblock_mc1216 10000
