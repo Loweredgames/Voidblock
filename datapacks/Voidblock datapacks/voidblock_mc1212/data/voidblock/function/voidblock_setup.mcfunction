@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Function Setup
+##Function Setup Lock
 function voidblock:islands/default
 function voidblock:islands/large
 function voidblock:islands/small
@@ -22,11 +22,11 @@ function voidblock:versions/debug
 function voidblock:multiplayer_setup
 
 
-##Setup
+##Setup Lock
 setblock 0 62 0 minecraft:bedrock keep
 
 
-##Scoreboard
+##Scoreboard Lock
 scoreboard objectives add Voidblock_install dummy
 scoreboard objectives add Voidblock_islands dummy
 scoreboard objectives add Voidblock_tp dummy
@@ -36,7 +36,7 @@ scoreboard objectives add Voidblock_multiplayer dummy
 scoreboard players add @a Voidblock_multiplayer 1
 
 
-##Scoreboard Reset
+##Scoreboard Reset Lock
 execute as @a[scores={Voidblock_id=2000000..}] run scoreboard players set @a Voidblock_id 10000
 execute as @a[scores={Voidblock_large=2000000..}] run scoreboard players set @a Voidblock_large 10000
 execute as @a[scores={Voidblock_default=2000000..}] run scoreboard players set @a Voidblock_default 10000
@@ -45,7 +45,7 @@ execute as @a[scores={Voidblock_very_small=2000000..}] run scoreboard players se
 execute as @a[scores={Voidblock_import=2000000..}] run scoreboard players set @a Voidblock_import 10000
 
 
-##Gamerules Setup
+##Gamerules Setup Lock
 gamerule mobGriefing true
 gamerule reducedDebugInfo false
 gamerule enderPearlsVanishOnDeath true
@@ -78,7 +78,7 @@ gamerule doPatrolSpawning true
 gamerule doTraderSpawning true
 
 
-##Islands Choices Setup
+##Islands Choices Setup Lock
 execute as @a[scores={Voidblock_install=2}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":":","bold":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.install.hardcore.lock","italic":true,"color":"red"},{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}},{"translate":"skyblock_classic_edition.install.hardcore.lock.replace_datapack","italic":true,"color":"red"}]
 execute as @a[scores={Voidblock_install=1000..}] run scoreboard players set @a Voidblock_install 1
@@ -97,13 +97,13 @@ execute as @a[scores={Voidblock_install=1}] run difficulty normal
 execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
 
 
-##Quit Game
+##Quit Game Lock
 scoreboard objectives add Voidblock_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players set @a Voidblock_install 1
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard objectives remove Voidblock_quit_game
 
 
-##Teleports Setup
+##Teleports Setup Lock
 execute as @a[scores={Voidblock_tp=1..6}] run effect give @a minecraft:regeneration 64 250 true
 execute in minecraft:overworld run tp @a[scores={Voidblock_tp=1}] 0 64 0 0 90
 execute in minecraft:overworld run tp @a[scores={Voidblock_tp=2}] 67 60 -3 0 90
