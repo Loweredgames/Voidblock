@@ -71,6 +71,7 @@ scoreboard objectives remove PID_1
 scoreboard objectives remove SkyblockCE_custom_structures
 scoreboard objectives remove SkyblockCE_debug
 scoreboard objectives remove SkyblockCE_structures_id
+scoreboard objectives remove SkyblockCE_structures
 scoreboard objectives remove PSN0_OLD_SYSTEM
 scoreboard objectives remove 1.20.5_PSN_0
 scoreboard objectives remove PSN1_OLD_SYSTEM
