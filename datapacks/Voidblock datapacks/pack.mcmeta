@@ -53,13 +53,6 @@
 		},
 		{
 		   "formats": {
-			"min_inclusive": 72,
-			"max_inclusive": 81
-		  	},
-		  	"directory": "voidblock_custom_world"
-		},
-		{
-		   "formats": {
 			"min_inclusive": 25,
 			"max_inclusive": 25
 			},
