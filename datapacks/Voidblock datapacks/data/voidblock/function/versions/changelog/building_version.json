@@ -3,11 +3,11 @@
 
 "Edition": "JAVA EDITION",
 
-"Release Versions": "7.0.0 [Rebranding Update]",
+"Release Versions": "7.0.1 [Rebranding Update]",
 
-"Release Building": "JE-1.21>1.21.5-7.0.0-Voidblock:7.0.0",
+"Release Building": "JE-1.21>1.21.5-7.0.1-Voidblock:7.0.1",
 
-"Nightly Building": "JE-1.21>1.21.5-7.0.0-Voidblock:NIGHTLY_BUILDING_28.05.2025.31623a_[1.21.X]",
+"Nightly Building": "JE-1.21>1.21.5-7.0.0-Voidblock:NIGHTLY_BUILDING_08.07.2025.11629a_[1.21.X]",
 
 "Data_pack": "TRUE",
 
