@@ -82,7 +82,7 @@ gamerule doTraderSpawning true
 execute as @a[scores={Voidblock_install=2}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":":","bold":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.install.hardcore.lock","italic":true,"color":"red"},{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}},{"translate":"skyblock_classic_edition.install.hardcore.lock.replace_datapack","italic":true,"color":"red"}]
 execute as @a[scores={Voidblock_install=1000..}] run scoreboard players set @a Voidblock_install 1
-execute as @a[scores={Voidblock_install=1..1000}] run title @a actionbar {"text":"Open the chat/command with ","extra":[{"keybind":"key.chat"},{"text":"/","extra":[{"keybind":"key.command"}]}]}
+execute as @a[scores={Voidblock_install=1..1000}] run title @a actionbar {"translate":"skyblock_classic_edition.skyblock_setup.help_keybind","extra":[{"keybind":"key.chat"},{"text":"/","extra":[{"keybind":"key.command"}]}]}
 execute as @a[scores={Voidblock_install=1..}] run gamemode spectator @a
 execute as @a[scores={Voidblock_install=1..}] run tp @a 0 0 0 0 90
 execute as @a[scores={Voidblock_install=1}] run gamerule doDaylightCycle false
