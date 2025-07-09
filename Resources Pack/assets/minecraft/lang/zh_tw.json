@@ -1,5 +1,5 @@
 {
-    "skyblock_classic_edition.folder.test": "你好世界",
+    "skyblock_classic_edition.folder.test": "哈囉~~~",
     "skyblock_classic_edition.skyblock_setup.welcome": "歡迎來到 Voidblock",
     "skyblock_classic_edition.skyblock_setup.version": "版本：",
     "skyblock_classic_edition.skyblock_setup.for_text": "",
@@ -15,6 +15,7 @@
     "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "這個島嶼的難易度極端，不適合新玩家。僅獻給追求「純粹原版技術」的極致刺激，且對 Minecraft 技術瞭若指掌的玩家。建議開啟極限模式遊玩。\n",
     "skyblock_classic_edition.skyblock_setup.import": "▶匯入世界",
     "skyblock_classic_edition.skyblock_setup.import.info": "讓你匯入非 Voidblock 的世界，也可以是其他空島地圖。會新增所有必要的計分板，且不損害世界及既有的結構，如果什麼都沒有，也會建立一個小型玻璃平台。請注意：此功能不會生成任何島嶼，這會導致地圖本身和資源無法生成。如果沒有生成任何生態域/結構，這是一個錯誤：請先備份，將物品放入儲物箱，並用舊的 level.dat 檔案取代目前的 level.dat 檔案。",
+    "skyblock_classic_edition.skyblock_setup.help_keybind": "Open the chat/command with ",
     "skyblock_classic_edition.skyblock_test_setup": "您目前正在使用一個用於內部測試的另一個版本，當自訂世界與主版本不相容時就會使用此版本。此版本可能存在一些嚴重問題及重大錯誤：它包含一個只有單一生態域（雪原針葉林）的空世界，level.dat 和 level.dat_old 檔案也僅儲存一個生態域，並包含預先生成的測試結構。如果您想切換到一個包含許多以原版方式生成的生態域和結構的普通世界，您需要用相容的 level.dat 檔案替換資料包，或重新安裝較新版本地圖。此版本將會在正式版本開發過程中由自訂世界功能取代。建議不要建立此世界，而是等待正式版本發布。",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "來自版本：",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "到",
@@ -32,6 +33,7 @@
     "skyblock_classic_edition.version_update.discord": "如果你想提出建議或發現錯誤，也歡迎加入我的 Discord 伺服器。",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠注意：您正在使用開發版本，世界可能會被損壞和損壞，請務必進行備份並 ",
     "skyblock_classic_edition.version_update.development_version.report": "在這裡回報錯誤",
+    "skyblock_classic_edition.version_update.development_mc_version": "⚠WARNING: You are using a version of Minecraft that is still in development or untested, bugs may occur and the world may become corrupted and damaged. Always make backups and wait for the full version of Minecraft to be released.⚠",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n正在載入...",
     "skyblock_classic_edition.loading.title.chat": "正在載入...",
     "skyblock_classic_edition.loading.subtitle.chat": "世界",
