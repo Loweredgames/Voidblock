@@ -6,38 +6,24 @@
 
 
 ##PID LEGACY VERSIONS (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE. SOLO NELLA VERSIONE PIU VECCHI: AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA MA DISABILITATA SEMPRE SOLO QUANDO IL PID DIVENTA VECCHIO (ESEMPIO PID 1), ABBILITARE QUANDO C'E LA NUOVA VERSIONE (ESEMPIO 1.21) E LA NUOVA CONVERSIONE (ESEMPIO PID 2, DISABILITARE PER IL FUTURO), AGGIUNGERE NEI COMMENTI LA VERSIONE DA ABBILITARE, RIPETERE IL LOOP).
-execute as @a[scores={1.20.6_PID_0=-100..}] run scoreboard players set @a ID_5 1
 execute as @a[scores={1.20.6_PID_0=-100..}] run scoreboard players set @a PID_0 1
-#execute as @a[scores={1.20.6_PID_0=-1000..}] run scoreboard players set @a PID_1 1 LTS ABBILITARE IN 1.21.x,
-
-
-##PID REMOVE FUNCTION (PER I PID OBSOLETI E PRONTI PER LA RIMOZIONE)
-function skyblock_legacy_pid:pid_remove
+execute as @a[scores={1.20.6_PID_0=-1000..}] run scoreboard players set @a PID_1 1
 
 
 ##PID UPDATE OLD (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid", ABBILITARE SEMPRE NELLA VERSIONE LTS)
-execute as @a[scores={ID_5=1..}] run scoreboard players set @a PID_legacy_v1 1
 execute as @a[scores={PID_0=1..}] run scoreboard players add @a PID_legacy_v2 1
-#execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy_v3 1 LTS ABBILITARE IN 1.21.x,
+execute as @a[scores={PID_1=1..}] run scoreboard players add @a PID_legacy_v3 1
 
 
 ##PID REMOVE (RIMUOVERE SOLO QUANDO E FINITO UN PID VECCHIO. CANCELLARE SOLO QUANDO E FINITA E AGGIORNARE IL CONTATORE)
-execute as @a[scores={PID_legacy_v1=100..}] run scoreboard objectives remove ID_5
 execute as @a[scores={PID_legacy_v2=805..}] run scoreboard objectives remove PID_0
-#execute as @a[scores={PID_legacy_v3=990..}] run scoreboard objectives remove PID_1 LTS ABBILITARE IN 1.21.x,
+execute as @a[scores={PID_legacy_v3=990..}] run scoreboard objectives remove PID_1
 
 
 ##PID LEGACY SCOREBOARD SETUP (LASCIARE COSI)
 scoreboard objectives add PID_legacy_v1 dummy
 scoreboard objectives add PID_legacy_v2 dummy
 scoreboard objectives add PID_legacy_v3 dummy
-
-
-###PID LEGACY UPDATE (AGGIUNGERE TUTTI I PID VECCHI, AD ESEMPIO #PID_2, #PID_3, ECC.)
-
-
-##ID_5 (COMPATIBILITA LEGACY)
-#execute as @a[scores={ID_5=1..}] run scoreboard objectives remove PID_0
 
 
 ##PID_0 - 1.20.4 (LTS ABBILITARE IN 1.20.x, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
@@ -47,12 +33,12 @@ scoreboard objectives add PID_legacy_v3 dummy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v2=200}] run tp @a 0 -3 30
 execute in minecraft:the_nether as @a[scores={PID_legacy_v2=250}] run fill 2 2 33 -2 2 29 minecraft:infested_cobblestone destroy
 execute in minecraft:the_nether as @a[scores={PID_legacy_v2=300}] run setblock 0 3 31 oak_sign[rotation=8,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The portal is"}','{"text":"broken sorry.."}','{"text":";("}','{"text":"since: 1.0.0"}']}} destroy
-execute in minecraft:the_nether as @a[scores={PID_legacy_v2=400}] run scoreboard players set @a SkyblockCE_tp 1
-execute as @a[scores={PID_legacy_v2=450}] run scoreboard players set @a SkyblockCE_tp 0
+execute in minecraft:the_nether as @a[scores={PID_legacy_v2=400}] run scoreboard players set @a Voidblock_tp 1
+execute as @a[scores={PID_legacy_v2=450}] run scoreboard players set @a Voidblock_tp 0
 execute as @a[scores={PID_legacy_v2=501..600}] run gamemode spectator @a
 execute as @a[scores={PID_legacy_v2=600}] in minecraft:overworld run tp @a 0 66 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v2=650}] run setblock 0 62 0 minecraft:black_concrete keep
-#>execute as @a[scores={PID_legacy_v2=730}] run advancement revoke @a only minecraft:end/root (da riaggiungere in futuro)
+execute as @a[scores={PID_legacy_v2=730}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_legacy_v2=730}] run advancement revoke @a only minecraft:nether/root
 
 
@@ -68,7 +54,7 @@ execute as @a[scores={PID_legacy_v2=750}] run scoreboard objectives add PID_lega
 
 ##PID_1 - 1.20.5/1.20.6 (LTS ABBILITARE IN 1.21.x, NON RIMUOVERE IL COMMENTO IN SE, AGGIUNGERE QUESTO COMMENTO NEI NUOVI PID)
 
-#Sistemare nella 1.21 o in LTS e abbilitare
+
 ##Overworld
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=100}] run tp @a 280 45 0 0 0
 execute in minecraft:overworld as @a[scores={PID_legacy_v3=150}] run setblock 295 50 2 minecraft:barrel[facing=south,open=false]{Items:[{count:1b,Slot:13b,id:"minecraft:coast_armor_trim_smithing_template"}]} destroy
@@ -146,23 +132,23 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v3=788}] run summon came
 
 
 ###SUBPID LEGACY (AGGIUNGERE TUTTI I SUBPID ATTACCATO AL PID MADRE. SE NON CI SONO SUBPID NON AGGIUNGERE QUESTA SEZIONE)
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=100}] run tp @a -252 60 -476 0 0
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=210}] run setblock -252 52 -476 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=215}] run setblock -252 52 -476 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{count:7b,id:"minecraft:iron_nugget"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=220}] run setblock -262 57 -480 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=225}] run setblock -262 57 -480 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{count:32b,id:"minecraft:clay_ball"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=230}] run setblock -261 53 -478 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=235}] run setblock -261 53 -478 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{count:8b,id:"minecraft:string"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=240}] run setblock -265 47 -471 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=245}] run setblock -265 47 -471 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{count:12b,id:"minecraft:wheat"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=250}] run setblock -249 53 -482 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=255}] run setblock -249 53 -482 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{count:24b,id:"minecraft:brick"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=260}] run setblock -262 57 -471 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=265}] run setblock -262 57 -471 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{count:1b,id:"minecraft:orange_dye"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=270}] run setblock -245 53 -474 minecraft:air replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=275}] run setblock -245 53 -474 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{count:6b,id:"minecraft:blue_dye"}} replace
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=800}] run tp @a 486 55 384 0 0
-execute in minecraft:overworld as @a[scores={PID_legacy_v3=805}] run setblock 486 55 384 minecraft:fletching_table keep
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=800}] run tp @a -252 60 -476 0 0
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=810}] run setblock -252 52 -476 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=815}] run setblock -252 52 -476 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{count:7b,id:"minecraft:iron_nugget"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=820}] run setblock -262 57 -480 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=825}] run setblock -262 57 -480 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{count:32b,id:"minecraft:clay_ball"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=830}] run setblock -261 53 -478 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=835}] run setblock -261 53 -478 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{count:8b,id:"minecraft:string"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=840}] run setblock -265 47 -471 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=845}] run setblock -265 47 -471 minecraft:decorated_pot[cracked=false,facing=south,waterlogged=false]{item:{count:12b,id:"minecraft:wheat"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=850}] run setblock -249 53 -482 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=855}] run setblock -249 53 -482 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{count:24b,id:"minecraft:brick"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=860}] run setblock -262 57 -471 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=865}] run setblock -262 57 -471 minecraft:decorated_pot[cracked=false,facing=west,waterlogged=false]{item:{count:1b,id:"minecraft:orange_dye"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=870}] run setblock -245 53 -474 minecraft:air replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=875}] run setblock -245 53 -474 minecraft:decorated_pot[cracked=false,facing=north,waterlogged=false]{item:{count:6b,id:"minecraft:blue_dye"}} replace
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=900}] run tp @a 486 55 384 0 0
+execute in minecraft:overworld as @a[scores={PID_legacy_v3=905}] run setblock 486 55 384 minecraft:fletching_table keep
 
 
 ##The Nether
@@ -177,17 +163,16 @@ execute in minecraft:overworld as @a[scores={PID_legacy_v3=960}] run tp @a 0 66 
 
 ##PID LEGACY SETUP - v3 (Aggiornato all'ultima versione: 5.2.0 Minecraft: 1.20.5) Ricordati di aggiornare UPDATE ID e di aggiungere l'ultima conversione. ricordarsi di rimuovere i pid secondari come PID_1_1 nella stessa categoria.
 execute as @a[scores={PID_legacy_v3=1..5000}] run gamemode spectator @a
-execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a blindness 11 0 true
-execute as @a[scores={PID_legacy_v3=10..600}] run effect give @a night_vision 11 0 true
+execute as @a[scores={PID_legacy_v3=10..900}] run effect give @a blindness 11 0 true
+execute as @a[scores={PID_legacy_v3=10..900}] run effect give @a night_vision 11 0 true
 execute as @a[scores={PID_legacy_v3=1..801}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={PID_legacy_v3=740}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
-#execute as @a[scores={PID_legacy_v1=745}] run scoreboard objectives add 1.21_PID_2 dummy - aggiungere in futuro il Pid legacy v1 qui
+execute as @a[scores={PID_legacy_v3=940}] run playsound minecraft:block.note_block.bell ambient @a 0 66 0 100 2
 execute as @a[scores={PID_legacy_v3=950}] run scoreboard objectives add PID_legacy dummy
 
 
 ##PID LEGACY STOP (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
 execute as @a[scores={PID_0=1..}] run scoreboard players set @a 1.20.6_PID_0 -100
-#execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.6_PID_0 -100
+execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.6_PID_0 -100
 
 
 ##PID LEGACY REMOVE (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE TUTTO)

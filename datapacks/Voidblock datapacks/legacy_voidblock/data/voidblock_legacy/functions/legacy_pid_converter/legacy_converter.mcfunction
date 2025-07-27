@@ -8,10 +8,8 @@
 ###Voidblock PID Import Converter
 
 
-##Skyblock Classic Edition Legacy (1.x.x)
-execute as @a[scores={skyblock=140..}] run scoreboard objectives add Voidblock_import minecraft.custom:minecraft.play_time
-execute as @a[scores={skyblock=140..}] run effect give @a minecraft:slow_falling 180 0 false
-execute as @a[scores={Voidblock_import=100..}] run scoreboard objectives remove skyblock
+##PID LEGACY CONVERTER LTS
+execute as @a[scores={Voidblock_import=150..}] run function voidblock_legacy:legacy_pid
 
 
 ##Skyblock Classic Edition Legacy (2.x.x/3.x.x/4.x.x)
@@ -54,7 +52,6 @@ scoreboard objectives remove structure_skyblock
 scoreboard objectives remove ID_3
 scoreboard objectives remove ID_4
 scoreboard objectives remove ID_5
-scoreboard objectives remove PID_0
 scoreboard objectives remove skyblock_quit_game
 scoreboard objectives remove PID_OLD
 scoreboard objectives remove SkyblockCE_id
@@ -67,10 +64,11 @@ scoreboard objectives remove SkyblockCE_multiplayer_join
 scoreboard objectives remove SkyblockCE_multiplayer_tick
 scoreboard objectives remove SkyblockCE_quit_game
 scoreboard objectives remove SkyblockCE_tp
-scoreboard objectives remove PID_1
 scoreboard objectives remove SkyblockCE_custom_structures
 scoreboard objectives remove Voidblock_debug
 scoreboard objectives remove SkyblockCE_structures_id
+scoreboard objectives remove SkyblockCE_structures
+scoreboard objectives remove SkyblockCE_debug
 scoreboard objectives remove PSN0_OLD_SYSTEM
 scoreboard objectives remove 1.20.5_PSN_0
 scoreboard objectives remove PSN1_OLD_SYSTEM

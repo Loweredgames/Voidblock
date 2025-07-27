@@ -9,7 +9,7 @@
 
 
 ##PID 1.20.5
-#scoreboard objectives remove 1.20.5_PID_0 (da abbilitare nella 1.22 LTS)
+scoreboard objectives remove 1.20.5_PID_0
 
 
 ##PID VECCHISSIMI E NON PIU USATI

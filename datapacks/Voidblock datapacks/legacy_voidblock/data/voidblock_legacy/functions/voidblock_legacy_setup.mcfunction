@@ -11,6 +11,7 @@ function voidblock_legacy:legacy_remove/legacy_structures_system
 function voidblock_legacy:legacy_remove/nightly_building
 function voidblock_legacy:legacy_version
 function voidblock_legacy:legacy_remove/refactoring_scoreboard
+function voidblock_legacy:legacy_pid_converter/legacy_converter
 
 
 ##Function Remove Legacy
