@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "voidblock",
+    "ingredients": [
+      {
+        "item": "minecraft:black_stained_glass"
+      },
+      {
+        "item": "minecraft:black_dye"
+      }
+    ],
+    "result": {
+      "id": "minecraft:tinted_glass",
+      "count": 1
+    }
+}

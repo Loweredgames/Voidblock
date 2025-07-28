@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "group": "voidblock_test",
+  "ingredient": {
+    "item": "minecraft:debug_stick"
+  },
+  "result": {
+    "id": "minecraft:red_dye"
+  },
+  "experience": 2,
+  "cookingtime": 105
+}
