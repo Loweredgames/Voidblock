@@ -1,0 +1,31 @@
+{
+"Name": "Voidblock",
+
+"Edition": "JAVA EDITION",
+
+"Release Versions": "5.3.2 LTS [Rebranding Update]",
+
+"Release Building": "JE-1.20.6-5.3.X-Voidblock:5.3.2_LTS",
+
+"Nightly Building": "JE-1.20.6-5.3.X-Voidblock:NIGHTLY_BUILDING_27.07.2025.11847a_[5.0.0-1.20.X]",
+
+"Data_pack": "TRUE",
+
+"Resource_pack": "TRUE",
+
+"Translations_Version": "Ultimo Aggiornamento delle Traduzioni: 20.05.2025 alle 16:13",
+
+"Custom Structures World": "4.1.0 (della 1.20.6)",
+
+"Protocol Version": "1.20.6_PVN_0",
+
+"Protocol Identifier Data": "1.20.6_PID_0",
+
+"Sub Protocol Identifier Data": "1.20.6_SUBPID_0_1",
+
+"Github_Tag": "1.20.6_JE-5a",
+
+"Github":"https://github.com/Loweredgames/Voidblock",
+
+"Website":"https://loweredgames.github.io./"
+}
