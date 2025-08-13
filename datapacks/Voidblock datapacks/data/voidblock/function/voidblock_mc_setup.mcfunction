@@ -15,6 +15,7 @@ function voidblock:versions/mc1212
 function voidblock:versions/mc1214
 function voidblock:versions/mc1215
 function voidblock:versions/mc1216
+function voidblock:versions/mc1219
 
 
 ##Setup Debug Minecraft (DISABILITARE SE NON SI STA FACENDO IL DEBUG)
@@ -24,6 +25,7 @@ scoreboard players add @a Voidblock_mctest 1
 #scoreboard players add @a Voidblock_mc1214 1
 #scoreboard players add @a Voidblock_mc1215 1
 #scoreboard players add @a Voidblock_mc1216 1
+scoreboard players add @a Voidblock_mc1219 1
 
 
 ##Setup Wall Texts Sign Versions
@@ -37,6 +39,7 @@ scoreboard objectives add Voidblock_mc1212 dummy
 scoreboard objectives add Voidblock_mc1214 dummy
 scoreboard objectives add Voidblock_mc1215 dummy
 scoreboard objectives add Voidblock_mc1216 dummy
+scoreboard objectives add Voidblock_mc1219 dummy
 
 
 ##Scoreboard Debug Loop Minecraft Versions (AGGIUNGERE IL LOOP)
@@ -46,3 +49,4 @@ execute as @a[scores={Voidblock_mc1212=2000000..}] run scoreboard players set @a
 execute as @a[scores={Voidblock_mc1214=2000000..}] run scoreboard players set @a Voidblock_mc1214 10000
 execute as @a[scores={Voidblock_mc1215=2000000..}] run scoreboard players set @a Voidblock_mc1215 10000
 execute as @a[scores={Voidblock_mc1216=2000000..}] run scoreboard players set @a Voidblock_mc1216 10000
+execute as @a[scores={Voidblock_mc1219=2000000..}] run scoreboard players set @a Voidblock_mc1219 10000

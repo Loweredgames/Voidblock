@@ -46,16 +46,22 @@
         "max_format": 81
       },
       {
-        "directory": "voidblock_test",
-        "formats": { "min_inclusive": 83, "max_inclusive": 83 },
-        "min_format": [83, 1],
+        "directory": "voidblock_mc1219",
+        "formats": { "min_inclusive": 82, "max_inclusive": 83 },
+        "min_format": [82, 0],
         "max_format": [83, 1]
+      },
+      {
+        "directory": "voidblock_test",
+        "formats": { "min_inclusive": 25, "max_inclusive": 25 },
+        "min_format": 25,
+        "max_format": 25
       },
       {
         "directory": "legacy_voidblock",
         "formats": { "min_inclusive": 48, "max_inclusive": 81 },
         "min_format": 48,
-        "max_format": 81
+        "max_format": [83, 1]
       }
     ]
   }
