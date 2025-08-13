@@ -25,7 +25,7 @@ scoreboard players add @a Voidblock_mctest 1
 #scoreboard players add @a Voidblock_mc1214 1
 #scoreboard players add @a Voidblock_mc1215 1
 #scoreboard players add @a Voidblock_mc1216 1
-scoreboard players add @a Voidblock_mc1219 1
+#scoreboard players add @a Voidblock_mc1219 1
 
 
 ##Setup Wall Texts Sign Versions
