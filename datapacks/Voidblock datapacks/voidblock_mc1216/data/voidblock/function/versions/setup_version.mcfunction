@@ -7,7 +7,6 @@
 
 ##Voidblock PID INSTALL (AGGIORNARE SE IL PID NEL NUOVO NUMERO)
 execute as @a[scores={Voidblock_install=1..}] run scoreboard players set @a 1.21_PID_0 -10000
-execute as @a[scores={Voidblock_install_test=1..}] run scoreboard players set @a 1.21_PID_0 -10000
 execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a 1.21_PID_0 24000
 
 

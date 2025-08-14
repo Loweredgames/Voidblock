@@ -1,24 +1,27 @@
 {
-	"pack": {
-		"pack_format": 64,
-		"supported_formats": {"min_inclusive": 34, "max_inclusive": 64},
-		"description": "Voidblock By Lorenzo Giannini"
-	},
-	"language":{
-		"it_ch": {
-			"name": "Switzerland",
-			"region": "Swiss German",
-			"bidirectional": false
-		},
-		"itaud": {
-			"name": "(ɐɹdosoʇʇos) ouɐᴉlɐʇI",
-			"region": "Sottosopra Italiano",
-			"bidirectional": false
-		},
-		"tem_us": {
-			"name": "Temmie",
-			"region": "Teh world of NUTDEALER",
-			"bidirectional": false
-		}
-	}
+  "pack": {
+	  "pack_format": 64,
+      "min_format": [65, 0],
+      "max_format": [65, 2],
+    "supported_formats": {
+      "min_inclusive": 34, "max_inclusive": 65 },
+    "description": "Voidblock By Lorenzo Giannini"
+  },
+  "language": {
+    "it_ch": {
+      "name": "Switzerland",
+      "region": "Swiss German",
+      "bidirectional": false
+    },
+    "itaud": {
+      "name": "(ɐɹdosoʇʇos) ouɐᴉlɐʇI",
+      "region": "Sottosopra Italiano",
+      "bidirectional": false
+    },
+    "tem_us": {
+      "name": "Temmie",
+      "region": "Teh world of NUTDEALER",
+      "bidirectional": false
+    }
+  }
 }

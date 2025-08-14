@@ -12,8 +12,6 @@ scoreboard players add @a Voidblock_structures_id 1
 
 
 ##SETUP STRUCTURES (NON TOCCARE)
-execute as @a[scores={Voidblock_test_structures=5..2000}] run summon minecraft:area_effect_cloud ~ ~1 ~
-execute as @a[scores={Voidblock_test_structures=5..505}] run summon minecraft:area_effect_cloud 461 44 351
 execute as @a[scores={Voidblock_test_structures=5}] run scoreboard players set @a Voidblock_tp 0
 execute as @a[scores={Voidblock_test_structures=5..1300}] run gamemode spectator @a
 execute as @a[scores={Voidblock_test_structures=5}] run effect give @a blindness 72 0 true
@@ -100,7 +98,7 @@ scoreboard objectives add Voidblock_final dummy
 
 ##Voidblock FINAL GENERATED ISLANDS (GENERA LA POSIZIONE DEL GIOCATORE QUANDO SONO FINITE LE SCORE)
 execute as @a[scores={Voidblock_final=105}] run scoreboard players set @a Voidblock_tp 0
-execute as @a[scores={Voidblock_custom_structures=5}] run title @a reset
+execute as @a[scores={Voidblock_final=5}] run title @a reset
 execute as @a[scores={Voidblock_final=106}] run title @a title ["",{"text":"Void","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={Voidblock_final=106}] run title @a times 30 100 30
 execute as @a[scores={Voidblock_final=107..200}] run gamerule announceAdvancements true
