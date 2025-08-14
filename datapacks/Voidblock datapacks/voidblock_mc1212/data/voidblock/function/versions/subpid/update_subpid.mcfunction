@@ -18,14 +18,14 @@ execute as @a[scores={Voidblock_subpid_0_mc1212=205}] run playsound minecraft:bl
 
 
 ##Voidblock SUBPID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI)
-execute as @a[scores={Voidblock_subpid_0_mc1212=5}] run tellraw @s [{"translate":"skyblock_classic_edition.versions_id.warning_update.on","color":"#d5d5d5","italic":true},{"text":" - "},{"text":"Voidblock_subpid_0_mc121"}]
+execute as @a[scores={Voidblock_subpid_0_mc1212=5}] run tellraw @s [{"translate":"skyblock_classic_edition.versions_id.warning_update.on","color":"#d5d5d5","italic":true},{"text":" - "},{"text":"Voidblock_subpid_0_mc1212"}]
 
 
 ###Voidblock_subpid_0_mc1212 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
-#execute in minecraft:overworld as @a[scores={Voidblock_subpid_0_mc121=100}] run say not used
+#execute in minecraft:overworld as @a[scores={Voidblock_subpid_0_mc1212=100}] run say not used
 
 
 ##Final Function SUBPID VERSION

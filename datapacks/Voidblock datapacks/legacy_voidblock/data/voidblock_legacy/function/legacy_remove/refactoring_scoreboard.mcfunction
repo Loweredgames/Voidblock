@@ -16,4 +16,3 @@ scoreboard objectives remove Voidblock_mc1215
 scoreboard objectives remove Voidblock_mc1216
 scoreboard objectives remove Voidblock_mc1219
 scoreboard objectives remove Voidblock_mctest
-scoreboard objectives remove 1.21_PID_0

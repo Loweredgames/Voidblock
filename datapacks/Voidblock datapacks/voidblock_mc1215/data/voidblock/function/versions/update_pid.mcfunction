@@ -9,15 +9,15 @@
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE. DISABILITA SE NON C'È NESSUN SUBPID)
-#execute as @a[scores={Voidblock_pid_0_mc1215=250..}] run scoreboard objectives add Voidblock_subpid_0_mc121 dummy
+#execute as @a[scores={Voidblock_pid_0_mc1215=250..}] run scoreboard objectives add Voidblock_subpid_0_mc1215 dummy
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE. DISABILITA SE NON C'È NESSUN SUBPID)
-#execute as @a[scores={Voidblock_subpid_0_mc121=1015..}] run scoreboard objectives add Voidblock_subpid_1_mc121 dummy (per il futuro)
+#execute as @a[scores={Voidblock_subpid_0_mc1215=1015..}] run scoreboard objectives add Voidblock_subpid_1_mc121 dummy (per il futuro)
 
 
 ##SETUP UPDATE SUBPID VERSION (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
-scoreboard players add @a Voidblock_subpid_0_mc121 1
+scoreboard players add @a Voidblock_subpid_0_mc1215 1
 
 
 ##SCOREBOARD START PID VERSION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)

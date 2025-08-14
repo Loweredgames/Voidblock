@@ -17,11 +17,13 @@ scoreboard objectives remove PID_Fix_LTS
 scoreboard objectives remove PID_OLD
 scoreboard objectives remove PSN_OLD
 scoreboard objectives remove PSN_legacy
+scoreboard objectives remove 1.21_PID_0
 scoreboard objectives remove 1.20.5_PID_0
 ## TO DO da fare. rimuovere vecchi PID
 
 
 ##SUBPID
+scoreboard objectives remove 1.20.5_SUBPID_0_1
 scoreboard objectives remove 1.20.3_PID_1_3
 scoreboard objectives remove 1.20.3_PID_1_2
 scoreboard objectives remove 1.20.3_PID_1_1
