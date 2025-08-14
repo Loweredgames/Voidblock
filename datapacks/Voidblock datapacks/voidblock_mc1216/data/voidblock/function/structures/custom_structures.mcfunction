@@ -55,6 +55,5 @@ execute as @a[scores={Voidblock_test_structures=1..}] run scoreboard objectives 
 execute as @a[scores={Voidblock_test_structures=1..}] run scoreboard objectives add Voidblock_custom_structures dummy
 execute as @a[scores={Voidblock_test_structures=1..}] run scoreboard players set @a Voidblock_custom_structures 10005
 execute as @a[scores={Voidblock_custom_structures=2..}] run scoreboard objectives remove Voidblock_test_structures
-execute as @a[scores={Voidblock_custom_structures=10100..}] run scoreboard objectives remove Voidblock_install_test
 execute as @a[scores={Voidblock_custom_structures=10100..}] run scoreboard objectives remove Voidblock_final
 execute as @a[scores={Voidblock_custom_structures=10100..}] run scoreboard objectives remove Voidblock_level_dat

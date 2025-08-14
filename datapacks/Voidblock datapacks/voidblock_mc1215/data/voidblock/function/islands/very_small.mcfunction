@@ -11,7 +11,6 @@
 execute as @a[scores={Voidblock_islands=4}] run scoreboard objectives add Voidblock_very_small minecraft.custom:minecraft.play_time
 execute as @a[scores={Voidblock_islands=4}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
 execute as @a[scores={Voidblock_very_small=1..}] run scoreboard players set @a Voidblock_install -2
-execute as @a[scores={Voidblock_very_small=1..}] run scoreboard players set @a Voidblock_install_test -2
 execute as @a[scores={Voidblock_very_small=1..}] run scoreboard players set @a Voidblock_islands -2
 
 

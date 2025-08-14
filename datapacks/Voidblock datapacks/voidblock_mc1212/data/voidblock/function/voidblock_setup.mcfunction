@@ -15,7 +15,6 @@ function voidblock:voidblock_mc_setup
 function voidblock:structures/custom_structures
 function voidblock:structures/generated_biome
 function voidblock_legacy:voidblock_legacy_setup
-function voidblock:voidblock_test_setup
 function voidblock:versions/changelog/building
 function voidblock:versions/version_pvn
 function voidblock:versions/debug
