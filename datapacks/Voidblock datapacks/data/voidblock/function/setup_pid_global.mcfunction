@@ -14,24 +14,14 @@ function voidblock:versions/subpid/update_subpid
 function voidblock:versions/pid_remove
 
 
-##SCOREBOARD PID INSTALL VERSIONS (AGGIUNGERE QUI TUTTE LE SCOREBOARD PID CON ALLA FINE LA VERSIONE DI MINECRAFT SPECIFICA SENZA IL PUNTO COME: 1212. DISABILITA SE IL PID NON HA CONVERSIONI)
-#scoreboard objectives add Voidblock_pid_mctest dummy
-#scoreboard objectives add Voidblock_pid_mc121 dummy
-#scoreboard objectives add Voidblock_pid_mc1212 dummy
-#scoreboard objectives add Voidblock_pid_mc1214 dummy
-#scoreboard objectives add Voidblock_pid_mc1215 dummy
-#scoreboard objectives add Voidblock_pid_mc1216 dummy
-#scoreboard objectives add Voidblock_pid_mc1219 dummy
-
-
-##SETUP PID VERSIONS
-scoreboard players add @a Voidblock_mctest 1
-scoreboard players add @a Voidblock_pid_mc121 1
-scoreboard players add @a Voidblock_pid_mc1212 1
-scoreboard players add @a Voidblock_pid_mc1214 1
-scoreboard players add @a Voidblock_pid_mc1215 1
-scoreboard players add @a Voidblock_pid_mc1216 1
-scoreboard players add @a Voidblock_pid_mc1219 1
+##SCOREBOARD PID INSTALL VERSIONS (AGGIUNGERE QUI TUTTE LE SCOREBOARD PID CON ALLA FINE LA VERSIONE DI MINECRAFT SPECIFICA SENZA IL PUNTO COME: 1212)
+scoreboard objectives add Voidblock_pid_mctest dummy
+scoreboard objectives add Voidblock_pid_mc121 dummy
+scoreboard objectives add Voidblock_pid_mc1212 dummy
+scoreboard objectives add Voidblock_pid_mc1214 dummy
+scoreboard objectives add Voidblock_pid_mc1215 dummy
+scoreboard objectives add Voidblock_pid_mc1216 dummy
+scoreboard objectives add Voidblock_pid_mc1219 dummy
 
 
 ##SETUP WALL TEXTS SIGN VERSIONS

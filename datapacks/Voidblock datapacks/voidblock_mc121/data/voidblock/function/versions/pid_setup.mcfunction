@@ -17,3 +17,7 @@ execute as @a[scores={Voidblock_id=30}] run scoreboard players set @a Voidblock_
 
 ##VERSION IMPORT LOCK (BLOCCA LA CONVERSIONE SE SI USA IMPORT)
 execute as @a[scores={Voidblock_import=1..100}] run scoreboard players set @a Voidblock_pid_mc121 2400
+
+
+##SCOREBOARD SETUP
+scoreboard players add @a Voidblock_pid_mc121 1

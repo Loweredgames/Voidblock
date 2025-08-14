@@ -20,8 +20,8 @@
 scoreboard players add @a Voidblock_subpid_0_mc121 1
 
 
-##SCOREBOARD START PID VERSION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA.)
-execute as @a[scores={Voidblock_final=351}] run scoreboard players set @a Voidblock_pid_mc121 -250
+##SCOREBOARD START PID VERSION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
+execute as @a[scores={Voidblock_final=351}] run scoreboard players set @a Voidblock_pid_mc121 -50
 execute as @a[scores={Voidblock_pid_mc121=5..100}] run gamemode spectator @a
 execute as @a[scores={Voidblock_pid_mc121=5}] run time set 0
 execute as @a[scores={Voidblock_pid_mc121=5}] run gamerule doImmediateRespawn true
@@ -35,7 +35,7 @@ execute as @a[scores={Voidblock_pid_mc121=205}] run playsound minecraft:block.no
 
 
 ##Overworld
-execute as @a[scores={Voidblock_pid_mc121=205..211}] run say Hello 1.21/1.21.1!
+
 
 ##The Nether
 
@@ -43,7 +43,7 @@ execute as @a[scores={Voidblock_pid_mc121=205..211}] run say Hello 1.21/1.21.1!
 ##The End (???)
 
 
-##FINAL GENERATED PID VERSION FUNCTION (DISABILITARE TUTTO SE NON C'E NESSUN PID)
+##FINAL GENERATED PID VERSION FUNCTION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
 execute as @a[scores={Voidblock_pid_mc121=201}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={Voidblock_pid_mc121=201}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={Voidblock_pid_mc121=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
@@ -52,4 +52,4 @@ execute as @a[scores={Voidblock_pid_mc121=207}] run tellraw @a {"translate":"sky
 execute as @a[scores={Voidblock_pid_mc121=210}] run time set 0
 execute as @a[scores={Voidblock_pid_mc121=211}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
 execute in minecraft:overworld at @a[scores={Voidblock_pid_mc121=205}] run tp @a 0 66 0 90 0
-execute as @a[scores={Voidblock_pid_mc121=211}] run gamemode survival @a
+execute as @a[scores={Voidblock_pid_mc121=212}] run gamemode survival @a

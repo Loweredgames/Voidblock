@@ -40,7 +40,7 @@ execute as @a[scores={Voidblock_debug=9}] run scoreboard objectives setdisplay s
 
 ##DISPLAY DI DEBUG - TEST
 execute as @a[scores={Voidblock_debug=10}] run scoreboard objectives setdisplay sidebar Voidblock_structures_id
-execute as @a[scores={Voidblock_debug=11}] run scoreboard objectives setdisplay sidebar Voidblock_custom_structures
+execute as @a[scores={Voidblock_debug=11}] run scoreboard objectives setdisplay sidebar Voidblock_structures
 
 
 ##DISPLAY DI DEBUG - ISLANDS GENERATED

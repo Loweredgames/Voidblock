@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update SUBPID - Voidblock_subpid_0_mc121
+##Setup Update SUBPID - Voidblock_subpid_0_mc1219
 
 
 ##Scoreboard Start SUBPID VERSION
@@ -21,7 +21,7 @@ execute as @a[scores={Voidblock_subpid_0_mc121=205}] run playsound minecraft:blo
 execute as @a[scores={Voidblock_subpid_0_mc121=5}] run tellraw @s [{"translate":"skyblock_classic_edition.versions_id.warning_update.on","color":"#d5d5d5","italic":true},{"text":" - "},{"text":"Voidblock_subpid_0_mc121"}]
 
 
-###Voidblock_subpid_0_mc121 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###Voidblock_subpid_0_mc1219 (SPOSTARE "SUBPID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
