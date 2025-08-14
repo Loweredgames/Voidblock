@@ -8,8 +8,8 @@
 ###PID REMOVE BUILDING (AGGIUNGERE I PID VECCHI E NON PIU USATI, I PID DOPO UN PO VERRANO RIMOSSI, MASSIMO: 20 E POI SI RIMUOVE L'ULTIMO)
 
 
-##Voidblock_pid_mc121
-#scoreboard objectives remove Voidblock_pid_mc121 (da abbilitare nella 1.22 LTS)
+##Voidblock_pid_0_mc121
+#scoreboard objectives remove Voidblock_pid_0_mc121 (da abbilitare nella 1.22 LTS)
 
 
 ##PID VECCHISSIMI E NON PIU USATI (da rimuovere nella 1.23)

@@ -6,8 +6,8 @@
 
 
 ##Voidblock PID INSTALL (AGGIORNARE SE IL PID NEL NUOVO NUMERO)
-execute as @a[scores={Voidblock_install=1..}] run scoreboard players set @a Voidblock_pid_mc1216 -10000
-execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_pid_mc1216 24000
+execute as @a[scores={Voidblock_install=1..}] run scoreboard players set @a Voidblock_pid_0_mc1216 -10000
+execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_pid_0_mc1216 24000
 
 
 ##Voidblock PID VERSIONS (LASCIARE SEMPRE COSI)
@@ -15,9 +15,9 @@ function voidblock:versions/pid_setup
 
 
 ##Voidblock PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI, DISABILITARE LA SECONDA RIGA SE C'E IL PID)
-#execute as @a[scores={Voidblock_pid_mc1216=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
-execute as @a[scores={Voidblock_pid_mc1216=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
-execute as @a[scores={Voidblock_pid_mc1216=35..100},gamemode=spectator] run gamemode survival @a
+#execute as @a[scores={Voidblock_pid_0_mc1216=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
+execute as @a[scores={Voidblock_pid_0_mc1216=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
+execute as @a[scores={Voidblock_pid_0_mc1216=35..100},gamemode=spectator] run gamemode survival @a
 
 
 ##Voidblock LTS WARNING (SOLO QUANDO LTS STA PER FINIRE, TEMPO PER AVVISARE I GIOCATORI CHE LA VERSIONE STA DIVENTANDO OBSOLETA, ATTIVARE QUANDO C'E LA PENULTIMA VERSIONE LTS. DISABILITARE QUANDO SI ATTIVA LA VERSIONE OBSOLETA SOTTO.)

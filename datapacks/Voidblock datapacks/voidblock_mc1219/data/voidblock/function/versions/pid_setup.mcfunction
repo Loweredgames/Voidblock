@@ -6,18 +6,18 @@
 
 
 ##PID LEGACY REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
-execute as @a[scores={Voidblock_pid_mc1219=1000..}] run scoreboard objectives remove PID_legacy_v1
-execute as @a[scores={Voidblock_pid_mc1219=1000..}] run scoreboard objectives remove PID_legacy_v2
-execute as @a[scores={Voidblock_pid_mc1219=1000..}] run scoreboard objectives remove PID_legacy_v3
+execute as @a[scores={Voidblock_pid_0_mc1219=1000..}] run scoreboard objectives remove PID_legacy_v1
+execute as @a[scores={Voidblock_pid_0_mc1219=1000..}] run scoreboard objectives remove PID_legacy_v2
+execute as @a[scores={Voidblock_pid_0_mc1219=1000..}] run scoreboard objectives remove PID_legacy_v3
 
 
 ##SETUP VERSION Voidblock_ID (CAMBIARE LA SCORE IN "Voidblock_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
-execute as @a[scores={Voidblock_id=30}] run scoreboard players set @a Voidblock_pid_mc1219 -100
+execute as @a[scores={Voidblock_id=30}] run scoreboard players set @a Voidblock_pid_0_mc1219 -100
 
 
 ##VERSION IMPORT LOCK (BLOCCA LA CONVERSIONE SE SI USA IMPORT)
-execute as @a[scores={Voidblock_import=1..100}] run scoreboard players set @a Voidblock_pid_mc1219 2400
+execute as @a[scores={Voidblock_import=1..100}] run scoreboard players set @a Voidblock_pid_0_mc1219 2400
 
 
 ##SCOREBOARD SETUP
-scoreboard players add @a Voidblock_pid_mc1219 1
+scoreboard players add @a Voidblock_pid_0_mc1219 1
