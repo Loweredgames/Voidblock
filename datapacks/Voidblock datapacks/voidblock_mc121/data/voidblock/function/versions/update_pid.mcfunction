@@ -50,6 +50,6 @@ execute as @a[scores={Voidblock_pid_mc121=205}] run tellraw @a ["",{"text":"Due 
 execute as @a[scores={Voidblock_pid_mc121=206}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.crowdin.info","color":"yellow","clickEvent":{"action":"open_url","value":"https://crowdin.com/project/skyblock-classic-edition"}}
 execute as @a[scores={Voidblock_pid_mc121=207}] run tellraw @a {"translate":"skyblock_classic_edition.version_update.discord","underlined":true,"color":"light_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/T6PHxhznJ6"}}
 execute as @a[scores={Voidblock_pid_mc121=210}] run time set 0
-execute as @a[scores={Voidblock_pid_mc121=211}] run playsound minecraft:music_disc.relic ambient @a 0 65 0 10000 1
+execute as @a[scores={Voidblock_pid_mc121=211}] run playsound minecraft:music.menu ambient @a 0 65 0
 execute in minecraft:overworld at @a[scores={Voidblock_pid_mc121=205}] run tp @a 0 66 0 90 0
 execute as @a[scores={Voidblock_pid_mc121=212}] run gamemode survival @a
