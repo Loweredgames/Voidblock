@@ -11,7 +11,7 @@ function voidblock:islands/large
 function voidblock:islands/small
 function voidblock:islands/very_small
 function voidblock:import
-function voidblock:voidblock_mc_setup
+function voidblock:setup_pid_global
 function voidblock:structures/custom_structures
 function voidblock:structures/generated_biome
 function voidblock_legacy:voidblock_legacy_setup

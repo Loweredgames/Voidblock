@@ -1,0 +1,48 @@
+#Copyright (C) Loweredgames (Lorenzo Giannini)
+#Contacted:<https://github.com/Loweredgames>
+#This Source Code Form is subject to the terms of the License.
+#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
+#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
+
+
+#TO DO:FORSE DIVENTERA IL NUOVO PID???? ------------------ AGGIUNGERE LE FEATURES DI MINECRAFT DI COMPATIBILITA SE E NECCESARIO (COME UN CAMBIO DI FORMAT DEL WORLD GEN NELLA 1.21.2. QUINDI AGGIUNGERE LA CARTELLA WORLDGEN CON QUEL FORMATO) CAMBIARE NEL PACK IL FORMATO DELLA/DELLE VERSIONI SPECIFICHE. SE NON SERVE DISABILITA.
+
+
+##FUNCTION Setup PID VERSIONS (AGGIUNGERE QUI TUTTE LE FUNZIONI SE SERVONO CON ALLA FINE LA VERSIONE SPECIFICA SENZA IL PUNTO COME: 121, 1212 ecc...)
+function voidblock:versions/update_pid
+function voidblock:versions/subpid/update_subpid
+function voidblock:versions/pid_remove
+
+
+##SCOREBOARD PID INSTALL VERSIONS (AGGIUNGERE QUI TUTTE LE SCOREBOARD PID CON ALLA FINE LA VERSIONE DI MINECRAFT SPECIFICA SENZA IL PUNTO COME: 1212. DISABILITA SE IL PID NON HA CONVERSIONI)
+#scoreboard objectives add Voidblock_pid_mctest dummy
+#scoreboard objectives add Voidblock_pid_mc121 dummy
+#scoreboard objectives add Voidblock_pid_mc1212 dummy
+#scoreboard objectives add Voidblock_pid_mc1214 dummy
+#scoreboard objectives add Voidblock_pid_mc1215 dummy
+#scoreboard objectives add Voidblock_pid_mc1216 dummy
+#scoreboard objectives add Voidblock_pid_mc1219 dummy
+
+
+##SETUP PID VERSIONS
+scoreboard players add @a Voidblock_mctest 1
+scoreboard players add @a Voidblock_pid_mc121 1
+scoreboard players add @a Voidblock_pid_mc1212 1
+scoreboard players add @a Voidblock_pid_mc1214 1
+scoreboard players add @a Voidblock_pid_mc1215 1
+scoreboard players add @a Voidblock_pid_mc1216 1
+scoreboard players add @a Voidblock_pid_mc1219 1
+
+
+##SETUP WALL TEXTS SIGN VERSIONS
+function voidblock:structures/wall_texts_sign
+
+
+##SCOREBOARD PID VERSIONS RESET LOOP (AGGIUNGERE IL LOOP)
+execute as @a[scores={Voidblock_pid_mctest=2000000..}] run scoreboard players set @a Voidblock_pid_mctest 10000
+execute as @a[scores={Voidblock_pid_mc121=2000000..}] run scoreboard players set @a Voidblock_pid_mc121 10000
+execute as @a[scores={Voidblock_pid_mc1212=2000000..}] run scoreboard players set @a Voidblock_pid_mc1212 10000
+execute as @a[scores={Voidblock_pid_mc1214=2000000..}] run scoreboard players set @a Voidblock_pid_mc1214 10000
+execute as @a[scores={Voidblock_pid_mc1215=2000000..}] run scoreboard players set @a Voidblock_pid_mc1215 10000
+execute as @a[scores={Voidblock_pid_mc1216=2000000..}] run scoreboard players set @a Voidblock_pid_mc1216 10000
+execute as @a[scores={Voidblock_pid_mc1219=2000000..}] run scoreboard players set @a Voidblock_pid_mc1219 10000

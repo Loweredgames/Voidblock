@@ -7,7 +7,7 @@
 
 "Release Building": "JE-1.21>1.21.9-7.0.2-Voidblock:7.0.2",
 
-"Nightly Building": "JE-1.21>1.21.9-7.0.2-Voidblock:NIGHTLY_BUILDING_13.08.2025.41636a_[main]",
+"Nightly Building": "JE-1.21>1.21.9-7.0.2-Voidblock:NIGHTLY_BUILDING_13.08.2025.41636a_[refactoring_PID]",
 
 "Data_pack": "TRUE",
 
@@ -18,10 +18,6 @@
 "Custom Structures World": "4.1.0",
 
 "Protocol Version": "1.21.8_PVN_0",
-
-"Protocol Identifier Data": "1.21_PID_0",
-
-"Sub Protocol Identifier Data": "1.21_SUBPID_0_0",
 
 "Github_Tag": "1.21.8_JE-0",
 
