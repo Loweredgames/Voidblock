@@ -17,10 +17,10 @@ function voidblock:structures/wall_texts_sign
 
 
 ##SCOREBOARD PID VERSIONS RESET LOOP (AGGIUNGERE IL LOOP)
-execute as @a[scores={Voidblock_pid_1_mctest=2000000..}] run scoreboard players set @a Voidblock_pid_1_mctest 10000
-execute as @a[scores={Voidblock_pid_1_mc121=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc121 10000
-execute as @a[scores={Voidblock_pid_1_mc1212=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1212 10000
-execute as @a[scores={Voidblock_pid_1_mc1214=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1214 10000
-execute as @a[scores={Voidblock_pid_1_mc1215=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1215 10000
-execute as @a[scores={Voidblock_pid_1_mc1216=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1216 10000
-execute as @a[scores={Voidblock_pid_1_mc1219=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1219 10000
+execute as @a[scores={PID_1_mctest=2000000..}] run scoreboard players set @a PID_1_mctest 10000
+execute as @a[scores={PID_1_mc121=2000000..}] run scoreboard players set @a PID_1_mc121 10000
+execute as @a[scores={PID_1_mc1212=2000000..}] run scoreboard players set @a PID_1_mc1212 10000
+execute as @a[scores={PID_1_mc1214=2000000..}] run scoreboard players set @a PID_1_mc1214 10000
+execute as @a[scores={PID_1_mc1215=2000000..}] run scoreboard players set @a PID_1_mc1215 10000
+execute as @a[scores={PID_1_mc1216=2000000..}] run scoreboard players set @a PID_1_mc1216 10000
+execute as @a[scores={PID_1_mc1219=2000000..}] run scoreboard players set @a PID_1_mc1219 10000

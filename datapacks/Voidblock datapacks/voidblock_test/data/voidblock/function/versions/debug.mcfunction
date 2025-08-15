@@ -27,7 +27,7 @@ execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay s
 
 
 ##DISPLAY DI DEBUG - PID
-execute as @a[scores={Voidblock_debug=7}] run scoreboard objectives setdisplay sidebar Voidblock_pid_1_mctest
+execute as @a[scores={Voidblock_debug=7}] run scoreboard objectives setdisplay sidebar PID_1_mctest
 execute as @a[scores={Voidblock_debug=-71}] run scoreboard objectives setdisplay sidebar PID_0
 execute as @a[scores={Voidblock_debug=-72}] run scoreboard objectives setdisplay sidebar PID_1
 execute as @a[scores={Voidblock_debug=8}] run scoreboard objectives setdisplay list PID_warning
