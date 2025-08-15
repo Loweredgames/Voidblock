@@ -16,3 +16,27 @@ scoreboard objectives remove Voidblock_mc1215
 scoreboard objectives remove Voidblock_mc1216
 scoreboard objectives remove Voidblock_mc1219
 scoreboard objectives remove Voidblock_mctest
+
+
+# PICCOLO TEST PER I NUOVI PID (DA RIMUOVERE NELLA 1.22)
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mctest dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mc121 dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mc1212 dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mc1214 dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mc1215 dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mc1216 dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard objectives add Voidblock_pid_0_mc1219 dummy
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mctest 1000
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mc121 1000
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mc1212 1000
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mc1214 1000
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mc1215 1000
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mc1216 1000
+execute as @a[scores={1.21_PID_0=0..}] run scoreboard players set @a Voidblock_pid_1_mc1219 1000
+execute as @a[scores={Voidblock_pid_1_mctest=100..}] run scoreboard objectives remove 1.21_PID_0
+execute as @a[scores={Voidblock_pid_1_mc121=100..}] run scoreboard objectives remove 1.21_PID_0
+execute as @a[scores={Voidblock_pid_1_mc1212=100..}] run scoreboard objectives remove 1.21_PID_0
+execute as @a[scores={Voidblock_pid_1_mc1214=100..}] run scoreboard objectives remove 1.21_PID_0
+execute as @a[scores={Voidblock_pid_1_mc1215=100..}] run scoreboard objectives remove 1.21_PID_0
+execute as @a[scores={Voidblock_pid_1_mc1216=100..}] run scoreboard objectives remove 1.21_PID_0
+execute as @a[scores={Voidblock_pid_1_mc1219=100..}] run scoreboard objectives remove 1.21_PID_0

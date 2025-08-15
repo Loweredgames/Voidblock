@@ -9,16 +9,17 @@
 function voidblock:versions/update_pid
 function voidblock:versions/subpid/update_subpid
 function voidblock:versions/pid_remove
+function voidblock:versions/old_pid
 
 
 ##SCOREBOARD PID INSTALL VERSIONS (AGGIUNGERE QUI TUTTE LE SCOREBOARD PID CON ALLA FINE LA VERSIONE DI MINECRAFT SPECIFICA SENZA IL PUNTO COME: 1212)
-scoreboard objectives add Voidblock_pid_0_mctest dummy
-scoreboard objectives add Voidblock_pid_0_mc121 dummy
-scoreboard objectives add Voidblock_pid_0_mc1212 dummy
-scoreboard objectives add Voidblock_pid_0_mc1214 dummy
-scoreboard objectives add Voidblock_pid_0_mc1215 dummy
-scoreboard objectives add Voidblock_pid_0_mc1216 dummy
-scoreboard objectives add Voidblock_pid_0_mc1219 dummy
+scoreboard objectives add Voidblock_pid_1_mctest dummy
+scoreboard objectives add Voidblock_pid_1_mc121 dummy
+scoreboard objectives add Voidblock_pid_1_mc1212 dummy
+scoreboard objectives add Voidblock_pid_1_mc1214 dummy
+scoreboard objectives add Voidblock_pid_1_mc1215 dummy
+scoreboard objectives add Voidblock_pid_1_mc1216 dummy
+scoreboard objectives add Voidblock_pid_1_mc1219 dummy
 
 
 ##SETUP WALL TEXTS SIGN VERSIONS
@@ -26,10 +27,10 @@ function voidblock:structures/wall_texts_sign
 
 
 ##SCOREBOARD PID VERSIONS RESET LOOP (AGGIUNGERE IL LOOP)
-execute as @a[scores={Voidblock_pid_0_mctest=2000000..}] run scoreboard players set @a Voidblock_pid_0_mctest 10000
-execute as @a[scores={Voidblock_pid_0_mc121=2000000..}] run scoreboard players set @a Voidblock_pid_0_mc121 10000
-execute as @a[scores={Voidblock_pid_0_mc1212=2000000..}] run scoreboard players set @a Voidblock_pid_0_mc1212 10000
-execute as @a[scores={Voidblock_pid_0_mc1214=2000000..}] run scoreboard players set @a Voidblock_pid_0_mc1214 10000
-execute as @a[scores={Voidblock_pid_0_mc1215=2000000..}] run scoreboard players set @a Voidblock_pid_0_mc1215 10000
-execute as @a[scores={Voidblock_pid_0_mc1216=2000000..}] run scoreboard players set @a Voidblock_pid_0_mc1216 10000
-execute as @a[scores={Voidblock_pid_0_mc1219=2000000..}] run scoreboard players set @a Voidblock_pid_0_mc1219 10000
+execute as @a[scores={Voidblock_pid_1_mctest=2000000..}] run scoreboard players set @a Voidblock_pid_1_mctest 10000
+execute as @a[scores={Voidblock_pid_1_mc121=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc121 10000
+execute as @a[scores={Voidblock_pid_1_mc1212=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1212 10000
+execute as @a[scores={Voidblock_pid_1_mc1214=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1214 10000
+execute as @a[scores={Voidblock_pid_1_mc1215=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1215 10000
+execute as @a[scores={Voidblock_pid_1_mc1216=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1216 10000
+execute as @a[scores={Voidblock_pid_1_mc1219=2000000..}] run scoreboard players set @a Voidblock_pid_1_mc1219 10000
