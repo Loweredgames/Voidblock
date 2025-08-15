@@ -18,6 +18,7 @@ scoreboard objectives remove PID_OLD
 scoreboard objectives remove PSN_OLD
 scoreboard objectives remove PSN_legacy
 scoreboard objectives remove 1.20.5_PID_0
+scoreboard objectives remove PID_legacy
 ## TO DO da fare. rimuovere vecchi PID
 
 
