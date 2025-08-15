@@ -12,16 +12,6 @@ function voidblock:versions/pid_remove
 function voidblock:versions/old_pid
 
 
-##SCOREBOARD PID INSTALL VERSIONS (AGGIUNGERE QUI TUTTE LE SCOREBOARD PID CON ALLA FINE LA VERSIONE DI MINECRAFT SPECIFICA SENZA IL PUNTO COME: 1212)
-scoreboard objectives add Voidblock_pid_1_mctest dummy
-scoreboard objectives add Voidblock_pid_1_mc121 dummy
-scoreboard objectives add Voidblock_pid_1_mc1212 dummy
-scoreboard objectives add Voidblock_pid_1_mc1214 dummy
-scoreboard objectives add Voidblock_pid_1_mc1215 dummy
-scoreboard objectives add Voidblock_pid_1_mc1216 dummy
-scoreboard objectives add Voidblock_pid_1_mc1219 dummy
-
-
 ##SETUP WALL TEXTS SIGN VERSIONS
 function voidblock:structures/wall_texts_sign
 

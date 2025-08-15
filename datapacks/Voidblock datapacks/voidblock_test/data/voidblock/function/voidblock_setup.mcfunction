@@ -11,7 +11,7 @@ function voidblock:islands/large
 function voidblock:islands/small
 function voidblock:islands/very_small
 function voidblock:import
-function voidblock:setup_pid_global
+function voidblock:setup_global
 function voidblock:structures_test/generated_test_structures
 function voidblock:structures_test/generated_biome
 function voidblock:structures_test/warning_message/fix_custom_world

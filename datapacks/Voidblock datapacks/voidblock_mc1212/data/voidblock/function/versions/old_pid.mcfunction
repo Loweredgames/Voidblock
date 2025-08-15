@@ -29,6 +29,12 @@ scoreboard objectives add PID_old_v2 dummy
 scoreboard objectives add PID_old_v3 dummy
 
 
+##PID VERSION OLD REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
+execute as @a[scores={Voidblock_pid_1_mc1212=1000..}] run scoreboard objectives remove PID_old_v1
+execute as @a[scores={Voidblock_pid_1_mc1212=1000..}] run scoreboard objectives remove PID_old_v2
+execute as @a[scores={Voidblock_pid_1_mc1212=1000..}] run scoreboard objectives remove PID_old_v3
+
+
 ###FUNCTION PID OLD v1 - Voidblock_pid_0_mc1212 - 1.21.2/1.21.3 (NON RIMUOVERE IL COMMENTO IN SE)
 
 

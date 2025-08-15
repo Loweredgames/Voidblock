@@ -5,10 +5,9 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##PID LEGACY REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
-execute as @a[scores={Voidblock_pid_1_mc1219=1000..}] run scoreboard objectives remove PID_old_v1
-execute as @a[scores={Voidblock_pid_1_mc1219=1000..}] run scoreboard objectives remove PID_old_v2
-execute as @a[scores={Voidblock_pid_1_mc1219=1000..}] run scoreboard objectives remove PID_old_v3
+##SCOREBOARD PID INSTALL SETUP (INCREMENTARE IL NUMERO SE SERVE UNA NUOVA CONVERSIONE)
+scoreboard objectives add Voidblock_pid_1_mc1219 dummy
+scoreboard players add @a Voidblock_pid_1_mc1219 1
 
 
 ##SETUP VERSION Voidblock_ID (CAMBIARE LA SCORE IN "Voidblock_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
@@ -17,7 +16,3 @@ execute as @a[scores={Voidblock_id=30}] run scoreboard players set @a Voidblock_
 
 ##VERSION IMPORT LOCK (BLOCCA LA CONVERSIONE SE SI USA IMPORT)
 execute as @a[scores={Voidblock_import=1..100}] run scoreboard players set @a Voidblock_pid_1_mc1219 2400
-
-
-##SCOREBOARD SETUP
-scoreboard players add @a Voidblock_pid_1_mc1219 1
