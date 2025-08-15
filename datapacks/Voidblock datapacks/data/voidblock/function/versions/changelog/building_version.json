@@ -19,6 +19,10 @@
 
 "Protocol Version": "1.21.8_PVN_0",
 
+"Protocol Identifier Data": "PID_1_mc1219",
+
+"Sub Protocol Identifier Data": "SUBPID_1_mc1219",
+
 "Github_Tag": "1.21.8_JE-0",
 
 "Github":"https://github.com/Loweredgames/Voidblock",
