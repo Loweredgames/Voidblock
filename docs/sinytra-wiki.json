@@ -1,6 +1,6 @@
 {
     "id": "voidblock-portable",
-    "modid": "voidblock_portable",
+    "modid": "voidblock-portable",
     "owners": [ "Loweredgames" ],
     "platforms": {
         "curseforge": "voidblock-portable-version",
