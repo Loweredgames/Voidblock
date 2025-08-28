@@ -2,7 +2,6 @@
     "id": "voidblock-portable",
     "modid": "voidblock-portable",
     "platforms": {
-        "curseforge": "voidblock-portable-version",
         "modrinth": "voidblock-portable"
     }
 }
