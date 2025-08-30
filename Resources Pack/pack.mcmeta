@@ -2,9 +2,9 @@
   "pack": {
 	  "pack_format": 64,
       "min_format": [65, 0],
-      "max_format": [65, 2],
+      "max_format": [67, 0],
     "supported_formats": {
-      "min_inclusive": 34, "max_inclusive": 65 },
+      "min_inclusive": 34, "max_inclusive": 64 },
     "description": "Voidblock By Lorenzo Giannini"
   },
   "language": {
