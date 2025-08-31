@@ -3,7 +3,7 @@
     "owners": [ "Loweredgames" ],
     "modid": "voidblock-portable",
     "platforms": {
-        "curseforge": "1118993",
-        "modrinth": "voidblock-portable"
+        "modrinth": "voidblock-portable",
+        "curseforge": "1118993"
     }
 }
