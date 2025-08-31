@@ -2,9 +2,10 @@
     "id": "voidblock-portable",
     "owners": [ "Loweredgames" ],
     "modid": "voidblock-portable",
+    "slug": "voidblock-portable-version",
     "platforms": {
         "modrinth": "voidblock-portable",
-        "curseforge": "1118993"
+        "curseforge": "voidblock-portable-version"
     },
     "versions": {
         "1.21.8": "1.21.X",
