@@ -12,10 +12,10 @@
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶کوچک (سخت)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "این جزیره بسیار یادآور اسکای بلاک 2.0 اصلی است اما برای نسخه های جدید ماینکرفت مدرن‌سازی شده است. برای کسانی که عاشق چالش های دشوار هستند و تمام ترفندها و مفاهیم فنی حالت بقای وانیلا را می‌دانند.",
     "skyblock_classic_edition.skyblock_setup.very_small_hard": "▶خیلی کوچک (افراطی)",
-    "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "This island is extreme and not suitable for new players, but only for those who are looking for the thrill of pure vanilla technical and who know Minecraft to the extreme of technical. It is recommended to play with hardcore mode turned on.",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "این جزیره بسیار سخت است و برای بازیکنان جدید مناسب نیست، بلکه فقط برای افرادی است که دنبال هیجان خالص خام فنی هستند و افرادی که ماینکرفت را به‌شدت تکنیکی بلدند. توصیه می شود با حالت هاردکور روشن آن را بازی کنید.",
     "skyblock_classic_edition.skyblock_setup.import": "▶وارد کردن دنیا",
-    "skyblock_classic_edition.skyblock_setup.import.info": "Allows you to import a world other than the Voidblock, which can be another Skyblock. adds all the necessary scoreboards without damaging the world and pre-existing structures, also creates a small glass platform if there is nothing. USE WITH CAUTION: THE FUNCTION DOES NOT GENERATE ANY ISLAND, MAKING THE MAP ITSELF AND THE RESOURCES IMPOSSIBLE. IF NO BIOME/STRUCTURE IS GENERATED, IT IS A BUG: MAKE A BACKUP, PUT THE ITEMS IN A CHEST AND REPLACE THE LEVEL.DAT WITH THE OLD ONE.",
-    "skyblock_classic_edition.skyblock_setup.help_keybind": "Open the chat/command with ",
+    "skyblock_classic_edition.skyblock_setup.import.info": "این امکان را به شما می‌دهد که جهانی غیر از ویدبلاک را وارد کنید، که می‌تواند اسکای بلاک دیگری باشد. تمام تابلوهای امتیاز مورد نیاز را بدون آسیب به دنیا و سازه‌های موجود اضافه می‌کند و همچنین اگر در آنجا چیزی وجود نداشته باشد، یک پلتفرم کوچک شیشه‌ای ایجاد می‌کند. با احتیاط استفاده کنید: این عملکرد هیچ جزیره‌ای تولید نمی‌کند، که مپ و منابع را غیرممکن می‌سازد. اگر هیچ بایوم/سازه‌ای تولید نشد، این یک باگ است: یک نسخه پشتیبان تهیه کنید، وسایل خود را در یک صندوقچه قرار دهید و فایل LEVEL.DAT را با نسخه قدیمی‌اش جایگزین کنید.",
+    "skyblock_classic_edition.skyblock_setup.help_keybind": "چت/دستور را با این باز کنید ",
     "skyblock_classic_edition.skyblock_test_setup": "شما در حال استفاده از یک نسخه دیگر برای آزمایش داخلی هستید که وقتی به کار می‌رود که دنیای سفارشی با نسخه اصلی سازگار نیست. ممکن است چندین مشکل جدی یا باگ‌های بحرانی وجود داشته باشند: این نسخه شامل یک دنیای خالی و فقط یک بایوم (تایگای برفی) است، level.dat و level.dat_old فقط یک بایوم را ذخیره می‌کنند و دارای سازه‌های آزمایشی از پیش ساخته شده هستند، اگر می‌خواهید که به یک دنیای عادی با بایوم‌ها و سازه‌های متنوع ساخته‌شده با روش های وانیلا تغییر دهید لازم است که دیتاپک را با level.dat سازگار جایگزین کنید یا مپ را مجددا و با یک نسخه جدیدتر نصب کنید. این نسخه در توسعه انتشار با دنیای سفارشی جایگزین خواهد شد. پیشنهاد می‌شود که دنیا را نسازید و برای انتشار منتظر بمانید.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "از نسخه:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "به",
@@ -33,7 +33,7 @@
     "skyblock_classic_edition.version_update.discord": "همچنین من را در سرور دیسکورد دنبال کنید اگر می‌خواهید پیشنهادی بدهید یا شما اشکالی یافتید.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠توجه: شما از نسخه درحال توسعه استفاده می‌کنید، دنیا ممکن است خراب و آسیب ببیند، همیشه پشتیبان تهیه کنید و ",
     "skyblock_classic_edition.version_update.development_version.report": "اشکالات را اینجا گزارش کنید",
-    "skyblock_classic_edition.version_update.development_mc_version": "⚠WARNING: You are using a version of Minecraft that is still in development or untested, bugs may occur and the world may become corrupted and damaged. Always make backups and wait for the full version of Minecraft to be released.⚠",
+    "skyblock_classic_edition.version_update.development_mc_version": "⚠هشدار: شما از نسخه‌ای از ماینکرفت استفاده می‌کنید که هنوز درحال توسعه است یا آزمایش نشده است، ممکن است اشکال‌هایی رخ دهد و دنیای شما خراب شود و آسیب ببیند. همیشه پشتیبانی‌هایی داشته باشد و صبر کنید تا نسخه کامل ماینکرفت منشتر شود.⚠",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nدرحال بارگذاری...",
     "skyblock_classic_edition.loading.title.chat": "درحال بارگذاری...",
     "skyblock_classic_edition.loading.subtitle.chat": "دنیا",
@@ -55,5 +55,5 @@
     "skyblock_classic_edition.warning_level.dat.end": "، شما باید سازه‌ها را در چانک های جدید ببینید، در صورت نیاز مراحل را مجددا تکرار کنید.",
     "skyblock_classic_edition.link.discord": "سرور دیسکورد",
     "skyblock_classic_edition.link.crowdin": "پروژه ترجمه‌های Crowdin",
-    "skyblock_classic_edition.credits": "ترجمه توسط EndermanXD (aparatcutgame), TqkeL"
+    "skyblock_classic_edition.credits": "Translated by (This translation has not yet been translated, please help me translate)."
 }
