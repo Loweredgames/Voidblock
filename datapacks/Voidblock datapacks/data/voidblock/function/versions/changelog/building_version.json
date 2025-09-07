@@ -3,11 +3,11 @@
 
 "Edition": "JAVA EDITION",
 
-"Release Versions": "7.0.3 [Rebranding Update]",
+"Release Versions": "7.1.0 [Rebranding Update]",
 
-"Release Building": "JE-1.21>1.21.9-7.0.3-Voidblock:7.0.3",
+"Release Building": "JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:????",
 
-"Nightly Building": "JE-1.21>1.21.9-7.0.3-Voidblock:NIGHTLY_BUILDING_07.09.2025.11440a_[refactoring_PID]",
+"Nightly Building": "JE-1.21>1.21.9-7.1.0-Voidblock:NIGHTLY_BUILDING_07.09.2025.21440a_[refactoring_PID]",
 
 "Data_pack": "TRUE",
 
@@ -17,7 +17,7 @@
 
 "Custom Structures World": "4.1.0",
 
-"Protocol Version": "PVN_0_mc1218",
+"Protocol Version": "PVN_0_mc1219",
 
 "Protocol Identifier Data": "PID_1_mc1219",
 
