@@ -17,7 +17,6 @@ function voidblock:versions/pid_setup
 ##Voidblock PID VERSION WARNING (CAMBIARE SOLO SE NON CI SONO CONVERSIONI, DISABILITARE LA SECONDA RIGA SE C'E IL PID)
 #execute as @a[scores={PID_1_mc1219=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.on","italic":true,"color":"#d5d5d5"}
 execute as @a[scores={PID_1_mc1219=30}] run tellraw @s {"translate":"skyblock_classic_edition.versions_id.warning_update.off","italic":true,"color":"#d5d5d5"}
-execute as @a[scores={PID_1_mc1219=35..100},gamemode=spectator] run gamemode survival @a
 
 
 ##Voidblock LTS WARNING (SOLO QUANDO LTS STA PER FINIRE, TEMPO PER AVVISARE I GIOCATORI CHE LA VERSIONE STA DIVENTANDO OBSOLETA, ATTIVARE QUANDO C'E LA PENULTIMA VERSIONE LTS. DISABILITARE QUANDO SI ATTIVA LA VERSIONE OBSOLETA SOTTO.)

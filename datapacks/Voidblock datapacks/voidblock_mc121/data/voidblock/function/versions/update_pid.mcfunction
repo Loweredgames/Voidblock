@@ -50,4 +50,4 @@ execute as @a[scores={PID_1_mc121=205}] run tellraw @a ["",{"text":"Due to sever
 execute as @a[scores={PID_1_mc121=210}] run time set 0
 execute as @a[scores={PID_1_mc121=211}] run playsound minecraft:music.menu ambient @a 0 65 0
 execute in minecraft:overworld at @a[scores={PID_1_mc121=205}] run tp @a 0 66 0 90 0
-execute as @a[scores={PID_1_mc121=212}] run gamemode survival @a
+execute as @a[scores={PID_1_mc121=212..1000},gamemode=spectator] run gamemode survival @a

@@ -48,6 +48,6 @@ execute as @a[scores={PID_1_mc1212=201}] run advancement revoke @a only minecraf
 execute as @a[scores={PID_1_mc1212=201}] run advancement revoke @a only minecraft:end/root
 execute as @a[scores={PID_1_mc1212=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
 execute as @a[scores={PID_1_mc1212=210}] run time set 0
-execute as @a[scores={PID_1_mc1212=211}] run playsound minecraft:music.menu ambient @a 0 65 0
+execute as @a[scores={PID_1_mc1212=212}] run playsound minecraft:music.menu ambient @a 0 65 0
 execute in minecraft:overworld at @a[scores={PID_1_mc1212=205}] run tp @a 0 66 0 90 0
-execute as @a[scores={PID_1_mc1212=211}] run gamemode survival @a
+execute as @a[scores={PID_1_mc1212=212..1000},gamemode=spectator] run gamemode survival @a
