@@ -12,7 +12,7 @@
 #coming...
 
 
-##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8 - STABILE <-- QUI
+##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8/1.21.9 - STABILE <-- QUI
 #scoreboard objectives remove PVN_0_mc1219
 scoreboard objectives remove 1.21.8_PVN_1
 scoreboard objectives remove 1.21.8_PVN_0
