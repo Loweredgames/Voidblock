@@ -5,9 +5,9 @@
 
 "Release Versions": "7.1.0 [Rebranding Update]",
 
-"Release Building": "JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:????",
+"Release Building": "JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:19.09.2025a",
 
-"Nightly Building": "JE-1.21>1.21.9-7.1.0-Voidblock:NIGHTLY_BUILDING_19.09.2025.11540a_[main]",
+"Nightly Building": "JE-1.21>1.21.9-7.1.0-Voidblock:NIGHTLY_BUILDING_19.09.2025.21540a_[main]",
 
 "Data_pack": "TRUE",
 
@@ -23,7 +23,7 @@
 
 "Sub Protocol Identifier Data": "SUBPID_1_mc1219",
 
-"Github_Tag": "1.21.8_JE-1",
+"Github_Tag": "1.21.9_JE-0",
 
 "Github":"https://github.com/Loweredgames/Voidblock",
 
