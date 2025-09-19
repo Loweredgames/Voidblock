@@ -89,7 +89,7 @@ execute as @a[scores={Voidblock_install=1}] run time set 0
 execute as @a[scores={Voidblock_install=1}] run weather clear 5001s
 execute as @a[scores={Voidblock_install=1}] run effect give @a saturation 6 255 true
 execute as @a[scores={Voidblock_install=1}] run effect give @a blindness 61 0 true
-execute as @a[scores={Voidblock_install=1}] run setworldspawn 0 63 0
+execute in minecraft:overworld as @a[scores={Voidblock_install=1}] run setworldspawn 0 63 0
 execute as @a[scores={Voidblock_install=1}] run xp set @a 0 points
 execute as @a[scores={Voidblock_install=1}] run xp set @a 0 levels
 execute as @a[scores={Voidblock_install=1}] run difficulty normal
