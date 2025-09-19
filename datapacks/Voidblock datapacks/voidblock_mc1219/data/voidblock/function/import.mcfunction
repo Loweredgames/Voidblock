@@ -13,7 +13,7 @@ execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidb
 execute as @a[scores={Voidblock_import=1..}] run scoreboard objectives add Voidblock_id dummy
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_id 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_structures_id 24005
-execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_custom_structures 24000
+execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_structures 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_test_structures 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_large 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_default 24000
@@ -48,7 +48,7 @@ execute as @a[scores={Voidblock_import=11}] run time set 0
 execute as @a[scores={Voidblock_import=11}] run execute in minecraft:overworld run tp @p 0 65 0 0.0 0.0
 execute as @a[scores={Voidblock_import=15..24}] run gamemode survival @p
 execute as @a[scores={Voidblock_import=15}] run spawnpoint @a 0 65 0
-execute as @a[scores={Voidblock_import=15}] run setworldspawn 0 65 0
+execute in minecraft:overworld as @a[scores={Voidblock_import=15}] run setworldspawn 0 65 0
 execute as @a[scores={Voidblock_import=15}] run effect clear @a
 execute as @a[scores={Voidblock_import=15..24}] run stopsound @a
 execute as @a[scores={Voidblock_import=15}] run scoreboard objectives add kills deathCount
