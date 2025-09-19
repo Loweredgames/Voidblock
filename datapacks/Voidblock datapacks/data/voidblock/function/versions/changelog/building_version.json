@@ -5,7 +5,7 @@
 
 "Release Versions": "7.1.0 [Rebranding Update]",
 
-"Release Building": "JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:19.09.2025a",
+"Release Building": "JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:19.09.2025b",
 
 "Nightly Building": "JE-1.21>1.21.5-7.0.0-Voidblock:NIGHTLY_BUILDING_14.08.2025.31211a_[hardcore]",
 
@@ -17,13 +17,13 @@
 
 "Custom Structures World": "4.1.0",
 
-"Protocol Version": "PVN_0_mc1219",
+"Protocol Version": "PVN_0_mc1219b",
 
 "Protocol Identifier Data": "PID_1_mc1219",
 
 "Sub Protocol Identifier Data": "SUBPID_1_mc1219",
 
-"Github_Tag": "1.21.9_JE-0",
+"Github_Tag": "1.21.9_JE-0b",
 
 "Github":"https://github.com/Loweredgames/Voidblock",
 
