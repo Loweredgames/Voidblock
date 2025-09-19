@@ -1,20 +1,14 @@
 {
   "pack": {
-    "pack_format": 86,
+    "pack_format": 88,
       "min_format": 48,
-      "max_format": [86, 0],
+      "max_format": [88, 0],
     "supported_formats": {
-      "min_inclusive": 48, "max_inclusive": 86 },
+      "min_inclusive": 48, "max_inclusive": 88 },
     "description": "Voidblock By Lorenzo Giannini"
   },
   "overlays": {
     "entries": [
-      {
-        "directory": "voidblock_setup_update",
-        "formats": { "min_inclusive": 48, "max_inclusive": 86 },
-        "min_format": 48,
-        "max_format": [86, 0]
-      },
       {
         "directory": "voidblock_mc121",
         "formats": { "min_inclusive": 48, "max_inclusive": 48 },
@@ -47,9 +41,9 @@
       },
       {
         "directory": "voidblock_mc1219",
-        "formats": { "min_inclusive": 82, "max_inclusive": 86 },
+        "formats": { "min_inclusive": 82, "max_inclusive": 88 },
         "min_format": [82, 0],
-        "max_format": [86, 0]
+        "max_format": [88, 0]
       },
       {
         "directory": "voidblock_test",
@@ -59,9 +53,9 @@
       },
       {
         "directory": "legacy_voidblock",
-        "formats": { "min_inclusive": 48, "max_inclusive": 86 },
+        "formats": { "min_inclusive": 48, "max_inclusive": 88 },
         "min_format": 48,
-        "max_format": [86, 0]
+        "max_format": [88, 0]
       }
     ]
   }
