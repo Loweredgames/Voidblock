@@ -17,16 +17,16 @@ bossbar set minecraft:building max 100
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-1.21>1.21.9-7.0.2-Voidblock:7.0.2","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:19.09.2025b","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 100
+bossbar set minecraft:building value 95
 
 
 ##WARNING MESSAGE (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
-#title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
+title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
 
 
 ##BUILDING VERSION (BOSSBAR VISIBILE: True SOLO VERSIONI DI SVILUPPO o False VERSIONI STABILI, TENERE ACCESO PER LE NIGHT BUILDING)
-bossbar set minecraft:building visible false
+bossbar set minecraft:building visible true

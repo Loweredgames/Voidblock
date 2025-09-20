@@ -23,11 +23,11 @@ execute as @a[scores={Voidblock_debug=5}] run scoreboard objectives setdisplay s
 
 
 ##DISPLAY DI DEBUG - PVN (DA ABBILITARE SOLO PER LE VERSIONI INSTABILI)
-execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay sidebar 1.21.8_PVN_0
+execute as @a[scores={Voidblock_debug=6}] run scoreboard objectives setdisplay sidebar PVN_0_mc1219b
 
 
 ##DISPLAY DI DEBUG - PID
-execute as @a[scores={Voidblock_debug=7}] run scoreboard objectives setdisplay sidebar 1.21_PID_0
+execute as @a[scores={Voidblock_debug=7}] run scoreboard objectives setdisplay sidebar PID_1_mc1216
 execute as @a[scores={Voidblock_debug=-71}] run scoreboard objectives setdisplay sidebar PID_0
 execute as @a[scores={Voidblock_debug=-72}] run scoreboard objectives setdisplay sidebar PID_1
 execute as @a[scores={Voidblock_debug=8}] run scoreboard objectives setdisplay list PID_warning
@@ -40,7 +40,7 @@ execute as @a[scores={Voidblock_debug=9}] run scoreboard objectives setdisplay s
 
 ##DISPLAY DI DEBUG - TEST
 execute as @a[scores={Voidblock_debug=10}] run scoreboard objectives setdisplay sidebar Voidblock_structures_id
-execute as @a[scores={Voidblock_debug=11}] run scoreboard objectives setdisplay sidebar Voidblock_custom_structures
+execute as @a[scores={Voidblock_debug=11}] run scoreboard objectives setdisplay sidebar Voidblock_structures
 
 
 ##DISPLAY DI DEBUG - ISLANDS GENERATED
