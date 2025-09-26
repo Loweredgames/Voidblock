@@ -9,7 +9,7 @@
 function voidblock:versions/update_pid
 function voidblock:versions/subpid/update_subpid
 function voidblock:versions/pid_remove
-function voidblock:versions/old_pid
+function voidblock:versions/pid_old
 
 
 ##SETUP WALL TEXTS SIGN VERSIONS
