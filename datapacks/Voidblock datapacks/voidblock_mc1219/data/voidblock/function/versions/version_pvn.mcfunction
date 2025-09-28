@@ -31,8 +31,8 @@ execute as @a[scores={PVN_0_mc1219b=1}] run tellraw @s ["",{"translate":"skybloc
 
 
 ##PVN WARNING (NON TOCCARE, SOLO VERSIONI DI SVILUPPO)
-execute as @a[scores={PVN_0_mc1219b=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/issues"}},{"text":".\u26a0","color":"red"}]
-execute as @a[scores={PVN_0_mc1219b=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_mc_version","color":"red"}]
+#execute as @a[scores={PVN_0_mc1219b=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/issues"}},{"text":".\u26a0","color":"red"}]
+#execute as @a[scores={PVN_0_mc1219b=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_mc_version","color":"red"}]
 
 
 ##PVN VERSION PROTOCOL LOOP (NON TOCCARE MAI)
