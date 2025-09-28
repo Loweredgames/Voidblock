@@ -47,9 +47,9 @@
       },
       {
         "directory": "voidblock_mc12110",
-        "formats": { "min_inclusive": 82, "max_inclusive": 88 },
-        "min_format": [82, 0],
-        "max_format": [88, 0]
+        "formats": { "min_inclusive": 80, "max_inclusive": 80 },
+        "min_format": [80, 0],
+        "max_format": [80, 0]
       },
       {
         "directory": "voidblock_test",
