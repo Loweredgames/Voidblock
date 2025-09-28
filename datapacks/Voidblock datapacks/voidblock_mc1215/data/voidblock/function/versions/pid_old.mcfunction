@@ -59,7 +59,7 @@ execute as @a[scores={PID_old_v1=745}] run scoreboard objectives add PID_0_mc121
 execute as @a[scores={PID_old_v1=750}] run scoreboard objectives add PID_old dummy
 
 
-###FUNCTION PID OLD v2 - PID_0_mc1215 - 1.21 (NON RIMUOVERE IL COMMENTO IN SE)
+###FUNCTION PID OLD v2 - PID_0_mc1215 - 1.21.5 (NON RIMUOVERE IL COMMENTO IN SE)
 
 
 ##Overworld
@@ -83,7 +83,7 @@ execute as @a[scores={PID_old_v2=745}] run scoreboard objectives add PID_0_mc121
 execute as @a[scores={PID_old_v2=750}] run scoreboard objectives add PID_old dummy
 
 
-###FUNCTION PID OLD v3 - PID_0_mc1215 - 1.21 (NON RIMUOVERE IL COMMENTO IN SE)
+###FUNCTION PID OLD v3 - PID_0_mc1215 - 1.21.5 (NON RIMUOVERE IL COMMENTO IN SE)
 
 
 ##Overworld
