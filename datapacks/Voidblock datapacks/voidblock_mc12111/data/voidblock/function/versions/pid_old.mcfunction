@@ -6,9 +6,9 @@
 
 
 ##PID OLD VERSIONS (DA INCREMENTARE IL PID QUANDO DIVENTA VECCHIO. AGGIORNARE IL PID DA 0 A 1 AD ESEMPIO)
-execute as @a[scores={PID_1_mc12110=-100..}] run scoreboard players set @a PID_0_mc1219 1
-execute as @a[scores={PID_1_mc12110=-100..}] run scoreboard players set @a PID_0_mc1219 1
-execute as @a[scores={PID_1_mc12110=-100..}] run scoreboard players set @a PID_0_mc1219 1
+execute as @a[scores={PID_1_mc12111=-100..}] run scoreboard players set @a PID_0_mc1219 1
+execute as @a[scores={PID_1_mc12111=-100..}] run scoreboard players set @a PID_0_mc1219 1
+execute as @a[scores={PID_1_mc12111=-100..}] run scoreboard players set @a PID_0_mc1219 1
 
 
 ##PID OLD UPDATE (INCREMENTARE I PID VECCHI: ogni 3 versioni e poi l'ultima, la 4, diventa incompatibile, quindi da sostituire. PRENDERE IN "update_pid" PER TENERE LA COMPATIBILITA, MANTENERE TUTTO IN LTS)
@@ -30,9 +30,9 @@ scoreboard objectives add PID_old_v3 dummy
 
 
 ##PID OLD VERSION REMOVE (RIMUOVE LA SCORE DOPO LA CONVERSIONE. AGGIORNARE SEMPRE LA SCORE)
-execute as @a[scores={PID_1_mc12110=1000..}] run scoreboard objectives remove PID_old_v1
-execute as @a[scores={PID_1_mc12110=1000..}] run scoreboard objectives remove PID_old_v2
-execute as @a[scores={PID_1_mc12110=1000..}] run scoreboard objectives remove PID_old_v3
+execute as @a[scores={PID_1_mc12111=1000..}] run scoreboard objectives remove PID_old_v1
+execute as @a[scores={PID_1_mc12111=1000..}] run scoreboard objectives remove PID_old_v2
+execute as @a[scores={PID_1_mc12111=1000..}] run scoreboard objectives remove PID_old_v3
 
 
 ###FUNCTION PID OLD v1 - PID_0_mc1219 - 1.21.9 (NON RIMUOVERE IL COMMENTO IN SE)
@@ -107,9 +107,9 @@ execute as @a[scores={PID_old_v3=750}] run scoreboard objectives add PID_old dum
 
 
 ##PID OLD STOP (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, INCREMENTARE SEMPRE IL PID VECCHIO)
-execute as @a[scores={PID_0_mc1219=1..}] run scoreboard players set @a PID_1_mc12110 -100
-execute as @a[scores={PID_0_mc1219=1..}] run scoreboard players set @a PID_1_mc12110 -100
-execute as @a[scores={PID_0_mc1219=1..}] run scoreboard players set @a PID_1_mc12110 -100
+execute as @a[scores={PID_0_mc1219=1..}] run scoreboard players set @a PID_1_mc12111 -100
+execute as @a[scores={PID_0_mc1219=1..}] run scoreboard players set @a PID_1_mc12111 -100
+execute as @a[scores={PID_0_mc1219=1..}] run scoreboard players set @a PID_1_mc12111 -100
 
 
 ##PID OLD REMOVE VERSIONS (LASCIARE SEMPRE COSI, NON TOCCARE)
