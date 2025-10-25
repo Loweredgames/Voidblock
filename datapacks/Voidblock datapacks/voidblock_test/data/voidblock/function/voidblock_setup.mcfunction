@@ -48,7 +48,7 @@ execute as @a[scores={Voidblock_very_small=2000000..}] run scoreboard players se
 execute as @a[scores={Voidblock_import=2000000..}] run scoreboard players set @a Voidblock_import 10000
 
 
-##Gamerules Setup Test
+##Gamerules Setup Lock Test
 execute as @a[scores={Voidblock_id=..1000}] run gamerule mobGriefing true
 execute as @a[scores={Voidblock_id=..1000}] run gamerule reducedDebugInfo false
 execute as @a[scores={Voidblock_id=..1000}] run gamerule enderPearlsVanishOnDeath true
