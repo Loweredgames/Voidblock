@@ -9,7 +9,7 @@
 function voidblock:versions/update_pid
 function voidblock:versions/subpid/update_subpid
 function voidblock:versions/pid_remove
-function voidblock:versions/old_pid
+function voidblock:versions/pid_old
 
 
 ##SETUP WALL TEXTS SIGN VERSIONS
@@ -24,3 +24,4 @@ execute as @a[scores={PID_1_mc1214=2000000..}] run scoreboard players set @a PID
 execute as @a[scores={PID_1_mc1215=2000000..}] run scoreboard players set @a PID_1_mc1215 10000
 execute as @a[scores={PID_1_mc1216=2000000..}] run scoreboard players set @a PID_1_mc1216 10000
 execute as @a[scores={PID_1_mc1219=2000000..}] run scoreboard players set @a PID_1_mc1219 10000
+execute as @a[scores={PID_1_mc12111=2000000..}] run scoreboard players set @a PID_1_mc12111 10000
