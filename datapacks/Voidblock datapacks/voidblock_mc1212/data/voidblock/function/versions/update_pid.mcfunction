@@ -35,7 +35,7 @@ execute as @a[scores={PID_1_mc1212=205}] run playsound minecraft:block.note_bloc
 
 
 ##Overworld
-execute as @a[scores={PID_1_mc1212=205..211}] run say Hello 1.21.2/1.21.3!
+
 
 ##The Nether
 
