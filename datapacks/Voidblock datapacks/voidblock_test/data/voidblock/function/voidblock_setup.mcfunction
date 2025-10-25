@@ -49,35 +49,35 @@ execute as @a[scores={Voidblock_import=2000000..}] run scoreboard players set @a
 
 
 ##Gamerules Setup Test
-gamerule mobGriefing true
-gamerule reducedDebugInfo false
-gamerule enderPearlsVanishOnDeath true
-gamerule waterSourceConversion true
-gamerule lavaSourceConversion true
-gamerule spectatorsGenerateChunks true
-gamerule fallDamage true
-gamerule fireDamage true
-gamerule freezeDamage true
-gamerule forgiveDeadPlayers true
-gamerule mobExplosionDropDecay true
-gamerule commandModificationBlockLimit 1000000
-gamerule maxCommandChainLength 1000000
-gamerule playersNetherPortalCreativeDelay 1
-gamerule playersNetherPortalDefaultDelay 80
-gamerule projectilesCanBreakBlocks true
-gamerule maxEntityCramming 24
-gamerule randomTickSpeed 3
-gamerule snowAccumulationHeight 3
-gamerule showDeathMessages true
-gamerule doMobLoot true
-gamerule naturalRegeneration true
-gamerule doVinesSpread true
-gamerule doFireTick true
-gamerule doInsomnia true
-gamerule doMobSpawning true
-gamerule doWardenSpawning true
-gamerule doPatrolSpawning true
-gamerule doTraderSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule mobGriefing true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule reducedDebugInfo false
+execute as @a[scores={Voidblock_id=..1000}] run gamerule enderPearlsVanishOnDeath true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule waterSourceConversion true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule lavaSourceConversion true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule spectatorsGenerateChunks true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule fallDamage true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule fireDamage true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule freezeDamage true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule forgiveDeadPlayers true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule mobExplosionDropDecay true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule commandModificationBlockLimit 1000000
+execute as @a[scores={Voidblock_id=..1000}] run gamerule maxCommandChainLength 1000000
+execute as @a[scores={Voidblock_id=..1000}] run gamerule playersNetherPortalCreativeDelay 1
+execute as @a[scores={Voidblock_id=..1000}] run gamerule playersNetherPortalDefaultDelay 80
+execute as @a[scores={Voidblock_id=..1000}] run gamerule projectilesCanBreakBlocks true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule maxEntityCramming 24
+execute as @a[scores={Voidblock_id=..1000}] run gamerule randomTickSpeed 3
+execute as @a[scores={Voidblock_id=..1000}] run gamerule snowAccumulationHeight 3
+execute as @a[scores={Voidblock_id=..1000}] run gamerule showDeathMessages true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doMobLoot true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule naturalRegeneration true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doVinesSpread true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doFireTick true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doInsomnia true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doMobSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doWardenSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doPatrolSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doTraderSpawning true
 
 
 ##Islands Choices Setup Test
