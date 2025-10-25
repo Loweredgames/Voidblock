@@ -13,7 +13,7 @@ execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidb
 execute as @a[scores={Voidblock_import=1..}] run scoreboard objectives add Voidblock_id dummy
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_id 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_structures_id 24005
-execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_custom_structures 24000
+execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_structures 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_test_structures 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_large 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_default 24000
