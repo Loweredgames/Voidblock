@@ -35,5 +35,13 @@ execute as @a[scores={PVN_0_mc1219d=5}] run tellraw @s ["",{"translate":"skybloc
 execute as @a[scores={PVN_0_mc1219d=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_mc_version","color":"red"}]
 
 
+##WARNING MESSAGE BOSSBAR (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
+title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
+
+
+##BUILDING VERSION BOSSBAR (BOSSBAR VISIBILE: True SOLO VERSIONI DI SVILUPPO o False VERSIONI STABILI, TENERE ACCESO PER LE NIGHT BUILDING)
+bossbar set minecraft:building visible true
+
+
 ##PVN VERSION PROTOCOL LOOP (NON TOCCARE MAI)
 execute as @a[scores={PVN_0_mc1219d=900000000..}] run scoreboard players set @a PVN_0_mc1219d 0

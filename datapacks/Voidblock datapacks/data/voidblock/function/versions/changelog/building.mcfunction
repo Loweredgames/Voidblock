@@ -24,9 +24,12 @@ bossbar set building name {"text":"JE-1.21>1.21.10-7.1.0-Voidblock:PRE_RELEASE-1
 bossbar set minecraft:building value 99
 
 
+###BOSSBAR: IN QUESTA CUSTOM MAP LA BOSSBAR E LOCALE CHE GLOBALE. DA ABBILITARE SU VERSION_PVN. DA TENERE DISABILITATO QUI
+
+
 ##WARNING MESSAGE (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
-title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
+# DA TENERE DISABILITATO - title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
 
 
 ##BUILDING VERSION (BOSSBAR VISIBILE: True SOLO VERSIONI DI SVILUPPO o False VERSIONI STABILI, TENERE ACCESO PER LE NIGHT BUILDING)
-bossbar set minecraft:building visible true
+# DA TENERE DISABILITATO - bossbar set minecraft:building visible true
