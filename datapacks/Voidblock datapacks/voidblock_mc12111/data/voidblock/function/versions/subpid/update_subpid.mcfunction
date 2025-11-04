@@ -10,10 +10,10 @@
 
 ##Scoreboard Start SUBPID VERSION
 execute as @a[scores={SUBPID_1_mc12110=5..100}] run gamemode spectator @a
-execute as @a[scores={SUBPID_1_mc12110=5}] run gamerule doImmediateRespawn true
+execute as @a[scores={SUBPID_1_mc12110=5}] run gamerule immediate_respawn true
 execute as @a[scores={SUBPID_1_mc12110=5..200}] run effect give @a blindness 5 0 true
 execute as @a[scores={SUBPID_1_mc12110=5..200}] run effect give @a night_vision 5 0 true
-execute as @a[scores={SUBPID_1_mc12110=200}] run gamerule doImmediateRespawn false
+execute as @a[scores={SUBPID_1_mc12110=200}] run gamerule immediate_respawn false
 execute as @a[scores={SUBPID_1_mc12110=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 1
 
 
