@@ -24,10 +24,10 @@ scoreboard players add @a SUBPID_1_mc12111 1
 execute as @a[scores={Voidblock_final=351}] run scoreboard players set @a PID_1_mc12111 -50
 execute as @a[scores={PID_1_mc12111=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1_mc12111=5}] run time set 0
-execute as @a[scores={PID_1_mc12111=5}] run gamerule doImmediateRespawn true
+execute as @a[scores={PID_1_mc12111=5}] run gamerule immediate_respawn true
 execute as @a[scores={PID_1_mc12111=5..200}] run effect give @a blindness 5 0 true
 execute as @a[scores={PID_1_mc12111=5..200}] run effect give @a night_vision 5 0 true
-execute as @a[scores={PID_1_mc12111=200}] run gamerule doImmediateRespawn false
+execute as @a[scores={PID_1_mc12111=200}] run gamerule immediate_respawn false
 execute as @a[scores={PID_1_mc12111=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 2
 
 

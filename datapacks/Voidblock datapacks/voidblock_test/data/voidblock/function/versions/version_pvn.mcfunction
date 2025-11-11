@@ -34,5 +34,13 @@ execute as @a[scores={PVN_0_mc1219d=1}] run tellraw @s ["",{"translate":"skybloc
 execute as @a[scores={PVN_0_mc1219d=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/issues"}},{"text":".\u26a0","color":"red"}]
 
 
+##WARNING MESSAGE BOSSBAR (NON TOCCARE)
+title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
+
+
+##BUILDING VERSION BOSSBAR (NON TOCCARE)
+bossbar set minecraft:building visible true
+
+
 ##PVN VERSION PROTOCOL LOOP (NON TOCCARE MAI)
 execute as @a[scores={PVN_0_mc1219d=900000000..}] run scoreboard players set @a PVN_0_mc1219d 0
