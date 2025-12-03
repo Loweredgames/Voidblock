@@ -17,14 +17,14 @@ execute as @a[scores={Voidblock_structures=5..11}] run gamemode spectator @a
 
 
 ##CUSTOM FINAL FUNCTION STRUCTURES GENERATED
-execute as @a[scores={Voidblock_structures=1..45}] run gamerule doImmediateRespawn true
+execute as @a[scores={Voidblock_structures=1..45}] run gamerule immediate_respawn true
 execute as @a[scores={Voidblock_structures=5}] run scoreboard players set @a Voidblock_tp 0
 execute as @a[scores={Voidblock_structures=5}] run title @a reset
 execute as @a[scores={Voidblock_structures=6}] run title @a title ["",{"text":"Void","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={Voidblock_structures=6}] run title @a times 30 100 30
-execute as @a[scores={Voidblock_structures=7..40}] run gamerule announceAdvancements true
-execute as @a[scores={Voidblock_structures=7..40}] run gamerule doDaylightCycle true
-execute as @a[scores={Voidblock_structures=7..40}] run gamerule doWeatherCycle true
+execute as @a[scores={Voidblock_structures=7..40}] run gamerule show_advancement_messages true
+execute as @a[scores={Voidblock_structures=7..40}] run gamerule advance_time true
+execute as @a[scores={Voidblock_structures=7..40}] run gamerule advance_weather true
 execute as @a[scores={Voidblock_structures=10}] run time set 0
 execute as @a[scores={Voidblock_structures=11}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={Voidblock_structures=11}] run advancement revoke @a everything
@@ -38,7 +38,7 @@ execute as @a[scores={Voidblock_structures=40}] run fill 0 0 0 0 1 0 minecraft:a
 execute as @a[scores={Voidblock_structures=41}] run effect clear @a
 execute as @a[scores={Voidblock_structures=41}] run playsound minecraft:entity.player.levelup ambient @a 0 66 0 100 2
 execute as @a[scores={Voidblock_structures=41}] run scoreboard objectives remove Voidblock_level_dat
-execute as @a[scores={Voidblock_structures=45..50}] run gamerule doImmediateRespawn false
+execute as @a[scores={Voidblock_structures=45..50}] run gamerule immediate_respawn false
 
 
 ##Voidblock ID DELAY (DELAY PID DELLA CONVERSIONE, NON TOCCARE)
