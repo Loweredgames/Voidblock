@@ -29,5 +29,5 @@ execute as @a[scores={PID_lts_warning=900000..}] run scoreboard objectives remov
 ##Voidblock PID WARNING (SOLO VERSIONI NON PIU SUPPORTATE, ATTIVARE QUANDO LA VERSIONE NON E PIU SUPPORTATA)
 #execute as @a[scores={Voidblock_id=2000..}] run scoreboard objectives add PID_warning dummy
 scoreboard players add @a PID_warning 1
-execute as @a[scores={PID_warning=5}] run tellraw @a ["",{"translate":"skyblock_classic_edition.setup_version.warning","bold":true,"color":"red"},{"translate":"skyblock_classic_edition.setup_version.warning.download","bold":true,"italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases/"}}]
+execute as @a[scores={PID_warning=5}] run tellraw @a ["",{"translate":"skyblock_classic_edition.setup_version.warning","bold":true,"color":"red"},{"translate":"skyblock_classic_edition.setup_version.warning.download","bold":true,"italic":true,"underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/releases/"}}]
 execute as @a[scores={PID_warning=900000..}] run scoreboard objectives remove PID_warning
