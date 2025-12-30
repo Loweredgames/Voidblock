@@ -22,7 +22,7 @@ execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidb
 
 
 ##START GENERATED FUNCTION
-execute as @a[scores={Voidblock_import=2}] run gamerule commandBlockOutput false
+execute as @a[scores={Voidblock_import=2}] run gamerule command_block_output false
 execute as @a[scores={Voidblock_import=2}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
 execute as @a[scores={Voidblock_import=2}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
 execute as @a[scores={Voidblock_import=2}] run title @a times 30 200 20
@@ -37,13 +37,13 @@ execute as @a[scores={Voidblock_import=3}] run fill 1 62 1 -1 62 -1 minecraft:gl
 
 ##FINAL GENERATED FUNCTION
 execute as @a[scores={Voidblock_import=10..}] run scoreboard players set @a Voidblock_tp 0
-execute as @a[scores={Voidblock_import=1..24}] run gamerule doImmediateRespawn true
+execute as @a[scores={Voidblock_import=1..24}] run gamerule immediate_respawn true
 execute as @a[scores={Voidblock_import=10}] run title @a reset
 execute as @a[scores={Voidblock_import=11}] run title @a title ["",{"text":"Void","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={Voidblock_import=11}] run title @a times 30 100 30
-execute as @a[scores={Voidblock_import=11..24}] run gamerule announceAdvancements true
-execute as @a[scores={Voidblock_import=11..24}] run gamerule doDaylightCycle true
-execute as @a[scores={Voidblock_import=11..24}] run gamerule doWeatherCycle true
+execute as @a[scores={Voidblock_import=11..24}] run gamerule show_advancement_messages true
+execute as @a[scores={Voidblock_import=11..24}] run gamerule advance_time true
+execute as @a[scores={Voidblock_import=11..24}] run gamerule advance_weather true
 execute as @a[scores={Voidblock_import=11}] run time set 0
 execute as @a[scores={Voidblock_import=11}] run execute in minecraft:overworld run tp @p 0 65 0 0.0 0.0
 execute as @a[scores={Voidblock_import=15..24}] run gamemode survival @p
@@ -56,4 +56,4 @@ execute as @a[scores={Voidblock_import=15}] run scoreboard objectives setdisplay
 execute as @a[scores={Voidblock_import=15}] run playsound minecraft:block.note_block.bit ambient @a 0 66 0 100 2
 execute as @a[scores={Voidblock_import=24..100}] run effect give @a minecraft:regeneration 11 250 false
 execute as @a[scores={Voidblock_import=24..100}] run effect give @a minecraft:resistance 11 250 false
-execute as @a[scores={Voidblock_import=24..100}] run gamerule doImmediateRespawn false
+execute as @a[scores={Voidblock_import=24..100}] run gamerule immediate_respawn false

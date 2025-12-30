@@ -45,41 +45,41 @@ execute as @a[scores={Voidblock_import=2000000..}] run scoreboard players set @a
 
 
 ##Gamerules Setup
-gamerule mobGriefing true
-gamerule reducedDebugInfo false
-gamerule enderPearlsVanishOnDeath true
-gamerule waterSourceConversion true
-gamerule lavaSourceConversion true
-gamerule spectatorsGenerateChunks true
-gamerule fallDamage true
-gamerule fireDamage true
-gamerule freezeDamage true
-gamerule forgiveDeadPlayers true
-gamerule mobExplosionDropDecay true
-gamerule commandModificationBlockLimit 1000000
-gamerule maxCommandChainLength 1000000
-gamerule playersNetherPortalCreativeDelay 1
-gamerule playersNetherPortalDefaultDelay 80
-gamerule spawnChunkRadius 2
-gamerule projectilesCanBreakBlocks true
-gamerule maxEntityCramming 24
-gamerule randomTickSpeed 3
-gamerule snowAccumulationHeight 3
-gamerule showDeathMessages true
-gamerule doMobLoot true
-gamerule naturalRegeneration true
-gamerule doVinesSpread true
-gamerule doFireTick true
-gamerule doInsomnia true
-gamerule doMobSpawning true
-gamerule doWardenSpawning true
-gamerule doPatrolSpawning true
-gamerule doTraderSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule mobGriefing true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule reducedDebugInfo false
+execute as @a[scores={Voidblock_id=..1000}] run gamerule enderPearlsVanishOnDeath true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule waterSourceConversion true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule lavaSourceConversion true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule spectatorsGenerateChunks true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule fallDamage true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule fireDamage true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule freezeDamage true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule forgiveDeadPlayers true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule mobExplosionDropDecay true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule commandModificationBlockLimit 1000000
+execute as @a[scores={Voidblock_id=..1000}] run gamerule maxCommandChainLength 1000000
+execute as @a[scores={Voidblock_id=..1000}] run gamerule playersNetherPortalCreativeDelay 1
+execute as @a[scores={Voidblock_id=..1000}] run gamerule playersNetherPortalDefaultDelay 80
+execute as @a[scores={Voidblock_id=..1000}] run gamerule spawnChunkRadius 2
+execute as @a[scores={Voidblock_id=..1000}] run gamerule projectilesCanBreakBlocks true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule maxEntityCramming 24
+execute as @a[scores={Voidblock_id=..1000}] run gamerule randomTickSpeed 3
+execute as @a[scores={Voidblock_id=..1000}] run gamerule snowAccumulationHeight 3
+execute as @a[scores={Voidblock_id=..1000}] run gamerule showDeathMessages true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doMobLoot true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule naturalRegeneration true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doVinesSpread true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doFireTick true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doInsomnia true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doMobSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doWardenSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doPatrolSpawning true
+execute as @a[scores={Voidblock_id=..1000}] run gamerule doTraderSpawning true
 
 
 ##Islands Choices Setup
 execute as @a[scores={Voidblock_install=2}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
-execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":" - "},{"translate":"skyblock_classic_edition.skyblock_setup.version","bold":true},{"text":" 7.1.0 [Rebranding Update] - JE-1.21>1.21.9-7.1.0-Voidblock:BUILDING:19.09.2025b","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.for_text","bold":true},{"text":" Minecraft Java Edition: ","bold":true},{"text":"1.21.6/1.21.7/1.21.8 Chase the Skies Drop","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_languages","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.credits","italic":true,"color":"#FFE28B"},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_islands","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.large_easy","color":"dark_green","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 1"}},{"text":" ","color":"dark_green"},{"text":"[?]","color":"dark_green","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.large_easy.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.default_normal","color":"gold","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 2"}},{"text":" ","color":"gold"},{"text":"[?]","color":"gold","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.default_normal.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.small_hard","color":"red","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 3"}},{"text":" ","color":"red"},[{"text":"[?]","color":"red","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.small_hard.info"}]}}],{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.very_small_hard","color":"dark_red","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 4"}},{"text":" ","color":"dark_red"},{"text":"[?]","color":"dark_red","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.very_small_hard.info"}]}},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.import","color":"blue","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 5"}},{"text":" ","color":"blue"},{"text":"[?]","color":"blue","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.import.info"}]}},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible","italic":true},{"text":" "},{"text":"5.3.X LTS","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text","italic":true},{"text":" "},{"text":"7.1.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack","italic":true},""]
+execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"translate":"skyblock_classic_edition.skyblock_setup.welcome","bold":true},{"text":" - "},{"translate":"skyblock_classic_edition.skyblock_setup.version","bold":true},{"text":" 7.1.0 [Rebranding Update] - JE-1.21>1.21.10-7.1.0-Voidblock:7.1.0","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.for_text","bold":true},{"text":" Minecraft Java Edition: ","bold":true},{"text":"1.21.6/1.21.7/1.21.8 Chase the Skies Drop","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_languages","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.credits","italic":true,"color":"#FFE28B"},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.choose_islands","italic":true},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.large_easy","color":"dark_green","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 1"}},{"text":" ","color":"dark_green"},{"text":"[?]","color":"dark_green","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.large_easy.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.default_normal","color":"gold","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 2"}},{"text":" ","color":"gold"},{"text":"[?]","color":"gold","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.default_normal.info"}]}},{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.small_hard","color":"red","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 3"}},{"text":" ","color":"red"},[{"text":"[?]","color":"red","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.small_hard.info"}]}}],{"text":"\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.very_small_hard","color":"dark_red","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 4"}},{"text":" ","color":"dark_red"},{"text":"[?]","color":"dark_red","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.very_small_hard.info"}]}},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.import","color":"blue","click_event":{"action":"run_command","command":"/scoreboard players set @a Voidblock_islands 5"}},{"text":" ","color":"blue"},{"text":"[?]","color":"blue","hover_event":{"action":"show_text","value":[{"translate":"skyblock_classic_edition.skyblock_setup.import.info"}]}},{"text":"\n\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\n"},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible","italic":true},{"text":" "},{"text":"5.3.X LTS","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text","italic":true},{"text":" "},{"text":"7.1.0","italic":true},{"text":" "},{"translate":"skyblock_classic_edition.skyblock_setup.legacy_version.compatible.datapack","italic":true},""]
 execute as @a[scores={Voidblock_install=1000..}] run scoreboard players set @a Voidblock_install 1
 execute as @a[scores={Voidblock_install=1..1000}] run title @a actionbar {"translate":"skyblock_classic_edition.skyblock_setup.help_keybind","extra":[{"keybind":"key.chat"},{"text":"/","extra":[{"keybind":"key.command"}]}]}
 execute as @a[scores={Voidblock_install=1..}] run gamemode spectator @a

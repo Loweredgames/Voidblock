@@ -9,29 +9,30 @@
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE. DISABILITA SE NON C'È NESSUN SUBPID)
-#execute as @a[scores={PID_1_mctest=250..}] run scoreboard objectives add Voidblock_subpid_0_mctest dummy
+execute as @a[scores={PID_1_mctest=250..}] run scoreboard objectives add SUBPID_1_mctest dummy
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE. DISABILITA SE NON C'È NESSUN SUBPID)
-#execute as @a[scores={Voidblock_subpid_0_mctest=1015..}] run scoreboard objectives add Voidblock_subpid_1_mctest dummy (per il futuro)
+#>execute as @a[scores={SUBPID_1_mctest=1015..}] run scoreboard objectives add SUBPID_2_mctest dummy (aggiungere per il futuro il 2)
 
 
 ##SETUP UPDATE SUBPID VERSION (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
-scoreboard players add @a Voidblock_subpid_0_mctest 1
+scoreboard players add @a SUBPID_1_mctest 1
+#scoreboard players add @a SUBPID_2_mctest 1
 
 
 ##SCOREBOARD START PID VERSION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
 execute as @a[scores={Voidblock_final=351}] run scoreboard players set @a PID_1_mctest -50
 execute as @a[scores={Voidblock_mctest=5..100}] run gamemode spectator @a
 execute as @a[scores={PID_1_mctest=5}] run time set 0
-execute as @a[scores={PID_1_mctest=5}] run gamerule doImmediateRespawn true
+execute as @a[scores={PID_1_mctest=5}] run gamerule immediate_respawn true
 execute as @a[scores={PID_1_mctest=5..200}] run effect give @a blindness 5 0 true
 execute as @a[scores={PID_1_mctest=5..200}] run effect give @a night_vision 5 0 true
-execute as @a[scores={PID_1_mctest=200}] run gamerule doImmediateRespawn false
+execute as @a[scores={PID_1_mctest=200}] run gamerule immediate_respawn false
 execute as @a[scores={PID_1_mctest=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 2
 
 
-###FUNCTION PID - PID_1_mctest - 1.21 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###FUNCTION PID - PID_1_mctest - 1.21.10 Test (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld

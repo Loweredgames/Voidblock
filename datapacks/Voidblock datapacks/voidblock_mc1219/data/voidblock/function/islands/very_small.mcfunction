@@ -25,6 +25,12 @@ execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run title 
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule announceAdvancements false
 
 
+## Force Chunks
+execute in minecraft:overworld as @a[scores={Voidblock_very_small=1..2}] run forceload add 25 1022 2 1003
+execute in minecraft:the_nether as @a[scores={Voidblock_very_small=1..2}] run forceload add 4 4 4 4
+execute as @a[scores={Voidblock_very_small=300..}] run forceload remove all
+
+
 ##Overworld
 
 
