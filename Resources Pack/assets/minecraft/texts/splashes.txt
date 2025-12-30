@@ -38,6 +38,7 @@ Solo splash Italiani e cit!!!
 Voidblock
 Solo Mondo Custom!
 Prova Voidblock - Dimensions Version
+Prova Voidblock - Portable Version
 CurseForge:https://www.curseforge.com/minecraft/worlds/Voidblock/files
 PlanetMinecraft:https://www.planetminecraft.com/project/Voidblock/
 Old Changelog:https://minecraft-map-building-versions.blogspot.com/
@@ -46,7 +47,7 @@ Crowdin:https://crowdin.com/project/skyblock-classic-edition
 Discord:https://discord.gg/T6PHxhznJ6
 Non piu Sky.....ma Void!!
 Fatto da Lorenzo Giannini (Loweredgames)
-Map Maker
+Fatto da un Map Maker
 SOLO JAVA!!!
 Building di sviluppo
 Git_hub
@@ -65,22 +66,24 @@ Secchio di lava!
 Acqua + lava = pietrisco
 Non guardare giu...
 Non scavare in basso...
-NON SCAVARE IN BASO!!!
+NON SCAVARE IN BASSO!!!
 VISTO COSA SUCCEDE SE SCAVI IN BASSO!!!
 Freddo!!!
 For you...
 Per te...
 Ufo di pietrisco
 Guarda sempre l'orizzonte
+Una nave volante decaduta!
 Il cielo è il limite!
 Larga e Piccola
-Normale e...Moderna
+Normale e Moderna
 Limite raggiunto
 Sotto sopra!
 Sopra sotto!
 L'isola nel cielo
 Non sei solo di notte!
 Illumina d'immenso
+Solo Farming e Costruzioni
 Strutture autogenerate incluse
 Strutture autocostruite incluse
 Prova qualcosa di nuovo!
@@ -95,11 +98,13 @@ Guarda gli avanzamenti vanilla...
 Nether incluso!
 End incluso! forse un giorno?
 Felice Steveeeeeee
+Solo in un mondo vuoto...
 Niente arboscelli :(
 Niente lava o acqua :/
 Niente di niente :=
 The Void
 Minecraft
+Minceraft
 The End
 The Far Lands
 Ant Farm Survival
@@ -155,6 +160,7 @@ Realizzato anche da Agnes!
 Creato da Mojang Studios!
 !enobrenniD
 Hero##in#!!#
+404 Entity
 Funzionale
 Ticks
 Low!
@@ -197,18 +203,17 @@ Da un grande potere derivano grandi responsabilità
 L'uomo ragno
 Silva's Harmony
 Aki...!
-Aspettando Hytale...
 Dopo GTA 6 :/
 Hytale!
 Hycon!
-Il nuovo Minecraft?
-Hytale Italia!!
+Il nuovo Minecraft
+Hytale Italia!!!
 Brennenburg
 More Pigs!! More!!
 Fnaf
 FLaF
 10 anni di pizza, horror, robot assasini e bambini innocenti :)
-Fnaf: finalmente Disponibile in Streaming!!!
+Fnaf1/2: finalmente Disponibile in Streaming!!!
 Foxy o Bonnie?
 Endoskeletons
 Bad Cupcake
@@ -287,7 +292,7 @@ Questo testo è lunghissssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 Broooooooooooo
 Ehi Fra!!!
 godo!!
-il godimento
+Il godimento 😄
 Morto...!
 Ridere!!! AHAHAHA
 Le mucche fanno...?
@@ -295,7 +300,7 @@ Birrrrch quanto le odio!!!
 EL
 Kiria
 LOL, non ridere!
-IA = true
+AI = true
 R.O.B.O.T
 Franco
 Pino
