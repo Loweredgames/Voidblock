@@ -9,6 +9,7 @@
 
 
 ##26.1 - FUTURA (PROSSIMA VERSIONE)
+#scoreboard objectives remove PID_0_mc261
 
 
 ##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8/1.21.9/1.21.10 - STABILE <-- QUI (DA DISABILITARE)
