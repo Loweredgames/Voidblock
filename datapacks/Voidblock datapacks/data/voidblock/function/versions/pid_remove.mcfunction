@@ -14,7 +14,7 @@
 ##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8/1.21.9/1.21.10 - STABILE <-- QUI (DA DISABILITARE)
 #scoreboard objectives remove PID_1_mc12111
 #scoreboard objectives remove PID_1_mc12110
-#scoreboard objectives remove PID_1_mc1219
+#scoreboard objectives remove PID_1_mc12110
 #scoreboard objectives remove PID_1_mc1216
 #scoreboard objectives remove PID_1_mc1215
 #scoreboard objectives remove PID_1_mc1214
