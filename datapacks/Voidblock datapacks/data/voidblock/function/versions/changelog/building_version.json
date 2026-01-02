@@ -5,9 +5,9 @@
 
 "Release Versions": "7.2.0 LTS [Rebranding Update]",
 
-"Release Building": "JE-1.21>1.21.11-7.2.0-Voidblock:RELEASE_CANDIDATE-1_LTS",
+"Release Building": "JE-1.21>1.21.11-7.2.X-Voidblock:RELEASE_CANDIDATE-1_LTS",
 
-"Nightly Building": "JE-1.21>1.21.11-7.2.0-Voidblock:NIGHTLY_BUILDING_30.12.2025.11615a_[main]",
+"Nightly Building": "JE-1.21>1.21.11-7.2.X-Voidblock:NIGHTLY_BUILDING_30.12.2025.11615a_[main]",
 
 "Data_pack": "TRUE",
 
