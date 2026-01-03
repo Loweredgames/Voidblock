@@ -111,4 +111,3 @@ execute in minecraft:the_nether run tp @a[scores={Voidblock_tp=3}] 0 50 0 0 90
 execute in minecraft:the_nether run tp @a[scores={Voidblock_tp=4}] 4 55 33 0 90
 execute in minecraft:the_nether run tp @a[scores={Voidblock_tp=5}] -2 50 -50 0 90
 execute in minecraft:overworld run tp @a[scores={Voidblock_tp=6}] 25 70 1022 0 90
-execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players reset @a Voidblock_quit_game
