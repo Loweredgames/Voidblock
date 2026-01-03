@@ -9,15 +9,16 @@
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE. DISABILITA SE NON C'È NESSUN SUBPID)
-#execute as @a[scores={PID_1_mc12111=250..}] run scoreboard objectives add SUBPID_1_mc12111 dummy
+execute as @a[scores={PID_1_mc12111=250..}] run scoreboard objectives add SUBPID_1_mc12111 dummy
 
 
 ##SUBPID END (QUANDO FINISCE IL PID AGGIUNGERE IL SUBPID O IL PID MA SOLO NEL PRIMO SUBPID. GUARDARE SEMPRE LA SCORE ALLA FINE DELLA FUNZIONE, ANCHE NEL SUBPID DENTRO LA FUNZIONE. DISABILITA SE NON C'È NESSUN SUBPID)
-#execute as @a[scores={SUBPID_1_mc12111=1015..}] run scoreboard objectives add Voidblock_subpid_1_mc121 dummy (per il futuro)
+#>execute as @a[scores={SUBPID_1_mc12111=1015..}] run scoreboard objectives add SUBPID_2_mc12111 dummy (aggiungere per il futuro il 2)
 
 
 ##SETUP UPDATE SUBPID VERSION (LASCIARE SEMPRE LA SCOREBOARD E SPOSTARE QUANDO DIVENTA LEGACY)
 scoreboard players add @a SUBPID_1_mc12111 1
+#scoreboard players add @a SUBPID_2_mc12111 1
 
 
 ##SCOREBOARD START PID VERSION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
@@ -46,7 +47,7 @@ execute as @a[scores={PID_1_mc12111=205}] run playsound minecraft:block.note_blo
 ##FINAL GENERATED PID VERSION FUNCTION (LASCIARE SEMPRE COSI, MODIFICARE SE LA CONVERSIONE E PIU CORTA O PIU LUNGHA)
 execute as @a[scores={PID_1_mc12111=201}] run advancement revoke @a only minecraft:nether/root
 execute as @a[scores={PID_1_mc12111=201}] run advancement revoke @a only minecraft:end/root
-execute as @a[scores={PID_1_mc12111=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
+execute as @a[scores={PID_1_mc12111=205}] run tellraw @a ["",{"text":"Due to several problems in The End (","italic":true,"color":"red"},{"text":"see the bug #16","italic":true,"underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/issues/16"}},{"text":"). the dimension has been suspended in this release until the issues are resolved.\nThanks you :)","italic":true,"color":"red"}]
 execute as @a[scores={PID_1_mc12111=210}] run time set 0
 execute as @a[scores={PID_1_mc12111=211}] run playsound minecraft:music.menu ambient @a 0 65 0
 execute in minecraft:overworld at @a[scores={PID_1_mc12111=205}] run tp @a 0 66 0 90 0

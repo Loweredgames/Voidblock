@@ -5,7 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Setup Update SUBPID - SUBPID_1_mc1214
+##Setup Update SUBPID - SUBPID_1_mc1214 (Blocco di Stalattite)
 
 
 ##Scoreboard Start SUBPID VERSION
@@ -25,7 +25,7 @@ execute as @a[scores={SUBPID_1_mc1214=5}] run tellraw @s [{"translate":"skyblock
 
 
 ##Overworld
-#execute in minecraft:overworld as @a[scores={SUBPID_1_mc1214=100}] run say not used
+execute in minecraft:overworld as @a[scores={SUBPID_1_mc1214=100}] run give @p minecraft:dripstone_block 1
 
 
 ##Final Function SUBPID VERSION

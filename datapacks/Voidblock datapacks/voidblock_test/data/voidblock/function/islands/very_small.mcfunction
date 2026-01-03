@@ -17,12 +17,12 @@ execute as @a[scores={Voidblock_very_small=1..}] run scoreboard players set @a V
 ##START GENERATED FUNCTION
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run kill @e[type=!minecraft:player]
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=1..5}] run difficulty hard
-execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule commandBlockOutput false
-execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule doImmediateRespawn true
+execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule command_block_output false
+execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule immediate_respawn true
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run title @a times 30 200 20
-execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule announceAdvancements false
+execute in minecraft:overworld as @a[scores={Voidblock_very_small=1}] run gamerule show_advancement_messages false
 
 
 ##Overworld
