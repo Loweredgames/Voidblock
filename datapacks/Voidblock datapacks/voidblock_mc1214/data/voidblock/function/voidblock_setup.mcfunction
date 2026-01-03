@@ -93,10 +93,22 @@ execute as @a[scores={Voidblock_install=1}] run effect give @a blindness 61 0 tr
 execute as @a[scores={Voidblock_install=1}] run setworldspawn 0 63 0
 execute as @a[scores={Voidblock_install=1}] run xp set @a 0 points
 execute as @a[scores={Voidblock_install=1}] run xp set @a 0 levels
-execute as @a[scores={Voidblock_install=1}] run difficulty hard
+execute as @a[scores={Voidblock_install=1}] run difficulty normal
+execute as @a[scores={Voidblock_install=3}] run tellraw @a ["",{"text":"If the resource pack is not in the world and can cause damage to the text: add the resource pack in the world folder or ","italic":true,"color":"gray"},{"text":"reinstall the map here","italic":true,"underlined":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://github.com/Loweredgames/Voidblock/releases"}},{"text":" and add manually in the world folder.","italic":true,"color":"gray"}]
 
 
 ##Quit Game Lock
 scoreboard objectives add Voidblock_quit_game minecraft.custom:minecraft.leave_game
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players set @a Voidblock_install 1
+execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard objectives remove Voidblock_quit_game
+
+
+##Teleports Setup
+execute as @a[scores={Voidblock_tp=1..6}] run effect give @a minecraft:regeneration 64 250 true
+execute in minecraft:overworld run tp @a[scores={Voidblock_tp=1}] 0 64 0 0 90
+execute in minecraft:overworld run tp @a[scores={Voidblock_tp=2}] 67 60 -3 0 90
+execute in minecraft:the_nether run tp @a[scores={Voidblock_tp=3}] 0 50 0 0 90
+execute in minecraft:the_nether run tp @a[scores={Voidblock_tp=4}] 4 55 33 0 90
+execute in minecraft:the_nether run tp @a[scores={Voidblock_tp=5}] -2 50 -50 0 90
+execute in minecraft:overworld run tp @a[scores={Voidblock_tp=6}] 25 70 1022 0 90
 execute as @a[scores={Voidblock_quit_game=1..}] run scoreboard players reset @a Voidblock_quit_game
