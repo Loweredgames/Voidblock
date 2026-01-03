@@ -5,5 +5,5 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-##Multiplayer Legacy (Aggiornato all'ultima versione: 2.0.1 - 7.1.0 Minecraft: 1.21.5) - (da rimuovere completamente nella 1.21.6)
+##Multiplayer Legacy (Aggiornato all'ultima versione: 2.0.1 - 7.2.X LTS Minecraft: 1.21.11)
 execute as @a[scores={SkyblockCE_multiplayer=1..}] run scoreboard objectives remove multiplayer
