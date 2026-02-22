@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "voidblock:worldgen/desert_pyramid",
+        "location": "voidblock:structures/desert_pyramid",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }

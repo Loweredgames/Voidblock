@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "voidblock:worldgen/monster_room",
+        "location": "voidblock:structures/monster_room",
         "processors": "voidblock:monster_room"
       }
     }

@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "voidblock:worldgen/ocean_ruins_cold",
+        "location": "voidblock:structures/ocean_ruins_cold",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }

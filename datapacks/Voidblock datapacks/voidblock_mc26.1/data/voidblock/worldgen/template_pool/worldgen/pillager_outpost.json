@@ -5,7 +5,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "voidblock:worldgen/pillager_outpost",
+        "location": "voidblock:structures/pillager_outpost",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
