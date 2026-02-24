@@ -13,3 +13,4 @@ function voidblock_legacy:legacy_pid_converter/legacy_converter
 
 
 ##Scoreboard Setup Legacy
+scoreboard objectives remove PVN_legacy
