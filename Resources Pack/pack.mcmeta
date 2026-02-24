@@ -1,6 +1,6 @@
 {
   "pack": {
-      "min_format": [81, 1],
+      "min_format": [76, 0],
       "max_format": [81, 1],
     "description": "Voidblock By Lorenzo Giannini"
   },
