@@ -31,7 +31,7 @@ execute in minecraft:overworld as @a[scores={Voidblock_small=1}] run gamerule sh
 #Small Classic
 execute in minecraft:overworld as @a[scores={Voidblock_small=1}] run scoreboard players set @a Voidblock_tp 1
 execute in minecraft:overworld as @a[scores={Voidblock_small=1}] run fill 7 110 -13 -7 -60 5 minecraft:air
-execute in minecraft:overworld as @a[scores={Voidblock_small=3}] run place template voidblock:small_classic -1 62 -3
+execute in minecraft:overworld as @a[scores={Voidblock_small=3}] run place template voidblock:islands/small_classic -1 62 -3
 execute in minecraft:overworld as @a[scores={Voidblock_small=35}] run setblock 0 62 1 minecraft:dirt destroy
 execute in minecraft:overworld as @a[scores={Voidblock_small=35}] run setblock 1 66 1 minecraft:air
 
@@ -39,13 +39,13 @@ execute in minecraft:overworld as @a[scores={Voidblock_small=35}] run setblock 1
 #Small Classic Desert
 execute in minecraft:overworld as @a[scores={Voidblock_small=40}] run scoreboard players set @a Voidblock_tp 2
 execute in minecraft:overworld as @a[scores={Voidblock_small=40}] run fill 58 110 7 79 -60 -18 minecraft:air
-execute in minecraft:overworld as @a[scores={Voidblock_small=41}] run place template voidblock:small_classic_desert 66 60 -4
+execute in minecraft:overworld as @a[scores={Voidblock_small=41}] run place template voidblock:islands/small_classic_desert 66 60 -4
 
 
 #Mushroom House
 execute in minecraft:overworld as @a[scores={Voidblock_small=50}] run scoreboard players set @a Voidblock_tp 6
 execute in minecraft:overworld as @a[scores={Voidblock_small=100}] run fill -3 110 999 28 -7 1026 minecraft:air
-execute in minecraft:overworld as @a[scores={Voidblock_small=105}] run place template voidblock:mushroom_house 0 61 1000
+execute in minecraft:overworld as @a[scores={Voidblock_small=105}] run place template voidblock:islands/mushroom_house 0 61 1000
 
 
 ##The Nether
@@ -54,18 +54,18 @@ execute in minecraft:overworld as @a[scores={Voidblock_small=105}] run place tem
 #Small Nether Classic
 execute in minecraft:overworld as @a[scores={Voidblock_small=130}] run scoreboard players set @a Voidblock_tp 3
 execute in minecraft:the_nether as @a[scores={Voidblock_small=150}] run fill 17 1 43 -12 255 -8 minecraft:air
-execute in minecraft:the_nether as @a[scores={Voidblock_small=155}] run place template voidblock:nether_classic 2 50 3
+execute in minecraft:the_nether as @a[scores={Voidblock_small=155}] run place template voidblock:nether/nether_classic 2 50 3
 
 
 #Small Nether Classic Bastion
 execute as @a[scores={Voidblock_small=200}] run scoreboard players set @a Voidblock_tp 4
-execute in minecraft:the_nether as @a[scores={Voidblock_small=250}] run place template voidblock:nether_classic_bastion 4 55 33
+execute in minecraft:the_nether as @a[scores={Voidblock_small=250}] run place template voidblock:nether/nether_classic_bastion 4 55 33
 
 
 #Nether Classic Forest
 execute as @a[scores={Voidblock_small=300}] run scoreboard players set @a Voidblock_tp 5
 execute in minecraft:the_nether as @a[scores={Voidblock_small=350}] run fill -4 1 -52 11 255 -44 minecraft:air
-execute in minecraft:the_nether as @a[scores={Voidblock_small=355}] run place template voidblock:nether_classic_forest -2 50 -50
+execute in minecraft:the_nether as @a[scores={Voidblock_small=355}] run place template voidblock:nether/nether_classic_forest -2 50 -50
 
 
 ##The End (???)

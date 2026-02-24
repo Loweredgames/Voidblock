@@ -61,18 +61,18 @@ execute as @a[scores={Voidblock_test_structures=1300}] run tp @a -700 45 -700 0 
 
 
 ##GENERATED STRUCTURES (GENERA LE STRUTTURE QUANDO VIENE CREATO UN NUOVO MONDO)
-execute as @a[scores={Voidblock_test_structures=150}] run place template voidblock:structures_test/ocean_ruins 488 45 -260
-execute as @a[scores={Voidblock_test_structures=250}] run place template voidblock:structures_test/cherry_grove -198 45 -485
+execute as @a[scores={Voidblock_test_structures=150}] run place template voidblock:structures/ocean_ruins_warm 488 45 -260
+execute as @a[scores={Voidblock_test_structures=250}] run place template voidblock:structures/custom_islands/cherry_grove -198 45 -485
 execute as @a[scores={Voidblock_test_structures=350}] run place template voidblock:structures_test/trail_ruins -266 45 -484
-execute as @a[scores={Voidblock_test_structures=450}] run place template voidblock:structures_test/pillager_outpost 500 45 55
+execute as @a[scores={Voidblock_test_structures=450}] run place template voidblock:structures/pillager_outpost 500 45 55
 execute as @a[scores={Voidblock_test_structures=550}] run place template voidblock:structures_test/village 460 45 350
 execute as @a[scores={Voidblock_test_structures=610}] run place template voidblock:structures_test/wolfs_pack 570 45 350
-execute as @a[scores={Voidblock_test_structures=750}] run place template voidblock:structures_test/swamp_hut -180 45 -180
-execute as @a[scores={Voidblock_test_structures=850}] run place template voidblock:structures_test/igloo 180 45 180
-execute as @a[scores={Voidblock_test_structures=950}] run place template voidblock:structures_test/jungle_pyramids -60 45 500
-execute as @a[scores={Voidblock_test_structures=1050}] run place template voidblock:structures_test/desert_pyramid 60 45 -500
+execute as @a[scores={Voidblock_test_structures=750}] run place template voidblock:structures/swamp_hut -180 45 -180
+execute as @a[scores={Voidblock_test_structures=850}] run place template voidblock:structures/igloo 180 45 180
+execute as @a[scores={Voidblock_test_structures=950}] run place template voidblock:structures/jungle_pyramid -60 45 500
+execute as @a[scores={Voidblock_test_structures=1050}] run place template voidblock:structures/desert_pyramid 60 45 -500
 execute as @a[scores={Voidblock_test_structures=1150}] run place template voidblock:structures_test/shipwrecks 280 45 0
-execute as @a[scores={Voidblock_test_structures=1250}] run place template voidblock:structures_test/stronghold 700 45 700
+execute as @a[scores={Voidblock_test_structures=1250}] run place template voidblock:structures/stronghold 700 45 700
 execute as @a[scores={Voidblock_test_structures=1350}] run place template voidblock:structures_test/ancient_city -700 45 -700
 
 
