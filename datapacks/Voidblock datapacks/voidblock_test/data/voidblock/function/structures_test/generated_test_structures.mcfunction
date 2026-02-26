@@ -61,24 +61,24 @@ execute as @a[scores={Voidblock_test_structures=1300}] run tp @a -700 45 -700 0 
 
 
 ##GENERATED STRUCTURES (GENERA LE STRUTTURE QUANDO VIENE CREATO UN NUOVO MONDO)
-execute as @a[scores={Voidblock_test_structures=150}] run place template voidblock:structures_test/ocean_ruins 488 45 -260
-execute as @a[scores={Voidblock_test_structures=250}] run place template voidblock:structures_test/cherry_grove -198 45 -485
+execute as @a[scores={Voidblock_test_structures=150}] run place template voidblock:structures/ocean_ruins_warm 488 45 -260
+execute as @a[scores={Voidblock_test_structures=250}] run place template voidblock:structures/custom_islands/cherry_grove -198 45 -485
 execute as @a[scores={Voidblock_test_structures=350}] run place template voidblock:structures_test/trail_ruins -266 45 -484
-execute as @a[scores={Voidblock_test_structures=450}] run place template voidblock:structures_test/pillager_outpost 500 45 55
+execute as @a[scores={Voidblock_test_structures=450}] run place template voidblock:structures/pillager_outpost 500 45 55
 execute as @a[scores={Voidblock_test_structures=550}] run place template voidblock:structures_test/village 460 45 350
 execute as @a[scores={Voidblock_test_structures=610}] run place template voidblock:structures_test/wolfs_pack 570 45 350
-execute as @a[scores={Voidblock_test_structures=750}] run place template voidblock:structures_test/swamp_hut -180 45 -180
-execute as @a[scores={Voidblock_test_structures=850}] run place template voidblock:structures_test/igloo 180 45 180
-execute as @a[scores={Voidblock_test_structures=950}] run place template voidblock:structures_test/jungle_pyramids -60 45 500
-execute as @a[scores={Voidblock_test_structures=1050}] run place template voidblock:structures_test/desert_pyramid 60 45 -500
+execute as @a[scores={Voidblock_test_structures=750}] run place template voidblock:structures/swamp_hut -180 45 -180
+execute as @a[scores={Voidblock_test_structures=850}] run place template voidblock:structures/igloo 180 45 180
+execute as @a[scores={Voidblock_test_structures=950}] run place template voidblock:structures/jungle_pyramid -60 45 500
+execute as @a[scores={Voidblock_test_structures=1050}] run place template voidblock:structures/desert_pyramid 60 45 -500
 execute as @a[scores={Voidblock_test_structures=1150}] run place template voidblock:structures_test/shipwrecks 280 45 0
-execute as @a[scores={Voidblock_test_structures=1250}] run place template voidblock:structures_test/stronghold 700 45 700
+execute as @a[scores={Voidblock_test_structures=1250}] run place template voidblock:structures/stronghold 700 45 700
 execute as @a[scores={Voidblock_test_structures=1350}] run place template voidblock:structures_test/ancient_city -700 45 -700
 
 
 ##FINAL FUNCTION STRUCTURES GENERATED
-execute as @a[scores={Voidblock_test_structures=1..1300}] run gamerule doImmediateRespawn true
-execute as @a[scores={Voidblock_test_structures=1400..1505}] run gamerule doImmediateRespawn false
+execute as @a[scores={Voidblock_test_structures=1..1300}] run gamerule immediate_respawn true
+execute as @a[scores={Voidblock_test_structures=1400..1505}] run gamerule immediate_respawn false
 execute as @a[scores={Voidblock_test_structures=1400}] run tp @s 0 66 0 90 0
 execute as @a[scores={Voidblock_test_structures=1405..1505}] run place template voidblock:air 0 0 0
 execute as @a[scores={Voidblock_test_structures=1410}] run setblock 0 0 0 minecraft:command_block[conditional=false,facing=west]{Command:'/tellraw @a [{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.info","italic":true,"color":"red"},[""],{"translate":"skyblock_classic_edition.generated_structures.generated.command_block.download","italic":true,"underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/releases"}}]',CustomName:'{"text":"@"}',SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b} destroy
@@ -101,10 +101,10 @@ execute as @a[scores={Voidblock_final=105}] run scoreboard players set @a Voidbl
 execute as @a[scores={Voidblock_final=5}] run title @a reset
 execute as @a[scores={Voidblock_final=106}] run title @a title ["",{"text":"Void","bold":true,"color":"aqua"},{"text":"block","bold":true,"color":"dark_green"}]
 execute as @a[scores={Voidblock_final=106}] run title @a times 30 100 30
-execute as @a[scores={Voidblock_final=107..200}] run gamerule announceAdvancements true
-execute as @a[scores={Voidblock_final=107..200}] run gamerule doDaylightCycle true
-execute as @a[scores={Voidblock_final=107..200}] run gamerule doWeatherCycle true
-execute as @a[scores={Voidblock_final=107..200}] run gamerule doImmediateRespawn false
+execute as @a[scores={Voidblock_final=107..200}] run gamerule show_advancement_messages true
+execute as @a[scores={Voidblock_final=107..200}] run gamerule advance_time true
+execute as @a[scores={Voidblock_final=107..200}] run gamerule advance_weather true
+execute as @a[scores={Voidblock_final=107..200}] run gamerule immediate_respawn false
 execute as @a[scores={Voidblock_final=110}] run time set 0
 execute as @a[scores={Voidblock_final=110}] run advancement revoke @a everything
 execute as @a[scores={Voidblock_final=118}] run execute in minecraft:overworld run tp @p 0 66 0 90 0
