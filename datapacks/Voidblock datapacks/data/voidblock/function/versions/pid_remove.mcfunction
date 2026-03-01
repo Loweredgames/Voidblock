@@ -8,32 +8,33 @@
 ###PID REMOVE BUILDING (AGGIUNGERE I PID VECCHI E NON PIU USATI, I PID DOPO UN PO VERRANO RIMOSSI, MASSIMO: 20 E POI SI RIMUOVE L'ULTIMO)
 
 
-##26.1 - FUTURA (PROSSIMA VERSIONE)
+#??? - FUTURA (PROSSIMA VERSIONE)
 
 
-##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8/1.21.9/1.21.10 - STABILE <-- QUI (DA DISABILITARE)
-#scoreboard objectives remove PID_1_mc12111
-#scoreboard objectives remove PID_1_mc12110
-#scoreboard objectives remove PID_1_mc12110
-#scoreboard objectives remove PID_1_mc1216
-#scoreboard objectives remove PID_1_mc1215
-#scoreboard objectives remove PID_1_mc1214
-#scoreboard objectives remove PID_1_mc1212
-#scoreboard objectives remove PID_1_mc121
-#scoreboard objectives remove PID_1_mctest
+##26.1 - STABILE <-- QUI (DA DISABILITARE)
+#scoreboard objectives remove PID_0_mc261
 
 
-##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8/1.21.9 - VECCHIA STABILE (PRONTI PER IL PID_OLD, DA DISABILITARE)
-#scoreboard objectives remove PID_0_mctest
-#scoreboard objectives remove PID_0_mc1219
-#scoreboard objectives remove PID_0_mc1216
-#scoreboard objectives remove PID_0_mc1215
-#scoreboard objectives remove PID_0_mc1214
-#scoreboard objectives remove PID_0_mc1212
-#scoreboard objectives remove PID_0_mc121
+##1.21/1.21.1/1.21.2/1.21.3/1.21.4/1.21.5/1.21.6/1.21.7/1.21.8/1.21.9/1.21.10/1.21.11 - LTS STABILE
+scoreboard objectives remove PID_1_mc12111
+scoreboard objectives remove PID_1_mc12110
+scoreboard objectives remove PID_1_mc1219
+scoreboard objectives remove PID_1_mc1216
+scoreboard objectives remove PID_1_mc1215
+scoreboard objectives remove PID_1_mc1214
+scoreboard objectives remove PID_1_mc1212
+scoreboard objectives remove PID_1_mc121
+scoreboard objectives remove PID_1_mctest
+scoreboard objectives remove PID_0_mctest
+scoreboard objectives remove PID_0_mc1219
+scoreboard objectives remove PID_0_mc1216
+scoreboard objectives remove PID_0_mc1215
+scoreboard objectives remove PID_0_mc1214
+scoreboard objectives remove PID_0_mc1212
+scoreboard objectives remove PID_0_mc121
 
 
-##MC OLD VECCHIA - LTS STABILE
+##MC OLD VECCHIA - LTS VECCHIA
 scoreboard objectives remove 1.21_PID_0
 scoreboard objectives remove Voidblock_mctest
 scoreboard objectives remove Voidblock_mc121
@@ -44,7 +45,7 @@ scoreboard objectives remove Voidblock_mc1216
 scoreboard objectives remove Voidblock_mc1219
 
 
-##1.21/1.21.1 - LTS VECCHIA
+##1.21/1.21.1
 scoreboard objectives remove PID_Fix_LTS
 scoreboard objectives remove PID_OLD
 scoreboard objectives remove PSN_OLD

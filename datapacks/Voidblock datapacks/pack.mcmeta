@@ -1,67 +1,25 @@
 {
   "pack": {
-    "pack_format": 94,
-      "min_format": 48,
-      "max_format": [94, 1],
-    "supported_formats": {
-      "min_inclusive": 48, "max_inclusive": 94 },
+      "min_format": [95, 0],
+      "max_format": [99, 3],
     "description": "Voidblock By Lorenzo Giannini"
   },
   "overlays": {
     "entries": [
       {
-        "directory": "voidblock_mc121",
-        "formats": { "min_inclusive": 48, "max_inclusive": 48 },
-        "min_format": 48,
-        "max_format": 48
-      },
-      {
-        "directory": "voidblock_mc1212",
-        "formats": { "min_inclusive": 49, "max_inclusive": 57 },
-        "min_format": 49,
-        "max_format": 57
-      },
-      {
-        "directory": "voidblock_mc1214",
-        "formats": { "min_inclusive": 58, "max_inclusive": 61 },
-        "min_format": 58,
-        "max_format": 61
-      },
-      {
-        "directory": "voidblock_mc1215",
-        "formats": { "min_inclusive": 62, "max_inclusive": 71 },
-        "min_format": 62,
-        "max_format": 71
-      },
-      {
-        "directory": "voidblock_mc1216",
-        "formats": { "min_inclusive": 72, "max_inclusive": 81 },
-        "min_format": 72,
-        "max_format": 81
-      },
-      {
-        "directory": "voidblock_mc1219",
-        "formats": { "min_inclusive": 82, "max_inclusive": 88 },
-        "min_format": [82, 0],
-        "max_format": [88, 0]
-      },
-      {
-        "directory": "voidblock_mc12111",
-        "formats": { "min_inclusive": 89, "max_inclusive": 94 },
-        "min_format": [89, 0],
-        "max_format": [94, 1]
+        "directory": "voidblock_mc26.1",
+        "min_format": [95, 0],
+        "max_format": [99, 3]
       },
       {
         "directory": "voidblock_test",
-        "formats": { "min_inclusive": 25, "max_inclusive": 25 },
-        "min_format": 25,
-        "max_format": 25
+        "min_format": [94, 0],
+        "max_format": [94, 0]
       },
       {
         "directory": "legacy_voidblock",
-        "formats": { "min_inclusive": 48, "max_inclusive": 94 },
-        "min_format": 48,
-        "max_format": [94, 1]
+        "min_format": [95, 0],
+        "max_format": [99, 3]
       }
     ]
   }
