@@ -17,19 +17,19 @@ bossbar set minecraft:building max 100
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-26.1-7.3.0-Voidblock:PRE_RELEASE-1","color":"white","bold":true}
+bossbar set building name {"text":"fork_JE-26.1-7.3.0-Voidblock:PRE_RELEASE-1","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 95
+bossbar set minecraft:building value 100
 
 
 ###BOSSBAR: IN QUESTA CUSTOM MAP LA BOSSBAR E LOCALE CHE GLOBALE. DA ABBILITARE SU VERSION_PVN. DA TENERE DISABILITATO QUI
 
 
 ##WARNING MESSAGE (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
-# DA TENERE DISABILITATO - title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
+title @a actionbar {"text":"\u26a0This version is incompatible and must be used with the correct April release of Minecraft.\u26a0","bold":true,"color":"dark_red"}
 
 
 ##BUILDING VERSION (BOSSBAR VISIBILE: True SOLO VERSIONI DI SVILUPPO o False VERSIONI STABILI, TENERE ACCESO PER LE NIGHT BUILDING)
-# DA TENERE DISABILITATO - bossbar set minecraft:building visible true
+bossbar set minecraft:building visible false

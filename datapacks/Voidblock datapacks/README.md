@@ -1,4 +1,4 @@
-### Voidblock - Portable Version
+### Voidblock - Portable Version - April Fools Edition
 
 [![Crowdin](https://badges.crowdin.net/skyblock-classic-edition/localized.svg)](https://crowdin.com/project/skyblock-classic-edition)
 
