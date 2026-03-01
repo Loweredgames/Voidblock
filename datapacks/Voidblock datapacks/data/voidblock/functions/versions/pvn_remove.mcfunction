@@ -9,7 +9,7 @@
 
 
 ##1.20.6 - LTS STABILE <-- QUI
-#scoreboard objectives remove 1.20.6_PVN_0 (da aggiungere nella 1.22)
+#scoreboard objectives remove 1.20.6_PVN_0 (GIA AGGIUNTO, NON TOCCARE)
 scoreboard objectives remove 1.20.6_PVN_0d
 scoreboard objectives remove 1.20.6_PVN_0c
 scoreboard objectives remove 1.20.6_PVN_0b
