@@ -62,7 +62,7 @@ scoreboard objectives remove PVN_10i
 scoreboard objectives remove PVN_9
 
 
-##1.17.1/1.18.2 VECCHIA INSTABILE (PROSSIMA RIMOZIONE NELLA ????)
+##1.17.1/1.18.2 VECCHIA INSTABILE
 scoreboard objectives remove PVN_8
 scoreboard objectives remove PVN_7
 scoreboard objectives remove PVN_6

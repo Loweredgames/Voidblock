@@ -29,6 +29,9 @@ execute as @a[scores={Voidblock_id=0..}] run scoreboard objectives remove skyblo
 execute as @a[scores={Voidblock_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={skyblock_quit_game=0..}] run scoreboard objectives remove skyblock_quit_game
 execute as @a[scores={Voidblock_tp=0..}] run scoreboard objectives remove tp
+execute as @a[scores={Voidblock_custom_structures=0..}] run scoreboard players set @a Voidblock_structures 10000
+execute as @a[scores={Voidblock_structures_id=900..}] run scoreboard objectives remove Voidblock_custom_structures
+scoreboard objectives remove Voidblock_mc1206
 execute as @a[scores={Voidblock_legacy_version=1..}] run scoreboard objectives remove legacy
 
 

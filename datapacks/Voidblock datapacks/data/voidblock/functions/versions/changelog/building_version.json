@@ -7,7 +7,7 @@
 
 "Release Building": "JE-1.20.6-5.3.X-Voidblock:5.3.2_LTS",
 
-"Nightly Building": "JE-1.20.6-5.3.X-Voidblock:NIGHTLY_BUILDING_01.03.2026.11802a_[1.20.X]",
+"Nightly Building": "JE-1.20.6-5.3.X-Voidblock:NIGHTLY_BUILDING_01.03.2026.21802a_[1.20.X]",
 
 "Data_pack": "TRUE",
 
@@ -17,11 +17,11 @@
 
 "Custom Structures World": "4.1.1 (della 1.20.6)",
 
-"Protocol Version": "1.20.6_PVN_0",
+"Protocol Version": "PVN_0_mc1206",
 
-"Protocol Identifier Data": "1.20.6_PID_0",
+"Protocol Identifier Data": "PID_0_mc1206",
 
-"Sub Protocol Identifier Data": "1.20.6_SUBPID_0_1",
+"Sub Protocol Identifier Data": "SUBPID_0_mc1206",
 
 "Github_Tag": "1.20.6_JE-6",
 

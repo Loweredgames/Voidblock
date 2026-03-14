@@ -6,8 +6,8 @@
 
 
 ##PID LEGACY VERSIONS (DA AGGIUNGERE IL PID NUOVO QUANDO E FINITO DI CONVERTIRE, SE C'E QUALCOSA DA AGGIORNARE, AUMENTA IL CONTATORE QUANDO LA PRECEDENTE CONVERSIONE FINISCE. SOLO NELLA VERSIONE PIU VECCHI: AGGIUNGERE SEMPRE UNA NUOVA CATEGORIA MA DISABILITATA SEMPRE SOLO QUANDO IL PID DIVENTA VECCHIO (ESEMPIO PID 1), ABBILITARE QUANDO C'E LA NUOVA VERSIONE (ESEMPIO 1.21) E LA NUOVA CONVERSIONE (ESEMPIO PID 2, DISABILITARE PER IL FUTURO), AGGIUNGERE NEI COMMENTI LA VERSIONE DA ABBILITARE, RIPETERE IL LOOP).
-execute as @a[scores={1.20.6_PID_0=-100..}] run scoreboard players set @a PID_0 1
-execute as @a[scores={1.20.6_PID_0=-1000..}] run scoreboard players set @a PID_1 1
+execute as @a[scores={PID_0_mc1206=-100..}] run scoreboard players set @a PID_0 1
+execute as @a[scores={PID_0_mc1206=-1000..}] run scoreboard players set @a PID_1 1
 
 
 ##PID UPDATE OLD (AGGIUNGERE I PID VECCHI: ogni 3 versioni e poi l'ultima diventa incompatibile, quindi aggionare sempre in "update_pid", ABBILITARE SEMPRE NELLA VERSIONE LTS)
@@ -171,8 +171,8 @@ execute as @a[scores={PID_legacy_v3=950}] run scoreboard objectives add PID_lega
 
 
 ##PID LEGACY STOP (QUANDO FINISCE: CAMBIARE IL NUMERO PER RESETARE TUTTO, AGGIUNGERE SEMPRE NELLE NUOVE VERSIONI IL PID)
-execute as @a[scores={PID_0=1..}] run scoreboard players set @a 1.20.6_PID_0 -100
-execute as @a[scores={PID_1=1..}] run scoreboard players set @a 1.20.6_PID_0 -100
+execute as @a[scores={PID_0=1..}] run scoreboard players set @a PID_0_mc1206 -100
+execute as @a[scores={PID_1=1..}] run scoreboard players set @a PID_0_mc1206 -100
 
 
 ##PID LEGACY REMOVE (AGGIUNGERE SEMPRE L'ULTIMO PID LEGACY PER RIMUOVERE TUTTO)

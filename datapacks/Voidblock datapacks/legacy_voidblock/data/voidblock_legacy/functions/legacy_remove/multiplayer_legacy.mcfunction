@@ -10,7 +10,7 @@ execute as @a[scores={Voidblock_multiplayer=..5}] run scoreboard objectives remo
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a Voidblock_install -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a Voidblock_islands -2
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a Voidblock_tp 0
-execute as @a[scores={multiplayer=1..}] run scoreboard players set @a 1.20.6_PID_0 24000
+execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_0_mc1206 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a PID_1 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a Voidblock_id 24000
 execute as @a[scores={multiplayer=1..}] run scoreboard players set @a Voidblock_islands 5
