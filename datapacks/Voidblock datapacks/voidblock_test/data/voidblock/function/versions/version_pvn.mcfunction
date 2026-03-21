@@ -34,4 +34,4 @@ bossbar set minecraft:building visible true
 
 
 ##PVN VERSION PROTOCOL LOOP (NON TOCCARE MAI)
-execute as @a[scores={PVN_F2026_mc261=900000000..}] run scoreboard players set @a PVN_F2026_mc261 0
+execute as @a[scores={PVN_0_mc261b=900000000..}] run scoreboard players set @a PVN_0_mc261b 0

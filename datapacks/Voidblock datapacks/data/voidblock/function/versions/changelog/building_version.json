@@ -3,23 +3,25 @@
     
     "Edition": "JAVA EDITION",
     
-    "Release Versions": "7.3.0_Fools [Rebranding Update]",
+    "Release Versions": "7.3.0 [Rebranding Update]",
     
-    "Release Building": "fork_JE-26.1-7.3.0-Voidblock:PRE_RELEASE-1",
+    "Release Building": "fork_JE-26.1-7.3.0-Voidblock:RELEASE_CANDIDATE-1",
     
-    "Nightly Building": "JE-26.1-7.3.0-Voidblock:NIGHTLY_BUILDING_27.02.2026.11511a__[april_fool]",
+    "Nightly Building": "JE-26.1-7.3.0-Voidblock:NIGHTLY_BUILDING_21.03.2026.11417a__[april_fool]",
     
     "Data_pack": "TRUE",
     
     "Resource_pack": "FALSE",
 
-    "Custom Structures World": "1.21.11_1.0",
-    
+    "Translations_Version": "Ultimo Aggiornamento delle Traduzioni: 27.02.2026 alle 15:35",
+
+    "Custom Structures World": "26.1_1.0",
+
     "Protocol Version": "PVN_F2026_mc261",
-    
-    "Github_Tag": "????",
-    
+
+    "Github_Tag": "26.1_JE-0b - ??????",
+
     "Github":"https://github.com/Loweredgames/Voidblock",
-    
+
     "Website":"https://loweredgames.github.io./"
-    }
+}
