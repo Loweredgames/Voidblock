@@ -1,0 +1,27 @@
+{
+"Name": "Voidblock",
+
+"Edition": "JAVA EDITION",
+
+"Release Versions": "7.3.0 [Rebranding Update]",
+
+"Release Building": "JE-1.19.4-7.3.0-Voidblock:7.3.0",
+
+"Nightly Building": "JE-1.19.4-7.3.0-Voidblock:NIGHTLY_BUILDING_24.03.2026.11517a_[main]",
+
+"Data_pack": "TRUE",
+
+"Resource_pack": "FALSE",
+
+"Protocol Version": "PVN_OLD",
+
+"Protocol Identifier Data": "PID_OLD",
+
+"Sub Protocol Identifier Data": "SUBPID_OLD",
+
+"Github_Tag": "1.19.4_JE-1",
+
+"Github":"https://github.com/Loweredgames/Voidblock",
+
+"Website":"https://loweredgames.github.io./"
+}

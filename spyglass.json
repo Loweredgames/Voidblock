@@ -11,12 +11,7 @@
 		"selectorTrailingComma": false,
 		"timeOmitTickUnit": false
 	},
-	"lint": {"undeclaredSymbol": [
-			{
-				"lint": {
-					"undeclaredSymbol": null
-				}
-			}
-		]
+	"lint": {
+		"undeclaredSymbol": []
 	}
 }
