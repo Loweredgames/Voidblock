@@ -12,7 +12,7 @@ function voidblock:islands/small
 function voidblock:islands/very_small
 function voidblock:import
 function voidblock:setup_global
-function voidblock:structures/generated_structures
+function voidblock:structures_test/generated_test_structures
 function voidblock:structures/generated_biome
 function voidblock_legacy:voidblock_legacy_setup
 function voidblock:versions/changelog/building
