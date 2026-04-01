@@ -1,3 +1,3 @@
 **To Do List April Fool:**
-2. aggiungere prossimo pesce d'aprile 2026
-3. testare tutto
+- [X] aggiungere prossimo pesce d'aprile 2026
+- [X] testare tutto e rilasciare

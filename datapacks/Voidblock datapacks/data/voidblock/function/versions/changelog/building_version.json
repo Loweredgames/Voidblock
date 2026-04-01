@@ -5,21 +5,21 @@
     
     "Release Versions": "7.3.0 [Rebranding Update]",
     
-    "Release Building": "fork_JE-26.1-7.3.0-Voidblock:RELEASE_CANDIDATE-1",
+    "Release Building": "fork_JE-26.1-7.3.0-Voidblock:7.3.0_fools",
     
-    "Nightly Building": "JE-26.1-7.3.0-Voidblock:NIGHTLY_BUILDING_21.03.2026.11417a__[april_fool]",
+    "Nightly Building": "JE-26.1-7.3.0-Voidblock:NIGHTLY_BUILDING_01.04.2026.11926a__[april_fool]",
     
     "Data_pack": "TRUE",
     
     "Resource_pack": "FALSE",
 
-    "Translations_Version": "Ultimo Aggiornamento delle Traduzioni: 27.02.2026 alle 15:35",
+    "Translations_Version": "Ultimo Aggiornamento delle Traduzioni: none",
 
-    "Custom Structures World": "26.1_1.0",
+    "Custom Structures World": "none",
 
     "Protocol Version": "PVN_F2026_mc261",
 
-    "Github_Tag": "26.1_JE-0b - ??????",
+    "Github_Tag": "26.1_JE-0_fools",
 
     "Github":"https://github.com/Loweredgames/Voidblock",
 

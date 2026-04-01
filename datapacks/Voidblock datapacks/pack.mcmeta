@@ -1,15 +1,15 @@
 {
   "pack": {
-      "min_format": [99, 3],
-      "max_format": [99, 3],
+      "min_format": [101, 1],
+      "max_format": [101, 1],
     "description": "Voidblock - April Fools Edition By Lorenzo Giannini"
   },
   "overlays": {
     "entries": [
       {
         "directory": "voidblock_april_fools",
-        "min_format": [99, 3],
-        "max_format": [99, 3]
+        "min_format": [101, 1],
+        "max_format": [101, 1]
       }
     ]
   }

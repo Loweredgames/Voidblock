@@ -6,4 +6,4 @@
 
 
 ##Discord Server (Link)
-tellraw @a {"translate":"skyblock_classic_edition.link.discord","italic":true,"underlined":true,"color":"dark_purple","click_event":{"action":"open_url","url":"https://discord.gg/T6PHxhznJ6"}}
+tellraw @a {"text":"Discord Server","italic":true,"underlined":true,"color":"dark_purple","click_event":{"action":"open_url","url":"https://discord.gg/T6PHxhznJ6"}}

@@ -13,11 +13,8 @@ execute if score Voidblock_PlayerOnline Voidblock_multiplayer matches 2.. run sc
 ##MULTIPLAYER JOIN PLAYERS
 scoreboard objectives add Voidblock_multiplayer_join dummy
 execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard objectives add Voidblock_import minecraft.custom:minecraft.play_time
-execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_large -2
-execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_default -2
-execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_small -2
-execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_very_small -2
-execute as @a[scores={Voidblock_import=50..}] run scoreboard players set @a Voidblock_islands -2
+execute as @a[scores={Voidblock_multiplayer_join=2}] run scoreboard players set @a Voidblock_islands_fools -2
+execute as @a[scores={Voidblock_import=50..}] run scoreboard players set @a Voidblock_fools -2
 
 
 ##MULTIPLAYER LOOP

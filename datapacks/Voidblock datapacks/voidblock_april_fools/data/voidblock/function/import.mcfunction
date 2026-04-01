@@ -7,24 +7,24 @@
 
 ##Voidblock Import
 execute as @a[scores={Voidblock_islands=5}] run scoreboard objectives add Voidblock_import minecraft.custom:minecraft.play_time
-execute as @a[scores={Voidblock_islands=5}] run tellraw @a {"translate":"skyblock_classic_edition.loading.chat"}
+execute as @a[scores={Voidblock_islands=5}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading...."}
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_install -2
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_islands -2
 execute as @a[scores={Voidblock_import=1..}] run scoreboard objectives add Voidblock_id dummy
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_id 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_structures_id 24005
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_structures 24000
-execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_test_structures 24000
+execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_test_structures_fools 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_large 24000
-execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_default 24000
+execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_fools 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_small 24000
 execute as @a[scores={Voidblock_import=1..}] run scoreboard players set @a Voidblock_very_small 24000
 
 
 ##START GENERATED FUNCTION
 execute as @a[scores={Voidblock_import=2}] run gamerule command_block_output false
-execute as @a[scores={Voidblock_import=2}] run title @a title {"translate":"skyblock_classic_edition.loading.title.chat"}
-execute as @a[scores={Voidblock_import=2}] run title @a subtitle {"translate":"skyblock_classic_edition.loading.subtitle.chat"}
+execute as @a[scores={Voidblock_import=2}] run title @a title {"text":"Loading..."}
+execute as @a[scores={Voidblock_import=2}] run title @a subtitle {"text":"World"}
 execute as @a[scores={Voidblock_import=2}] run title @a times 30 200 20
 
 
