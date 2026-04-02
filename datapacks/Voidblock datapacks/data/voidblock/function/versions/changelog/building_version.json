@@ -3,11 +3,11 @@
     
     "Edition": "JAVA EDITION",
     
-    "Release Versions": "7.3.0 [Rebranding Update]",
+    "Release Versions": "7.3.0 - April Fools Edition [Rebranding Update]",
     
-    "Release Building": "fork_JE-26.1-7.3.0-Voidblock:7.3.0_fools",
+    "Release Building": "JE-26.1-7.3.0-Voidblock-Fools:BUILDING:01.04.2026a",
     
-    "Nightly Building": "JE-26.1-7.3.0-Voidblock:NIGHTLY_BUILDING_01.04.2026.11926a__[april_fool]",
+    "Nightly Building": "JE-26.1-7.3.0-Voidblock-Fools:NIGHTLY_BUILDING_01.04.2026.21926a__[april_fool]",
     
     "Data_pack": "TRUE",
     
