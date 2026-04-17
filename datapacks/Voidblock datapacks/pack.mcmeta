@@ -12,6 +12,11 @@
         "max_format": [101, 1]
       },
       {
+        "directory": "voidblock_mc26.2",
+        "min_format": [101, 2],
+        "max_format": [102, 0]
+      },
+      {
         "directory": "voidblock_test",
         "min_format": [94, 0],
         "max_format": [94, 0]

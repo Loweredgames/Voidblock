@@ -17,11 +17,11 @@ bossbar set minecraft:building max 100
 
 
 ##BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set building name {"text":"JE-26.1-7.3.0-Voidblock:7.3.0","color":"white","bold":true}
+bossbar set building name {"text":"JE-26.2-26.2-snapshot-3-7.3.1-Voidblock:7.3.1","color":"white","bold":true}
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 99
+bossbar set minecraft:building value 95
 
 
 ###BOSSBAR: IN QUESTA CUSTOM MAP LA BOSSBAR E LOCALE CHE GLOBALE. DA ABBILITARE SU VERSION_PVN. DA TENERE DISABILITATO QUI
