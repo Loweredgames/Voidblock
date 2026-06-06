@@ -3,11 +3,11 @@
 
 "Edition": "JAVA EDITION",
 
-"Release Versions": "7.3.0 [Rebranding Update]",
+"Release Versions": "7.3.1 [Rebranding Update]",
 
-"Release Building": "JE-26.1-7.3.0-Voidblock:7.3.0",
+"Release Building": "JE-26.2-26.2-snapshot-6-7.3.1-Voidblock:7.3.1",
 
-"Nightly Building": "JE-26.1-7.3.0-Voidblock:NIGHTLY_BUILDING_24.03.2026.11517a_[main]",
+"Nightly Building": "JE-26.2-26.2-snapshot-6-7.3.1-Voidblock:NIGHTLY_BUILDING_17.04.2026.21832a_[main]",
 
 "Data_pack": "TRUE",
 
@@ -17,13 +17,13 @@
 
 "Custom Structures World": "26.1_1.0",
 
-"Protocol Version": "PVN_0_mc261",
+"Protocol Version": "PVN_0_mc262a",
 
 "Protocol Identifier Data": "PID_0_mc261",
 
 "Sub Protocol Identifier Data": "SUBPID_0_mc261",
 
-"Github_Tag": "26.1_JE-0",
+"Github_Tag": "26.2_JE-0",
 
 "Github":"https://github.com/Loweredgames/Voidblock",
 

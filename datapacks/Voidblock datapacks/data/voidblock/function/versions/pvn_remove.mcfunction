@@ -11,8 +11,9 @@
 ##???? - FUTURA (PROSSIMA VERSIONE)
 
 
-##26.1 - STABILE <-- QUI
-#scoreboard objectives remove PVN_0_mc261
+##26.1/26.2 - STABILE <-- QUI
+#scoreboard objectives remove PVN_0_mc262a
+scoreboard objectives remove PVN_0_mc261
 scoreboard objectives remove PVN_0_mc261b
 scoreboard objectives remove PVN_0_mc261a
 
@@ -102,7 +103,7 @@ scoreboard objectives remove PVN_10i
 scoreboard objectives remove PVN_9
 
 
-##1.17.1/1.18.2 VECCHIA INSTABILE (PROSSIMA RIMOZIONE NELLA ????)
+##1.17.1/1.18.2 VECCHIA INSTABILE (PROSSIMA RIMOZIONE NELLA PROSSIMA GRANDE VERSIONE SE CI SARA)
 scoreboard objectives remove PVN_8
 scoreboard objectives remove PVN_7
 scoreboard objectives remove PVN_6

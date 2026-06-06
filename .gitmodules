@@ -1,3 +1,4 @@
 [submodule "Voidblock-Hardcore-Mode-Edition"]
 	path = Voidblock-Hardcore-Mode-Edition
 	url = https://github.com/Loweredgames/Voidblock-Hardcore-Mode-Edition.git
+	branch = master
