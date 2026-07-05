@@ -39,6 +39,10 @@
     {
       "structure": "voidblock:taiga",
       "weight": 1
+    },
+    {
+      "structure": "voidblock:sulfur_caves",
+      "weight": 1
     }
   ],
   "placement": {

@@ -43,7 +43,7 @@ execute in minecraft:overworld as @a[scores={Voidblock_very_small=3}] run place 
 #Very Small Classic Desert
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=40}] run scoreboard players set @a Voidblock_tp 2
 execute in minecraft:overworld as @a[scores={Voidblock_very_small=40}] run fill 58 110 7 79 -60 -18 minecraft:air
-execute in minecraft:overworld as @a[scores={Voidblock_very_small=41}] run place template voidblock:islands/small_classic_desert 66 60 -4
+execute in minecraft:overworld as @a[scores={Voidblock_very_small=41}] run place template voidblock:islands/very_small_classic_desert 66 60 -4
 
 
 #Mushroom House
