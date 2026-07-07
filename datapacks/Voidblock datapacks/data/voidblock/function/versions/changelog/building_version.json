@@ -5,7 +5,7 @@
 
 "Release Versions": "7.3.1 [Rebranding Update]",
 
-"Release Building": "JE-26.2-7.3.1-Voidblock:7.3.1",
+"Release Building": "JE-26.2-7.3.1-Voidblock:RELEASE_CANDIDATE-1",
 
 "Nightly Building": "JE-26.2-7.3.1-Voidblock:NIGHTLY_BUILDING_04.07.2026.61209a_[main]",
 
@@ -23,7 +23,7 @@
 
 "Sub Protocol Identifier Data": "SUBPID_0_mc261",
 
-"Github_Tag": "26.2_JE-0",
+"Github_Tag": "26.2_JE-0a",
 
 "Github":"https://github.com/Loweredgames/Voidblock",
 
