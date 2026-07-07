@@ -29,6 +29,10 @@ execute as @a[scores={PVN_0_mc262a=5}] run tellraw @s ["",{"translate":"skyblock
 execute as @a[scores={PVN_0_mc262a=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_mc_version","color":"red"}]
 
 
+## PVN TEST WARNING (DA ABBILITARE SOLO SE IL MONDO CONTIENE LE DIMENSIONI DI TEST, ALTRIMENTI NON ABBILITARE)
+execute as @a[scores={PVN_0_mc262a=7}] run tellraw @s ["",{"translate":"skyblock_classic_edition.skyblock_test_setup","color":"red"}]
+
+
 ##WARNING MESSAGE BOSSBAR (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
 title @a actionbar {"text":"\u26a0Work in Progress\u26a0","bold":true,"color":"dark_red"}
 
