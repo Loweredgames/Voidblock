@@ -6,13 +6,13 @@
 
 
 ##SCOREBOARD PID INSTALL SETUP (INCREMENTARE IL NUMERO SE SERVE UNA NUOVA CONVERSIONE)
-scoreboard objectives add PID_0_mc261 dummy
-scoreboard players add @a PID_0_mc261 1
+scoreboard objectives add PID_0_mc263 dummy
+scoreboard players add @a PID_0_mc263 1
 
 
 ##SETUP VERSION Voidblock_ID (CAMBIARE LA SCORE IN "Voidblock_id". VEDERE LA SCORE PID_X PER RIFERIMENTO)
-execute as @a[scores={Voidblock_id=30}] run scoreboard players set @a PID_0_mc261 -100
+execute as @a[scores={Voidblock_id=30}] run scoreboard players set @a PID_0_mc263 -100
 
 
 ##VERSION IMPORT LOCK (BLOCCA LA CONVERSIONE SE SI USA IMPORT)
-execute as @a[scores={Voidblock_import=1..100}] run scoreboard players set @a PID_0_mc261 2400
+execute as @a[scores={Voidblock_import=1..100}] run scoreboard players set @a PID_0_mc263 2400
