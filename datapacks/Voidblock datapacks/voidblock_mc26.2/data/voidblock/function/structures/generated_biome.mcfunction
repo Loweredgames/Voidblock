@@ -23,6 +23,10 @@ execute as @a in minecraft:overworld run fillbiome 28 0 1025 -2 255 999 minecraf
 ##The Nether Biome
 
 
+#Nether Main Island
+execute as @a in minecraft:the_nether run fillbiome -0 0 -0 10 255 10 minecraft:nether_wastes
+
+
 #Crimson Forest
 execute as @a in minecraft:the_nether run fillbiome 3 0 -42 -6 255 -54 minecraft:crimson_forest
 
