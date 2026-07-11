@@ -21,7 +21,7 @@ bossbar set building name {"text":"JE-26.2-7.3.1-Voidblock:RELEASE_CANDIDATE-1",
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 96
+bossbar set minecraft:building value 98
 
 
 ###BOSSBAR: IN QUESTA CUSTOM MAP LA BOSSBAR E LOCALE CHE GLOBALE. DA ABBILITARE SU VERSION_PVN. DA TENERE DISABILITATO QUI

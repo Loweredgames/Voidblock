@@ -11,7 +11,7 @@
 #??? - FUTURA (PROSSIMA VERSIONE)
 
 
-##26.1/26.2/26.3 - STABILE <-- QUI (DA DISABILITARE)
+##26.1.2/26.2/26.3 - STABILE <-- QUI (DA DISABILITARE)
 #scoreboard objectives remove PID_0_mc263
 #scoreboard objectives remove PID_0_mc262
 #scoreboard objectives remove PID_0_mc261
