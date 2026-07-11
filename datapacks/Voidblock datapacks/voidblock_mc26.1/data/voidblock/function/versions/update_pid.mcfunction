@@ -31,7 +31,7 @@ execute as @a[scores={PID_0_mc261=200}] run gamerule immediate_respawn false
 execute as @a[scores={PID_0_mc261=205}] run playsound minecraft:block.note_block.chime ambient @a 0 66 0 100 2
 
 
-###FUNCTION PID - PID_0_mc261 - 26.1 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
+###FUNCTION PID - PID_0_mc261 - 26.1.2 (SPOSTARE "PID_X" IN LEGACY QUANDO FINISCE IL SUPPORTO DELLA VERSIONE, NON ELIMINARE IL COMMENTO IN SE)
 
 
 ##Overworld
