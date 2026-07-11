@@ -11,7 +11,7 @@
 ##???? - FUTURA (PROSSIMA VERSIONE)
 
 
-##26.1/26.2 - STABILE <-- QUI
+##26.1.2/26.2 - STABILE <-- QUI
 #scoreboard objectives remove PVN_0_mc262a
 scoreboard objectives remove PVN_0_mc261
 scoreboard objectives remove PVN_0_mc261b
