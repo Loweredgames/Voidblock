@@ -19,3 +19,5 @@ function voidblock:structures/wall_texts_sign
 ##SCOREBOARD PID VERSIONS RESET LOOP (AGGIUNGERE IL LOOP)
 execute as @a[scores={PID_1_mctest=2000000..}] run scoreboard players set @a PID_1_mctest 10000
 execute as @a[scores={PID_0_mc261=2000000..}] run scoreboard players set @a PID_0_mc261 10000
+execute as @a[scores={PID_0_mc262=2000000..}] run scoreboard players set @a PID_0_mc262 10000
+execute as @a[scores={PID_0_mc263=2000000..}] run scoreboard players set @a PID_0_mc263 10000
