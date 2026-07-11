@@ -1,23 +1,31 @@
 {
-    "Name": "Voidblock - April Fools Edition",
-    
-    "Edition": "JAVA EDITION",
-    
-    "Release Versions": "7.3.1 - April Fools Edition [Rebranding Update]",
-    
-    "Release Building": "JE-26.2-7.3.1-Voidblock:RELEASE_CANDIDATE-1",
+"Name": "Voidblock - April Fools Edition",
 
-    "Nightly Building": "JE-26.2-7.3.1-Voidblock:NIGHTLY_BUILDING_11.07.2026.3147a_[main]",
-    
-    "Data_pack": "TRUE",
-    
-    "Resource_pack": "FALSE",
+"Edition": "JAVA EDITION",
 
-    "Translations_Version": "Ultimo Aggiornamento delle Traduzioni: none",
+"Release Versions": "7.3.1 - April Fools Edition [Rebranding Update]",
 
-    "Custom Structures World": "none",
+"Release Building": "JE-26.2-7.3.1-Voidblock:RELEASE_CANDIDATE-1",
 
-    "Github":"https://github.com/Loweredgames/Voidblock",
+"Nightly Building": "JE-26.2-7.3.1-Voidblock:NIGHTLY_BUILDING_11.07.2026.3147a_[april_fool]",
 
-    "Website":"https://loweredgames.github.io./"
+"Data_pack": "TRUE",
+
+"Resource_pack": "FALSE",
+
+"Translations_Version": "None",
+
+"Custom Structures World": "26.2_1.0",
+
+"Protocol Version": "PVN_0_mc262a",
+
+"Protocol Identifier Data": "PID_0_mc262",
+
+"Sub Protocol Identifier Data": "SUBPID_0_mc261",
+
+"Github_Tag": "26.2_JE-0a",
+
+"Github":"https://github.com/Loweredgames/Voidblock",
+
+"Website":"https://loweredgames.github.io./"
 }
