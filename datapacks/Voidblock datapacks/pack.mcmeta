@@ -29,7 +29,7 @@
       {
         "directory": "legacy_voidblock",
         "min_format": [95, 0],
-        "max_format": [107, 1]
+        "max_format": [110, 0]
       }
     ]
   }
