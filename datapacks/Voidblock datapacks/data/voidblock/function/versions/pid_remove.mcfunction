@@ -103,3 +103,4 @@ scoreboard objectives remove PSN_0
 scoreboard objectives remove PSN_legacy
 scoreboard objectives remove SkyblockCE_skip_structures
 scoreboard objectives remove Voidblock_install_test
+scoreboard objectives remove SkyblockCE_level_dat
