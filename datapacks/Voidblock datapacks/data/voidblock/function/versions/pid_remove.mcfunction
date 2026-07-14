@@ -58,6 +58,7 @@ scoreboard objectives remove 1.20.5_SUBPID_0_1
 scoreboard objectives remove 1.20.3_PID_1_3
 scoreboard objectives remove 1.20.3_PID_1_2
 scoreboard objectives remove 1.20.3_PID_1_1
+scoreboard objectives remove Voidblock_custom_structures
 
 
 ##MC VECCHIO - VECCHIA INSTABILE
@@ -73,6 +74,7 @@ scoreboard objectives remove PID_OLD
 
 
 ##Skyblock Classic Edition Legacy PID REMOVE (dalla 1.x.x alla 6.x.x) - VECCHIA INSTABILE (PROSSIMA RIMOZIONE NELLA ????)
+bossbar remove minecraft:nightly_building
 scoreboard objectives remove tp
 scoreboard objectives remove skyblock_install
 scoreboard objectives remove skyblock_island
@@ -104,3 +106,5 @@ scoreboard objectives remove PSN_legacy
 scoreboard objectives remove SkyblockCE_skip_structures
 scoreboard objectives remove Voidblock_install_test
 scoreboard objectives remove SkyblockCE_level_dat
+scoreboard objectives remove refactoring_scoreboard
+scoreboard objectives remove multiplayer
