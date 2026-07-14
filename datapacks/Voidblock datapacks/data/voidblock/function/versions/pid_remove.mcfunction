@@ -107,3 +107,4 @@ scoreboard objectives remove SkyblockCE_skip_structures
 scoreboard objectives remove Voidblock_install_test
 scoreboard objectives remove SkyblockCE_level_dat
 scoreboard objectives remove refactoring_scoreboard
+scoreboard objectives remove multiplayer
