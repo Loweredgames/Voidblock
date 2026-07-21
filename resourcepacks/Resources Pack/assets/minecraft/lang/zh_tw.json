@@ -35,7 +35,7 @@
     "skyblock_classic_edition.version_update.development_version.report": "在這裡回報錯誤",
     "skyblock_classic_edition.version_update.development_mc_version": "⚠警告：您正在使用開發中或未經測試的Minecraft版本，可能出現錯誤並導致世界損毀。務必隨時備份，並等待Minecraft正式版發行。⚠",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n正在載入...",
-    "skyblock_classic_edition.loading.title.chat": "正在載入...",
+    "skyblock_classic_edition.loading.title.chat": "載入中...",
     "skyblock_classic_edition.loading.subtitle.chat": "世界",
     "skyblock_classic_edition.versions_id.warning_update.off": "這裡沒有什麼好看的...",
     "skyblock_classic_edition.versions_id.warning_update.on": "新版本的世界更新和轉換...",
