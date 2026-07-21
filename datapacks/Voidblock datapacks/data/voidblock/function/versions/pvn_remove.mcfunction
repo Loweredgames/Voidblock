@@ -12,7 +12,8 @@
 
 
 ##26.1.2/26.2 - STABILE <-- QUI
-#scoreboard objectives remove PVN_0_mc262a
+#scoreboard objectives remove PVN_0_mc262
+scoreboard objectives remove PVN_0_mc262a
 scoreboard objectives remove PVN_0_mc261
 scoreboard objectives remove PVN_0_mc261b
 scoreboard objectives remove PVN_0_mc261a
