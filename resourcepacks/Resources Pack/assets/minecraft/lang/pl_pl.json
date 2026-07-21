@@ -11,11 +11,11 @@
     "skyblock_classic_edition.skyblock_setup.default_normal.info": "Wszyscy znają tą klasyczną wyspę, została ulepszona pod nowsze wersje Minecrafta. Polecana dla osób, które nie znają oryginalnego skyblock.",
     "skyblock_classic_edition.skyblock_setup.small_hard": "▶Mała (Trudny)",
     "skyblock_classic_edition.skyblock_setup.small_hard.info": "Pamiętna wyspa z oryginalnego skyblock 2.0, zmodernizowana pod nowsze wersję Minecraft. Dla tych, którzy uwielbiają wyzwania i znają wszystkie sztuczki i techniczne pojęcia przetrwania wanilii.",
-    "skyblock_classic_edition.skyblock_setup.very_small_hard": "▶️Bardzo mały (Extreme)",
+    "skyblock_classic_edition.skyblock_setup.very_small_hard": "▶Bardzo Małe(Ekstremalnie)",
     "skyblock_classic_edition.skyblock_setup.very_small_hard.info": "Ta wyspa jest ekstremalna i nieodpowiednia dla nowych graczy, ale tylko dla tych, którzy szukają czystej wanilii technicznej i którzy znają Minecraft w ekstremalny sposób techniczny. Zaleca się, aby grać z włączonym trybem hardcore.",
     "skyblock_classic_edition.skyblock_setup.import": "▶Importuj Świat",
     "skyblock_classic_edition.skyblock_setup.import.info": "Pozwala zaimportować świat inny niż Skyblock Classic Edition, który może być kolejnym Skyblock. dodaje wszystkie niezbędne tablice wyników bez uszkodzenia świata i wcześniej istniejących struktur, tworzy również małą szklaną platformę, jeśli nic nie ma. UŻYWAJ OSTROŻNIE: FUNKCJA NIE GENERUJE ŻADNEJ WYSPY, CO UNIEMOŻLIWIA SAMĄ MAPĘ I ZASOBY. JEŚLI NIE JEST GENEROWANY BIOM/STRUKTURA, JEST TO BŁĄD: ZRÓB KOPIĘ ZAPASOWĄ, WŁÓŻ PRZEDMIOTY DO SKRZYNI I ZASTĄP LEVEL.DAT NA STARĄ.",
-    "skyblock_classic_edition.skyblock_setup.help_keybind": "Open the chat/command with ",
+    "skyblock_classic_edition.skyblock_setup.help_keybind": "Otwórz czat/komendy za pomocą ",
     "skyblock_classic_edition.skyblock_test_setup": "Aktualnie używasz innej wersji do wewnętrznego testowania, jest ona używana kiedy niestandardowa mapa nie jest kompatybilna z główną wersją. Na tej wersji może występować wiele krytycznych błędów: ta wersja zawiera pusty świat z tylko jednym biomem (śnieżna tajga), level.dat i level.dat_old przechowują tylko jeden biom i zawierają pregenerowane struktury testowe, jeżeli chcesz przełączyć na normalny świat z wieloma biomami i strukturami generowanymi metodami vanilla musisz zamienić packę danych z kompatybilnym level.dat albo znowu zreinstalować mapę i użyć nowszej wersji. Ta wersja będzie zamieniona z niestandarowym światem w rozwoju tego wydania. Jest zalecane aby nie generować świata ale zaczekać na wydanie.",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible": "Od wersji:",
     "skyblock_classic_edition.skyblock_setup.legacy_version.compatible.to_text": "do",
@@ -33,7 +33,7 @@
     "skyblock_classic_edition.version_update.discord": "Śledź mnie na Discordzie aby zgłosić sugestię lub znalezione błędy.",
     "skyblock_classic_edition.version_update.development_version.warning": "⚠UWAGA: Używasz wersji deweloperskiej, świat może zostać uszkodzony i uszkodzony, zawsze tworzysz kopie zapasowe i ",
     "skyblock_classic_edition.version_update.development_version.report": "zgłaszaj błędy tutaj",
-    "skyblock_classic_edition.version_update.development_mc_version": "⚠WARNING: You are using a version of Minecraft that is still in development or untested, bugs may occur and the world may become corrupted and damaged. Always make backups and wait for the full version of Minecraft to be released.⚠",
+    "skyblock_classic_edition.version_update.development_mc_version": "⚠️OSTRZEŻENIE: Używasz wersji Minecraft, która jest w trakcie rozwoju lub nie jest przetestowana, mogą wystąpić błędy, a świat może ulec zniszczeniu i zniszczeniu. Zawsze twórz kopie zapasowe i czekaj na wydanie pełnej wersji Minecrafta.⚠️",
     "skyblock_classic_edition.loading.chat": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nŁadowanie....",
     "skyblock_classic_edition.loading.title.chat": "Ładowanie...",
     "skyblock_classic_edition.loading.subtitle.chat": "Świat",
@@ -55,5 +55,5 @@
     "skyblock_classic_edition.warning_level.dat.end": "Powinieneś zobaczyć struktury w nowych kawałkach, na wypadek, gdyby powtórz kroki jeszcze raz.",
     "skyblock_classic_edition.link.discord": "Serwer Discord",
     "skyblock_classic_edition.link.crowdin": "Projekt Tłumaczeń Crowdin",
-    "skyblock_classic_edition.credits": "Translated by the Crowdin Translations Community Project, Thanks you."
+    "skyblock_classic_edition.credits": "Tłumaczone przez projekt Społeczności Tłumaczeń Crowdin, dziękuję."
 }
