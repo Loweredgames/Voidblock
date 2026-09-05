@@ -14,13 +14,13 @@ _Skyblock is one of the most famous maps in Minecraft. the original has been upd
 
 _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an unknown island, inside a chest it says..._
 
-# [FAQ](https://loweredgames.github.io./faq.html)
-# [Troubleshooting and Help Requests](https://loweredgames.github.io./help.html)
+# [FAQ](https://Loweredgames.github.io/BlockMapsChangelogs/faq.html)
+# [Troubleshooting and Help Requests](https://Loweredgames.github.io/BlockMapsChangelogs/help.html)
 
 _Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
 READ THE LICENZE BEFORE DOWNLOADING:
-https://loweredgames.github.io/license.html
+https://Loweredgames.github.io/BlockMapsChangelogs/license.html
 
 NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO, READING THE COPYRIGHT (C):
 https://www.minecraft.net/en-us/terms

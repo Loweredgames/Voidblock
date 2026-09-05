@@ -24,13 +24,13 @@ _Steve, Alex, Noor, Sunny, Ari, Zuri, Makena, Kai and Efe, they woke up on an un
 - Compatible with multiplayer,
 - Supports localizations: help me translate into your native language. The languages must be faithful to the English language, respect the punctuation and the capitalization. Click here to translate into your language in Crowdin: https://crowdin.com/project/skyblock-classic-edition/,
 
-# [FAQ](https://loweredgames.github.io./faq.html)
-# [Troubleshooting and Help Requests](https://loweredgames.github.io./help.html)
+# [FAQ](https://Loweredgames.github.io/BlockMapsChangelogs/faq.html)
+# [Troubleshooting and Help Requests](https://Loweredgames.github.io/BlockMapsChangelogs/help.html)
 
 _Thanks to the original Skyblock team for creating the most popular Minecraft map._
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
-https://loweredgames.github.io/license.html
+https://Loweredgames.github.io/BlockMapsChangelogs/license.html
 
 NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO, READING THE COPYRIGHT (C):
 https://www.minecraft.net/en-us/terms
