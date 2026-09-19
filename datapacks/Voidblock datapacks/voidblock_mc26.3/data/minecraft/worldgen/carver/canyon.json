@@ -1,32 +1,5 @@
 {
   "type": "minecraft:canyon",
-    "debug_settings": {
-      "air_state": {
-        "Name": "minecraft:warped_button",
-        "Properties": {
-          "face": "wall",
-          "facing": "north",
-          "powered": "false"
-        }
-      },
-      "barrier_state": {
-        "Name": "minecraft:glass"
-      },
-      "lava_state": {
-        "Name": "minecraft:orange_stained_glass"
-      },
-      "water_state": {
-        "Name": "minecraft:candle",
-        "Properties": {
-          "candles": "1",
-          "lit": "false",
-          "waterlogged": "false"
-        }
-      }
-    },
-    "lava_level": {
-      "above_bottom": 8
-    },
     "probability": 0.01,
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "shape": {
