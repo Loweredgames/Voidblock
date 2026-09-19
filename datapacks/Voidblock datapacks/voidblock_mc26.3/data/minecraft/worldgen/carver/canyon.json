@@ -1,6 +1,5 @@
 {
   "type": "minecraft:canyon",
-  "config": {
     "debug_settings": {
       "air_state": {
         "Name": "minecraft:warped_button",
@@ -66,5 +65,4 @@
       }
     },
     "yScale": 3.0
-  }
 }

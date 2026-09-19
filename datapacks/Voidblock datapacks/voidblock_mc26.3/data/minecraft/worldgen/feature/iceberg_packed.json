@@ -1,8 +1,6 @@
 {
   "type": "minecraft:iceberg",
-  "config": {
     "state": {
-      "Name": "minecraft:air"
+      "id": "minecraft:air"
     }
-  }
 }
