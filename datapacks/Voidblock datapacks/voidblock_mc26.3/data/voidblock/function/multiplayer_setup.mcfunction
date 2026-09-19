@@ -6,6 +6,7 @@
 
 
 ##MULTIPLAYER SETUP
+defaultgamemode survival
 execute store result score Voidblock_PlayerOnline Voidblock_multiplayer if entity @a
 execute if score Voidblock_PlayerOnline Voidblock_multiplayer matches 2.. run scoreboard players set @a Voidblock_multiplayer_join 2
 
