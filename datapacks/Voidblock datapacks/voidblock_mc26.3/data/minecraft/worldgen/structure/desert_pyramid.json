@@ -8,8 +8,11 @@
       "spawns": [
         {
           "type": "minecraft:husk",
-          "maxCount": 16,
-          "minCount": 8,
+          "count": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 16,
+            "min_inclusive": 8
+          },
           "weight": 1
         }
       ]

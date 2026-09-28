@@ -26,7 +26,7 @@ execute as @a[scores={PVN_0_mc262=5}] run tellraw @s ["",{"translate":"skyblock_
 
 
 ## PVN MC VERSION (DA ABBILITARE SOLO NELLE VERSIONI DI SVILUPPO DI MINECRAFT)
-execute as @a[scores={PVN_0_mc262=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_mc_version","color":"red"}]
+#execute as @a[scores={PVN_0_mc262=6}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_mc_version","color":"red"}]
 
 
 ## PVN TEST WARNING (DA ABBILITARE SOLO SE IL MONDO CONTIENE LE DIMENSIONI DI TEST, ALTRIMENTI NON ABBILITARE)
