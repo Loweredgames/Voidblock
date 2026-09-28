@@ -1,7 +1,6 @@
 {
   "type": "minecraft:canyon",
     "probability": 0.01,
-    "replaceable": "#minecraft:overworld_carver_replaceables",
     "shape": {
       "distance_factor": {
         "type": "minecraft:uniform",
@@ -21,7 +20,8 @@
       },
       "vertical_radius_center_factor": 0.0,
       "vertical_radius_default_factor": 1.0,
-      "width_smoothness": 3
+      "width_smoothness": 3,
+      "y_scale": 3.0
     },
     "vertical_rotation": {
       "type": "minecraft:uniform",
@@ -36,6 +36,5 @@
       "min_inclusive": {
         "absolute": 10
       }
-    },
-    "yScale": 3.0
+    }
 }

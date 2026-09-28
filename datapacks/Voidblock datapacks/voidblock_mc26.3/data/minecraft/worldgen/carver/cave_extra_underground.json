@@ -1,5 +1,10 @@
 {
   "type": "minecraft:cave",
+  "count": {
+    "type": "minecraft:very_biased_to_bottom",
+    "max_inclusive": 14,
+    "min_inclusive": 0
+    },
     "floor_level": {
       "type": "minecraft:uniform",
       "max_exclusive": -0.4,
@@ -24,6 +29,12 @@
       "min_inclusive": {
         "above_bottom": 8
       }
+    },
+    "thickness": {
+      "type": "minecraft:trapezoid",
+      "max": 3.0,
+      "min": 0.0,
+      "plateau": 1.0
     },
     "room_vertical_radius_multiplier": {
       "type": "minecraft:uniform",

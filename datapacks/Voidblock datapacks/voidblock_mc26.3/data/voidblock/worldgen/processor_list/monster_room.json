@@ -13,7 +13,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:spawner"
+            "id": "minecraft:spawner"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_static",
@@ -41,7 +41,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:spawner"
+            "id": "minecraft:spawner"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_static",
@@ -69,7 +69,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:spawner"
+            "id": "minecraft:spawner"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_static",
