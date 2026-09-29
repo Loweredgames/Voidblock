@@ -30,7 +30,7 @@ execute as @a[scores={PVN_0_mc262=5}] run tellraw @s ["",{"translate":"skyblock_
 
 
 ## PVN TEST WARNING (DA ABBILITARE SOLO SE IL MONDO CONTIENE LE DIMENSIONI DI TEST, ALTRIMENTI NON ABBILITARE)
-execute as @a[scores={PVN_0_mc262=7}] run tellraw @s ["",{"translate":"skyblock_classic_edition.skyblock_test_setup","color":"red"}]
+#execute as @a[scores={PVN_0_mc262=7}] run tellraw @s ["",{"translate":"skyblock_classic_edition.skyblock_test_setup","color":"red"}]
 
 
 ##WARNING MESSAGE BOSSBAR (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
