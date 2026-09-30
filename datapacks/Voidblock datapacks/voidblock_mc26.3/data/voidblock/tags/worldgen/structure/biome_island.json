@@ -11,6 +11,9 @@
     "voidblock:savanna",
     "voidblock:taiga",
     "voidblock:pale_garden",
-    "voidblock:sulfur_caves"
+    "voidblock:sulfur_caves",
+    "voidblock:dappled_forest_orange",
+    "voidblock:dappled_forest_red",
+    "voidblock:dappled_forest_yellow"
   ]
 }

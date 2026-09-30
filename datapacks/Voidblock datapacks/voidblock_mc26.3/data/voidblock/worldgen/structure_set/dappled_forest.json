@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "voidblock:dappled_forest_orange",
+      "weight": 50
+    },
+    {
+      "structure": "voidblock:dappled_forest_yellow",
+      "weight": 35
+    },
+    {
+      "structure": "voidblock:dappled_forest_red",
+      "weight": 20
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "spread_type": "triangular",
+    "spacing": 38,
+    "separation": 8
+  }
+}
