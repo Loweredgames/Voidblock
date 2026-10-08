@@ -12,6 +12,7 @@
 
 
 ##26.1.2/26.2/26.3/26.4 - STABILE <-- QUI (DA DISABILITARE)
+#scoreboard objectives remove PID_0_mc264
 #scoreboard objectives remove PID_0_mc263
 #scoreboard objectives remove PID_0_mc262
 #scoreboard objectives remove PID_0_mc261
