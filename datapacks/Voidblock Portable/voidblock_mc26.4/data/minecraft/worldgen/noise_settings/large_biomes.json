@@ -1,0 +1,49 @@
+{
+  "sea_level": -256,
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+  "default_block": {
+    "id": "minecraft:air"
+  },
+  "default_fluid": {
+    "id": "minecraft:water",
+    "properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "min_y": -64,
+    "height": 384
+  },
+  "noise_router": {
+    "temperature": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:temperature_large",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "vegetation": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:vegetation_large",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "continents": "minecraft:overworld_large_biomes/continents",
+    "erosion": "minecraft:overworld_large_biomes/erosion",
+    "depth": "minecraft:overworld_large_biomes/depth",
+    "ridges": "minecraft:overworld/ridges",
+    "chunk_surface_level": 0,
+    "final_density": 0
+  },
+  "spawn_target": [],
+  "material_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
+}
