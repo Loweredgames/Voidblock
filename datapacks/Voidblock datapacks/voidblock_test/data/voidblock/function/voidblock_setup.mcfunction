@@ -49,35 +49,35 @@ execute as @a[scores={Voidblock_import=2000000..}] run scoreboard players set @a
 
 
 ##Gamerules Setup Test
-execute as @a[scores={Voidblock_id=..1000}] run gamerule mob_griefing true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule reduced_debug_info false
-execute as @a[scores={Voidblock_id=..1000}] run gamerule ender_pearls_vanish_on_death true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule water_source_conversion true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule lava_source_conversion true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spectators_generate_chunks true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule fall_damage true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule fire_damage true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule freeze_damage true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule forgive_dead_players true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule mob_explosion_drop_decay true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule max_block_modifications 1000000
-execute as @a[scores={Voidblock_id=..1000}] run gamerule max_command_sequence_length 1000000
-execute as @a[scores={Voidblock_id=..1000}] run gamerule players_nether_portal_creative_delay 1
-execute as @a[scores={Voidblock_id=..1000}] run gamerule players_nether_portal_default_delay 80
-execute as @a[scores={Voidblock_id=..1000}] run gamerule projectiles_can_break_blocks true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule max_entity_cramming 24
-execute as @a[scores={Voidblock_id=..1000}] run gamerule random_tick_speed 3
-execute as @a[scores={Voidblock_id=..1000}] run gamerule max_snow_accumulation_height 3
-execute as @a[scores={Voidblock_id=..1000}] run gamerule show_death_messages true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule mob_drops true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule natural_health_regeneration true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spread_vines true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule fire_spread_radius_around_player 1
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spawn_phantoms true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spawn_mobs true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spawn_wardens true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spawn_patrols true
-execute as @a[scores={Voidblock_id=..1000}] run gamerule spawn_wandering_traders true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule mob_griefing true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule reduced_debug_info false
+execute as @a[scores={Voidblock_id=..25000}] run gamerule ender_pearls_vanish_on_death true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule water_source_conversion true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule lava_source_conversion true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spectators_generate_chunks true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule fall_damage true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule fire_damage true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule freeze_damage true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule forgive_dead_players true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule mob_explosion_drop_decay true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule max_block_modifications 1000000
+execute as @a[scores={Voidblock_id=..25000}] run gamerule max_command_sequence_length 1000000
+execute as @a[scores={Voidblock_id=..25000}] run gamerule players_nether_portal_creative_delay 1
+execute as @a[scores={Voidblock_id=..25000}] run gamerule players_nether_portal_default_delay 80
+execute as @a[scores={Voidblock_id=..25000}] run gamerule projectiles_can_break_blocks true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule max_entity_cramming 24
+execute as @a[scores={Voidblock_id=..25000}] run gamerule random_tick_speed 3
+execute as @a[scores={Voidblock_id=..25000}] run gamerule max_snow_accumulation_height 3
+execute as @a[scores={Voidblock_id=..25000}] run gamerule show_death_messages true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule mob_drops true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule natural_health_regeneration true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spread_vines true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule fire_spread_radius_around_player 1
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spawn_phantoms true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spawn_mobs true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spawn_wardens true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spawn_patrols true
+execute as @a[scores={Voidblock_id=..25000}] run gamerule spawn_wandering_traders true
 
 
 ##Islands Choices Setup Test
