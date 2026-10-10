@@ -1,0 +1,120 @@
+{
+  "default_block": {
+    "id": "minecraft:air"
+  },
+  "default_fluid": {
+    "id": "minecraft:air"
+  },
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+  "material_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:y_above",
+          "anchor": {
+            "absolute": 65
+          },
+          "surface_depth_multiplier": 0,
+          "add_stone_depth": false
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "id": "minecraft:end_stone"
+          }
+        }
+      },
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "id": "minecraft:light",
+          "properties": {
+            "level": "0",
+            "waterlogged": "false"
+          }
+        }
+      }
+    ]
+  },
+  "noise": {
+    "height": 128,
+    "min_y": 0
+  },
+  "noise_router": {
+    "chunk_surface_level": 0.0,
+    "continents": 0.0,
+    "depth": 0.0,
+    "erosion": "minecraft:end/islands",
+    "final_density": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:min",
+        "left": {
+          "type": "minecraft:min",
+          "left": {
+            "type": "minecraft:gradient",
+            "axis": "x",
+            "from_coordinate": -4,
+            "from_value": -1.0,
+            "to_coordinate": 0,
+            "to_value": 1.0
+          },
+          "right": {
+            "type": "minecraft:gradient",
+            "axis": "x",
+            "from_coordinate": 0,
+            "from_value": 1.0,
+            "to_coordinate": 4,
+            "to_value": -1.0
+          }
+        },
+        "right": {
+          "type": "minecraft:min",
+          "left": {
+            "type": "minecraft:gradient",
+            "axis": "z",
+            "from_coordinate": -4,
+            "from_value": -1.0,
+            "to_coordinate": 0,
+            "to_value": 1.0
+          },
+          "right": {
+            "type": "minecraft:gradient",
+            "axis": "z",
+            "from_coordinate": 0,
+            "from_value": 1.0,
+            "to_coordinate": 4,
+            "to_value": -1.0
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:min",
+        "left": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "from_coordinate": 59,
+          "from_value": -1.0,
+          "to_coordinate": 60,
+          "to_value": 1.0
+        },
+        "right": {
+          "type": "minecraft:gradient",
+          "axis": "y",
+          "from_coordinate": 64,
+          "from_value": 1.0,
+          "to_coordinate": 65,
+          "to_value": -1.0
+        }
+      }
+    },
+    "ridges": 0.0,
+    "temperature": 0.0,
+    "vegetation": 0.0
+  },
+  "sea_level": 0,
+  "spawn_target": []
+}
