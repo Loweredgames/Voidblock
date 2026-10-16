@@ -1,7 +1,7 @@
 {
   "pack": {
       "min_format": [95, 0],
-      "max_format": [123, 0],
+      "max_format": [124, 0],
     "description": "Voidblock By Lorenzo Giannini"
   },
   "overlays": {
@@ -24,7 +24,7 @@
       {
         "directory": "voidblock_mc26.4",
         "min_format": [122, 0],
-        "max_format": [123, 0]
+        "max_format": [124, 0]
       },
       {
         "directory": "voidblock_test",
@@ -34,7 +34,7 @@
       {
         "directory": "legacy_voidblock",
         "min_format": [95, 0],
-        "max_format": [123, 0]
+        "max_format": [124, 0]
       }
     ]
   }
