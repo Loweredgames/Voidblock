@@ -22,7 +22,7 @@ execute as @a[scores={PVN_0_mc263a=1}] run tellraw @s ["",{"translate":"skyblock
 
 
 ##PVN WARNING (DA ABBILITARE SOLO NELLE VERSIONI DI SVILUPPO)
-execute as @a[scores={PVN_0_mc263a=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/issues"}},{"text":".\u26a0","color":"red"}]
+#execute as @a[scores={PVN_0_mc263a=5}] run tellraw @s ["",{"translate":"skyblock_classic_edition.version_update.development_version.warning","color":"red"},{"translate":"skyblock_classic_edition.version_update.development_version.report","underlined":true,"color":"red","click_event":{"action":"open_url","url":"https://github.com/Loweredgames/Voidblock/issues"}},{"text":".\u26a0","color":"red"}]
 
 
 ## PVN MC VERSION (DA ABBILITARE SOLO NELLE VERSIONI DI SVILUPPO DI MINECRAFT)
