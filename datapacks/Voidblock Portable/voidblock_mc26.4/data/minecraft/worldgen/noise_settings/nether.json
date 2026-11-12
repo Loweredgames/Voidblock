@@ -2,9 +2,6 @@
   "sea_level": -256,
   "disable_mob_generation": false,
   "legacy_random_source": true,
-  "default_block": {
-    "id": "minecraft:air"
-  },
   "default_fluid": {
     "id": "minecraft:lava",
     "properties": {
