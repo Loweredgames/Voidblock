@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "voidblock",
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:short_grass"
+    ],
+    "M": [
+      "minecraft:dirt"
+    ]
+  },
+  "result": {
+    "id": "minecraft:grass_block",
+    "count": 4
+  }
+}
