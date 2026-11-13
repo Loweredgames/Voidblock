@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "voidblock:mystery_box_empty",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "spread_type": "triangular",
+    "frequency": 0.1,
+    "spacing": 48,
+    "separation": 32
+  }
+}
