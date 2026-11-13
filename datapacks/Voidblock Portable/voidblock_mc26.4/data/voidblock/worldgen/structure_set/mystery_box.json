@@ -3,6 +3,10 @@
     {
       "structure": "voidblock:mystery_box_empty",
       "weight": 1
+    },
+    {
+      "structure": "voidblock:mystery_box_charoite",
+      "weight": 1
     }
   ],
   "placement": {
