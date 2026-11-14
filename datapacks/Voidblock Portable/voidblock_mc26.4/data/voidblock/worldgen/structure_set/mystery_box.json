@@ -11,6 +11,14 @@
     {
       "structure": "voidblock:mystery_box_malachite",
       "weight": 1
+    },
+    {
+      "structure": "voidblock:mystery_box_smectite",
+      "weight": 1
+    },
+    {
+      "structure": "voidblock:mystery_box_lazurite",
+      "weight": 1
     }
   ],
   "placement": {
