@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#voidblock:has_structure/mystery_box",
+  "biomes": "#voidblock:has_structure/mystery_box_all",
   "step": "top_layer_modification",
   "spawn_overrides": {},
   "start_pool": "voidblock:worldgen/mystery_box/mystery_box_smectite",

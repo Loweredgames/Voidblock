@@ -1,19 +1,14 @@
 {
   "values": [
-    "minecraft:ice_caves",
     "minecraft:plains",
     "minecraft:forest",
     "minecraft:snowy_taiga",
-    "minecraft:small_end_islands",
     "minecraft:desert",
-    "minecraft:sulfur_caves",
-    "minecraft:pale_garden",
-    "minecraft:mushroom_fields",
-    "minecraft:nether_wastes",
     "minecraft:swamp",
     "minecraft:badlands",
     "minecraft:taiga",
-    "minecraft:deep_dark",
+    "minecraft:ice_caves",
+    "minecraft:sulfur_caves",
     "minecraft:dripstone_caves"
   ]
 }
