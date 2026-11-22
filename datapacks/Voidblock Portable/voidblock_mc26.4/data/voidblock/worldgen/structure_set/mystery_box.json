@@ -27,6 +27,10 @@
     {
       "structure": "voidblock:mystery_box_phantomquartz",
       "weight": 1
+    },
+    {
+      "structure": "voidblock:mystery_box_variscite",
+      "weight": 1
     }
   ],
   "placement": {
