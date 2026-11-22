@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:snowy_taiga",
+    "minecraft:desert",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:badlands",
+    "minecraft:taiga",
+    "minecraft:ice_caves",
+    "minecraft:sulfur_caves",
+    "minecraft:dripstone_caves"
+  ]
+}
