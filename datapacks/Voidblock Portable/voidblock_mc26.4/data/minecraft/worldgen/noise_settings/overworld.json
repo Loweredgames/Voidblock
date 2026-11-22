@@ -2,13 +2,6 @@
   "sea_level": -64,
   "disable_mob_generation": false,
   "legacy_random_source": false,
-  "default_block": {
-    "id": "minecraft:light",
-    "properties": {
-      "level": "0",
-      "waterlogged": "false"
-    }
-  },
   "default_fluid": {
     "id": "minecraft:light",
     "properties": {
@@ -117,7 +110,7 @@
           "type": "minecraft:mul",
           "left": 0.64,
           "right": {
-            "type": "minecraft:interpolated",
+            "type": "minecraft:upscale",
             "input": {
               "type": "minecraft:blend_density",
               "input": {
@@ -177,8 +170,18 @@
                 }
               }
             },
-            "cell_size_xz": 4,
-            "cell_size_y": 8
+            "x": {
+              "cell_size": 4,
+              "mode": "interpolate_linear"
+            },
+            "y": {
+              "cell_size": 8,
+              "mode": "interpolate_linear"
+            },
+            "z": {
+              "cell_size": 4,
+              "mode": "interpolate_linear"
+            }
           }
         }
       },
